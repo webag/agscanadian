@@ -1,0 +1,106 @@
+//s-services-header
+.s-services-header{
+	padding: 150px 0 150px 0;
+	color: #FFF;
+	background: url("../img/services/header-bg.jpg") center bottom no-repeat #286ac0;
+	background-size: cover;
+	min-height: 867px;
+	display: flex;
+	align-items: center;
+	@include res(xxl){
+		padding: 150px 0 100px 0;
+		min-height: 650px;
+	}
+	@include res(xl){
+		min-height: initial;
+	}
+	@include res(l){
+		min-height: initial;
+		padding: 40px 0;
+	}
+	@include res(m){
+		background: url("../img/services/header-bg-m.jpg") center bottom no-repeat #286ac0;
+		padding-bottom: 60%;
+		background-size: 100% auto;
+	}
+}
+
+.services-header__content{
+	.bold-title{
+		margin-bottom: 30px;
+	}
+
+	p{
+		max-width: 510px;
+		margin-bottom: 30px;
+		font-size: 18px;
+		line-height: 1.6;
+		@include res(l){
+			font-size: 16px;
+		}
+		@include res(xs){
+			font-size: 14px;
+		}
+	}
+}
+//s-services-header
+
+
+//s-services-setup
+.s-services-setup{
+	padding: 150px 0;
+	background: url("../img/services/setup-bg.jpg") calc(50% + 350px) 50% no-repeat;
+	@include res(xl){
+		padding: 100px 0;
+		background-position: calc(50% + 300px) 50%;
+		background-size: auto 300px;
+	}
+	@include res(l){
+		padding: 60px 0;
+		background-position: calc(50% + 250px) 50%;
+		background-size: auto 200px;
+	}
+	@include res(m){
+		padding-top: 40px;
+		padding-bottom: 45%;
+		background-position: center bottom;
+		background-size: 80% auto;
+	}
+
+	.h1{
+		margin-bottom: 30px;
+	}
+
+	p{
+		font-size: 19px;
+		line-height: 1.5;
+		max-width: 480px;
+		@include res(l){
+			font-size: 16px;
+		}
+		@include res(xs){
+			font-size: 14px;
+		}
+	}
+}
+//s-services-setup
+
+
+//s-services-project
+.s-services-project{
+	background: url("../img/services/project-bg.jpg") center center no-repeat #F7F9FC;
+	background-size: cover;
+	padding: 80px 0;
+	min-height: 829px;
+	@include res(xxl){
+		min-height: initial;
+		padding: 80px 0;
+	}
+	@include res(l){
+		padding: 60px 0;
+	}
+	@include res(s){
+		padding: 30px 0;
+	}
+}
+//s-services-project

@@ -1,0 +1,109 @@
+.s-home-products{
+	padding-top: 50px;
+	@include res(l){
+		padding-top: 30px;
+	}
+}
+
+.product-grid{
+	display: flex;
+	flex-wrap: wrap;
+	@include res(c){
+		margin-left: -$gutter;
+		margin-right: -$gutter;
+	}
+}
+
+.product-grid__item{
+	display: block;
+	position: relative;
+	width: 25%;
+	text-align: center;
+	padding: 2px 2px 40px 2px;
+	background: #FFF;
+	box-shadow: 0 0 0 1px $gray-border;
+	@include res(xl){
+		padding: 2px 2px 30px 2px;
+	}
+	@include res(m){
+		width: calc(100% / 2);
+	}
+	@include res(xs){
+		padding: 2px 2px 20px 2px;
+	}
+
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		box-shadow: 0 0 0 2px $blue inset,0 32px 44px rgba(0, 0, 0, 0.15);
+		opacity: 0;
+		transform: scale3d(0.98,0.98,0.98);
+		transform-origin: center top;
+		transition: transform 0.4s ease,opacity 0.4s ease;
+		@include res(l){
+			display: none;
+		}
+	}
+
+	&:hover{
+		z-index: 2;
+
+		&:before{
+			transform: none;
+			opacity: 1;
+		}
+	}
+
+	img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.h4{
+		display: block;
+		padding-left: 15px;
+		padding-right: 15px;
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 1;
+		@include res(xl){
+			font-size: 16px;
+		}
+		@include res(l){
+			font-size: 14px;
+		}
+		@include res(xs){
+			font-size: 12px;
+		}
+	}
+
+	&--hidden{
+		display: none;
+	}
+}
+
+.product-grid__more{
+	width: 100%;
+	height: auto;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.product-grid__more-link{
+	i{
+		display: block;
+	}
+	&.opened{
+		i{
+			transform: rotate(180deg);
+		}
+	}
+}

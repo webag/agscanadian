@@ -1,0 +1,12 @@
+.info-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: $gutter*2;
+	@include res(l){
+		grid-template-columns: 1fr 1fr;
+		grid-gap: $gutter;
+	}
+	@include res(s){
+		grid-template-columns: 1fr;
+	}
+}

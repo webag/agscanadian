@@ -1,0 +1,299 @@
+2019-11-13 23:20:00 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => Выполнено.
+            [status] => В работе!
+            [oldCustomStatusId] => IEACFUJGJMAAAAAB
+            [customStatusId] => IEACFUJGJMAQ2BRI
+            [taskId] => IEACFUJGKQMTBJBA
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:19:13Z
+        )
+
+)
+
+2019-11-13 23:23:12 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => В работе!
+            [status] => Выполнено.
+            [oldCustomStatusId] => IEACFUJGJMAQ2BRI
+            [customStatusId] => IEACFUJGJMAAAAAB
+            [taskId] => IEACFUJGKQMTBJBA
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:20:44Z
+        )
+
+)
+
+2019-11-13 23:23:15 {"_links":{"self":{"href":"\/api\/v2\/tasks","method":"post"}},"_embedded":{"items":[{"id":23103255,"request_id":0,"_links":{"self":{"href":"\/api\/v2\/tasks?id=23103255","method":"get"}}}]}}
+2019-11-13 23:25:19 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => Выполнено.
+            [status] => В работе!
+            [oldCustomStatusId] => IEACFUJGJMAAAAAB
+            [customStatusId] => IEACFUJGJMAQ2BRI
+            [taskId] => IEACFUJGKQMTBJBA
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:24:16Z
+        )
+
+)
+
+2019-11-13 23:25:23 {"_links":{"self":{"href":"\/api\/v2\/tasks","method":"post"}},"_embedded":{"items":[{"id":23103259,"request_id":0,"_links":{"self":{"href":"\/api\/v2\/tasks?id=23103259","method":"get"}}}]}}
+2019-11-13 23:26:10 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => В работе!
+            [status] => Выполнено.
+            [oldCustomStatusId] => IEACFUJGJMAQ2BRI
+            [customStatusId] => IEACFUJGJMAAAAAB
+            [taskId] => IEACFUJGKQMTBJBA
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:24:16Z
+        )
+
+)
+
+2019-11-13 23:26:14 {"_links":{"self":{"href":"\/api\/v2\/tasks","method":"post"}},"_embedded":{"items":[{"id":23103263,"request_id":0,"_links":{"self":{"href":"\/api\/v2\/tasks?id=23103263","method":"get"}}}]}}
+2019-11-13 23:29:00 Array
+(
+    [0] => stdClass Object
+        (
+            [taskId] => IEACFUJGKQMTBJBA
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskDeleted
+            [lastUpdatedDate] => 2019-11-13T20:28:13Z
+        )
+
+)
+
+2019-11-13 23:29:45 Array
+(
+    [0] => stdClass Object
+        (
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskCreated
+            [lastUpdatedDate] => 2019-11-13T20:28:27Z
+        )
+
+)
+
+2019-11-13 23:30:27 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => Входящая очередь
+            [status] => В работе!
+            [oldCustomStatusId] => IEACFUJGJMAAAAAA
+            [customStatusId] => IEACFUJGJMAQ2BRI
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:28:50Z
+        )
+
+)
+
+2019-11-13 23:31:19 Array
+(
+    [0] => stdClass Object
+        (
+            [attachmentId] => IEACFUJGIYDQTKFM
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => AttachmentAdded
+            [lastUpdatedDate] => 2019-11-13T20:29:04Z
+        )
+
+)
+
+2019-11-13 23:33:38 Array
+(
+    [0] => stdClass Object
+        (
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskDescriptionChanged
+            [lastUpdatedDate] => 2019-11-13T20:29:29Z
+        )
+
+)
+
+2019-11-13 23:34:30 Array
+(
+    [0] => stdClass Object
+        (
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskDescriptionChanged
+            [lastUpdatedDate] => 2019-11-13T20:29:29Z
+        )
+
+)
+
+2019-11-13 23:35:17 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => В работе!
+            [status] => Для подтверждения.
+            [oldCustomStatusId] => IEACFUJGJMAQ2BRI
+            [customStatusId] => IEACFUJGJMAQ3IO4
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:31:21Z
+        )
+
+)
+
+2019-11-13 23:38:54 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => Для подтверждения.
+            [status] => Выполнено.
+            [oldCustomStatusId] => IEACFUJGJMAQ3IO4
+            [customStatusId] => IEACFUJGJMAAAAAB
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:36:50Z
+        )
+
+)
+
+2019-11-13 23:38:57 {"_links":{"self":{"href":"\/api\/v2\/tasks","method":"post"}},"_embedded":{"items":[{"id":23103281,"request_id":0,"_links":{"self":{"href":"\/api\/v2\/tasks?id=23103281","method":"get"}}}]}}
+2019-11-13 23:43:53 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => Выполнено.
+            [status] => Входящая очередь
+            [oldCustomStatusId] => IEACFUJGJMAAAAAB
+            [customStatusId] => IEACFUJGJMAAAAAA
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:42:00Z
+        )
+
+)
+
+2019-11-13 23:45:05 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => Входящая очередь
+            [status] => Выполнено.
+            [oldCustomStatusId] => IEACFUJGJMAAAAAA
+            [customStatusId] => IEACFUJGJMAAAAAB
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:44:08Z
+        )
+
+)
+
+2019-11-13 23:45:12 {"_links":{"self":{"href":"\/api\/v2\/tasks","method":"post"}},"_embedded":{"items":[{"id":23103287,"request_id":0,"_links":{"self":{"href":"\/api\/v2\/tasks?id=23103287","method":"get"}}}]}}
+2019-11-13 23:49:09 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => Входящая очередь
+            [status] => Выполнено.
+            [oldCustomStatusId] => IEACFUJGJMAAAAAA
+            [customStatusId] => IEACFUJGJMAAAAAB
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:48:20Z
+        )
+
+)
+
+2019-11-13 23:49:13 {"_links":{"self":{"href":"\/api\/v2\/tasks","method":"post"}},"_embedded":{"items":[{"id":23103295,"request_id":0,"_links":{"self":{"href":"\/api\/v2\/tasks?id=23103295","method":"get"}}}]}}
+2019-11-13 23:50:01 Array
+(
+    [0] => stdClass Object
+        (
+            [oldStatus] => Выполнено.
+            [status] => Входящая очередь
+            [oldCustomStatusId] => IEACFUJGJMAAAAAB
+            [customStatusId] => IEACFUJGJMAAAAAA
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskStatusChanged
+            [lastUpdatedDate] => 2019-11-13T20:48:20Z
+        )
+
+)
+
+2019-11-13 23:50:05 {"_links":{"self":{"href":"\/api\/v2\/tasks","method":"post"}},"_embedded":{"items":[{"id":23103297,"request_id":0,"_links":{"self":{"href":"\/api\/v2\/tasks?id=23103297","method":"get"}}}]}}
+2019-11-13 23:53:41 Array
+(
+    [0] => stdClass Object
+        (
+            [taskId] => IEACFUJGKQMPI6M7
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskDeleted
+            [lastUpdatedDate] => 2019-11-13T20:51:15Z
+        )
+
+)
+
+2019-11-13 23:54:29 Array
+(
+    [0] => stdClass Object
+        (
+            [taskId] => IEACFUJGKQMPI4RV
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskDeleted
+            [lastUpdatedDate] => 2019-11-13T20:51:26Z
+        )
+
+)
+
+2019-11-13 23:55:17 Array
+(
+    [0] => stdClass Object
+        (
+            [taskId] => IEACFUJGKQMTCEI5
+            [webhookId] => IEACFUJGJAAAFEG5
+            [eventAuthorId] => KUAEOYQR
+            [eventType] => TaskDeleted
+            [lastUpdatedDate] => 2019-11-13T20:52:07Z
+        )
+
+)
+

@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <link rel="stylesheet" type="text/css" href="https://agse.ru/wrike_api/style.css">
+  <form class="some-form" metod="post" enctype="multipart/form-data" action="https://agse.ru/wrike_api/Wrike_api.php">
+
+    <p class="some-form__title">Административная задача</p>
+    <div class="field__wrapper">
+    <span>Ваш вопрос:</span>
+    <textarea></textarea>
+    <span class="info_fild">Максимально опишите суть задачи:</span>
+    <hr>
+    
+    <span>Прикрепить файл:</span>
+    <input name="file[]" type="file"  id="field__file-2" class="field field__file" multiple>    
+    <label class="field__file-wrapper" for="field__file-2">
+    <div class="field__file-fake">Файл не выбран</div>
+    <div class="field__file-button">Выбрать</div>
+    </label>
+    <span class="info_fild">Прикрепите к задаче файлы</span>
+    <hr>
+    
+    <span>Желаемая дата ответа:</span>
+    <input type="date" id="start" name="trip-start" class="date-start" value="">
+    <span class="info_fild">Укажите дату дедлайна</span>
+    <hr>
+    
+    <span>Важность:</span>
+    <div style="display:block; text-align:left;">
+    <div class="form_radio_btn">
+	<input id="radio-1" type="radio" name="radio" value="1">
+	<label for="radio-1">Низкий приоритет</label>
+    </div>
+     
+    <div class="form_radio_btn">
+    	<input id="radio-2" type="radio" name="radio" value="2" checked>
+    	<label for="radio-2">Обычный приоритет</label>
+    </div>
+     
+    <div class="form_radio_btn">
+    	<input id="radio-3" type="radio" name="radio" value="3">
+    	<label for="radio-3">Высокий приоритет</label>
+    </div>
+    </div>
+    <span class="info_fild">Насколько важна ваша задача</span>
+    
+    <hr>
+    
+    
+    <div style="text-align: right;
+    width: 100%;
+    display: inline-block;">
+    <input type="submit" value="Отправить" formmethod="post" class="button_form"></div>
+    </div>
+    <input type="hidden" name="idamo">
+  </form>
+
+  <!-- Скрипт для привчного поля вбора файла -->
+  <script>
+    let fields = document.querySelectorAll('.field__file');
+    Array.prototype.forEach.call(fields, function (input) {
+      let label = input.nextElementSibling,
+        labelVal = label.querySelector('.field__file-fake').innerText;
+ 
+      input.addEventListener('change', function (e) {
+        let countFiles = '';
+        if (this.files && this.files.length >= 1)
+          countFiles = this.files.length;
+ 
+        if (countFiles)
+          label.querySelector('.field__file-fake').innerText = 'Выбрано файлов: ' + countFiles;
+        else
+          label.querySelector('.field__file-fake').innerText = labelVal;
+      });
+    });
+</script>
+
+</body>
+
+</html>

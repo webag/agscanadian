@@ -1,0 +1,129 @@
+.s-home-services {
+	display: flex;
+	align-items: center;
+	min-height: 795px;
+	background-color: $gray-bg;
+	background-repeat: no-repeat;
+	background-position: calc(100% + 269px) 275px;
+	@include res(xl) {
+		min-height: initial;
+		height: auto;
+		background-position: calc(100% + 269px) center;
+	}
+	@include res(m) {
+		display: block;
+		background-image: none !important;
+	}
+
+	.container {
+		display: flex;
+		justify-content: flex-end;
+		@include res(m) {
+			display: block;
+		}
+	}
+}
+
+.services-aside {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: calc(100% / 3);
+	max-width: 664px;
+	background-color: #4e78dc;
+	padding: 30px 40px;
+	color: #FFF;
+	overflow: hidden;
+	@include res(l) {
+		width: 340px;
+	}
+	@include res(m) {
+		position: relative;
+		max-width: 100%;
+		width: 100%;
+		padding-bottom: 75%;
+		background-size: cover;
+	}
+}
+
+
+.home-services {
+	padding: 50px 0 50px 40px;
+	width: calc(100% / 3 * 2);
+	max-width: 800px;
+	@include res(l) {
+		width: calc(100% - 340px);
+		padding-left: 16px;
+	}
+	@include res(m) {
+		width: 100%;
+		max-width: 100%;
+		padding: 50px 15px;
+	}
+	@include res(s) {
+		padding: 30px 0;
+	}
+
+	.h2 {
+		margin-bottom: 25px;
+		@include res(xl) {
+			margin-bottom: 15px;
+		}
+	}
+
+	.about-list__item {
+		border-color: #DADFE8;
+	}
+}
+
+
+.services-aside__stage{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+
+	&:after{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 2;
+		background: $blue;
+		transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+		transform: scale3d(1,1,1);
+		transform-origin: left center;
+	}
+
+	&.animated{
+
+		&:after{
+			transform: scale3d(0,1,1);
+		}
+		.services-aside__img{
+			transform: none;
+		}
+	}
+}
+
+.services-aside__img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 1.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transform: scale3d(1.4,1.4,1.4) translate3d(80px,0,0);
+	@include res(m){
+		background-size: cover;
+	}
+}
