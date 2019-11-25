@@ -449,7 +449,7 @@ $(function($){
 
 		let text = $(this).find('span').text();
 		$(this).find('span').text(
-			text === "Развернуть" ? "Свернуть" : "Развернуть");
+			text === "Show more" ? "Roll up" : "Show more");
 	})
 });
 /***********************
@@ -470,7 +470,7 @@ $(function($){
 
 		let text = $(this).find('span').text();
 		$(this).find('span').text(
-			text === "Читать еще" ? "Свернуть" : "Читать еще");
+			text === "Read more" ? "Roll up" : "Read more");
 	})
 });
 /***********************
@@ -492,7 +492,7 @@ $(function($){
 
 		let text = $(this).find('span').text();
 		$(this).find('span').text(
-			text === "Показать все" ? "Свернуть" : "Показать все");
+			text === "Show all" ? "Roll up" : "Show all");
 	})
 });
 /***********************

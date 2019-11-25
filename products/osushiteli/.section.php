@@ -1,4 +1,4 @@
 <?
-$sSectionName = "Адсорбционные осушители сжатого воздуха";
+$sSectionName = "Adsorption compressed air desiccants";
 $arDirProperties = Array();
 ?>

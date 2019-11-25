@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Генераторы водорода");
+$APPLICATION->SetTitle("Hydrogen generators");
 ?>
 
 
@@ -8,20 +8,20 @@ $APPLICATION->SetTitle("Генераторы водорода");
 	<div class="lp-header">
 		<div class="lp-header__left">
 			<div class="lp-header__content">
-				<h1 class="lp-header__title">Генераторы водорода</h1>
-				<div class="lp-header__descr">«АГС Инжиниринг» проектирует и&nbsp;производит водородные станции электролизного типа</div>
+				<h1 class="lp-header__title">Hydrogen generators</h1>
+				<div class="lp-header__descr">AGS Engineering designs and manufactures hydrogen electrolysis stations</div>
 				<div class="lp-header__params">
 					<div class="lp-header__param">
-						<span>Производительность до</span>
-						<strong>170 <small>нм<sup>3</sup>/час</small></strong>
+						<span>Performance up</span>
+						<strong>170 <small>nm<sup>3</sup>/hour</small></strong>
 					</div>
 					<div class="lp-header__param">
-						<span>Чистота до</span>
+						<span>Clean up</span>
 						<strong>99,9998 <small>%</small></strong>
 					</div>
 				</div>
 				<div class="lp-header__actions">
-					<a href="#" class="btn fancy-modal" data-src="#modal-order">Заказать проект</a>
+					<a href="#" class="btn fancy-modal" data-src="#modal-order">Order a project</a>
 					<!--<a href="#" class="lp-header__video fancy-video">
 						<i class="i-play round-icon"></i>
 						<span>Видео о продукте</span>
@@ -45,8 +45,8 @@ $APPLICATION->SetTitle("Генераторы водорода");
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/trigger-ic-1.svg" alt="1">
 					</div>
 					<div class="icon-left-block__content">
-						<strong>Широкая линейка генераторов водорода по производительности</strong>
-						0,66 – 170 нм<sup>3</sup>/ч Позволяет выбрать оптимальное решение для производства, не переплачивая за избыточные кубические метры газа
+						<strong>Wide range of hydrogen generators in performance</strong>
+						0,66 – 170 nm<sup>3</sup>/h Allows you to choose the optimal solution for production without overpaying for excess cubic meters of gas
 					</div>
 				</div>
 			</div>
@@ -56,8 +56,8 @@ $APPLICATION->SetTitle("Генераторы водорода");
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/trigger-ic-2.svg" alt="1">
 					</div>
 					<div class="icon-left-block__content">
-						<strong>Концентрация водорода до 99,9998%</strong>
-						Электрохимический метод позволяет получить водород высокой чистоты до 99,9%, далее, для достижения концентрации водорода 99,9998% небольшие примеси кислорода удаляются каталитическим дожигом на палладиевом катализаторе в колонне DEOXO
+						<strong>Hydrogen concentration up to 99,9998%</strong>
+						The electrochemical method allows to obtain high purity hydrogen up to 99.9%, then, to achieve a hydrogen concentration of 99.9998%, small oxygen impurities are removed by catalytic afterburning on a palladium catalyst in a DEOXO column
 					</div>
 				</div>
 			</div>
@@ -67,8 +67,8 @@ $APPLICATION->SetTitle("Генераторы водорода");
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/trigger-ic-3.svg" alt="1">
 					</div>
 					<div class="icon-left-block__content">
-						<strong>Давление водорода до 30 БАР</strong>
-						Особенности конструкции генераторов водорода и гибкость процесса дают возможность получения водорода непосредственно под давлением от 4 до 30 бар, без применения дорогостоящих дожимающих установок
+						<strong>Hydrogen pressure up to 30 BAR</strong>
+						The design features of hydrogen generators and the flexibility of the process make it possible to produce hydrogen directly under pressure from 4 to 30 bar, without the use of expensive booster units
 					</div>
 				</div>
 			</div>
@@ -78,8 +78,8 @@ $APPLICATION->SetTitle("Генераторы водорода");
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/trigger-ic-4.svg" alt="1">
 					</div>
 					<div class="icon-left-block__content">
-						<strong>Температура точки росы водорода до -75°С</strong>
-						Встроенная в технологический блок система осушения, состоящая из двух колонн, в которых проходит попеременный процесс осушения и регенерации позволяет получить точку росы водорода до -60 °C или опционально до -75°C
+						<strong>Hydrogen dew point temperature up to -75°С</strong>
+						The drying system integrated in the technological unit, consisting of two columns, in which the alternating process of drying and regeneration takes place, allows to obtain a hydrogen dew point up to -60°C or optionally up to -75°C
 					</div>
 				</div>
 			</div>
@@ -96,15 +96,15 @@ $APPLICATION->SetTitle("Генераторы водорода");
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/system.png?v=1" alt="1" class="img-responsive"></a>
 				<br>
 				<br>
-				<a href="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/system.png?v=1" class="fancy action-link">Увеличить +</a>
+				<a href="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/system.png?v=1" class="fancy action-link">Click to enlarge +</a>
 			</div>
 			<div class="grid-6 grid-12_m">
 				<div class="user-content">
-					<div>Источником водорода и кислорода в электролизных установках является деминерализованная и глубоко очищенная вода. От качества отчистки воды зависит срок службы всей системы генерации водорода. Соли, которые содержатся в неочищенной технической воде, очень быстро разрушают электроды в электролизере Э-1. Поэтому подготовке воды требуется уделить особое внимание, применив обратноосмотические мембраны. Подготовленная и очищенная вода подмешивается в щелочной электролит, находящийся в системе электролизёра Э-1, где под воздействием постоянного тока расщепляется на две части водорода и одну часть кислорода.</div>
+					<div>The source of hydrogen and oxygen in electrolysis units is demineralized and deeply purified water. The life of the entire hydrogen generation system depends on the quality of the water treatment. The salts contained in untreated industrial water very quickly destroy the electrodes in the electrolyzer E-1. Therefore, the preparation of water requires special attention by using reverse osmosis membranes. Prepared and purified water is mixed into an alkaline electrolyte located in the electrolysis system E-1, where, under the influence of direct current, it is split into two parts of hydrogen and one part of oxygen.</div>
 					<div class="toggler__hidden">
-						<div>Источником водорода и кислорода в электролизных установках является деминерализованная и глубоко очищенная вода. От качества отчистки воды зависит срок службы всей системы генерации водорода. Соли, которые содержатся в неочищенной технической воде, очень быстро разрушают электроды в электролизере Э-1. Поэтому подготовке воды требуется уделить особое внимание, применив обратноосмотические мембраны. Подготовленная и очищенная вода подмешивается в щелочной электролит, находящийся в системе электролизёра Э-1, где под воздействием постоянного тока расщепляется на две части водорода и одну часть кислорода.</div>
+						<div>The source of hydrogen and oxygen in electrolysis units is demineralized and deeply purified water. The life of the entire hydrogen generation system depends on the quality of the water treatment. The salts contained in untreated industrial water very quickly destroy the electrodes in the electrolyzer E-1. Therefore, the preparation of water requires special attention by using reverse osmosis membranes. Prepared and purified water is mixed into an alkaline electrolyte located in the electrolysis system E-1, where, under the influence of direct current, it is split into two parts of hydrogen and one part of oxygen.</div>
 					</div>
-					<div class="toggler__link action-link"><span>Читать еще</span> <i class="i-down-arr-bold"></i></div>
+					<div class="toggler__link action-link"><span>Read more</span> <i class="i-down-arr-bold"></i></div>
 				</div>
 			</div>
 
@@ -117,14 +117,14 @@ $APPLICATION->SetTitle("Генераторы водорода");
 	<div class="container">
 		<div class="row">
 			<div class="grid-6 grid-12_m">
-				<div class="h1">Преимущества генераторов водорода AGS</div>
+				<div class="h1">Advanatges of AGS Hydrogen Generators</div>
 				<div class="icon-left-blocks">
 					<div class="icon-left-block">
 						<div class="icon-left-block__img">
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/preim-ic-1.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							Низкий удельный расход электроэнергии - 5,1 кВт*ч/Нм<sup>3</sup>
+							Low power consumption - 5,1 kWh/Nm<sup>3</sup>
 						</div>
 					</div>
 					<div class="icon-left-block">
@@ -132,7 +132,7 @@ $APPLICATION->SetTitle("Генераторы водорода");
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/preim-ic-2.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							Бесступенчатое регулирование нагрузки от 0% до 100% - Полностью автоматизированная система управления
+							Load control from 0% to 100% - Fully automated control system
 						</div>
 					</div>
 					<div class="icon-left-block">
@@ -140,7 +140,7 @@ $APPLICATION->SetTitle("Генераторы водорода");
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/preim-ic-3.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							Быстрый пуск (в течение 10-20 сек)
+							Quick start (within 10-20 seconds)
 						</div>
 					</div>
 					<div class="icon-left-block">
@@ -148,7 +148,7 @@ $APPLICATION->SetTitle("Генераторы водорода");
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/preim-ic-4.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							Нержавеющие трубопроводы и конструкции
+							Corrosion-proof pipelines and designs
 						</div>
 					</div>
 				</div>
@@ -162,7 +162,7 @@ $APPLICATION->SetTitle("Генераторы водорода");
 <section class="s-lp-dop s-lp-dop--vodorod s-def-big">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Дополнительные опции</div>
+			<div class="h1">Additional options</div>
 		</div>
 
 		<div class="row">
@@ -171,8 +171,8 @@ $APPLICATION->SetTitle("Генераторы водорода");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/dop-1.jpg" alt="">
 					</div>
-					<div class="h4 icon-vert-block__title">Система финишной очистки DPM/DPH</div>
-					<div class="icon-vert-block__descr">Для достижения концентраций продукционного водорода или азота выше 99,9995% методом дожига кислорода на палладиевом катализаторе. </div>
+					<div class="h4 icon-vert-block__title">DPM / DPH Finishing System</div>
+					<div class="icon-vert-block__descr">To achieve concentrations of production hydrogen or nitrogen above 99.9995% by burning oxygen on a palladium catalyst.</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-12_s">
@@ -180,8 +180,8 @@ $APPLICATION->SetTitle("Генераторы водорода");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/dop-2.jpg" alt="">
 					</div>
-					<div class="h4 icon-vert-block__title">Система дополнительной осушки</div>
-					<div class="icon-vert-block__descr">Предназначены для глубокой очистки водорода от кислорода, влаги и примесей путем его каталитического гидрирования.</div>
+					<div class="h4 icon-vert-block__title">Additional drying system</div>
+					<div class="icon-vert-block__descr">Designed for deep purification of hydrogen from oxygen, moisture and impurities by its catalytic hydrogenation.</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-12_s">
@@ -189,8 +189,8 @@ $APPLICATION->SetTitle("Генераторы водорода");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/dop-3.jpg" alt="">
 					</div>
-					<div class="h4 icon-vert-block__title">Станция смешения газов</div>
-					<div class="icon-vert-block__descr">Предназначены для смешения двух или трех технических газов, комплектуются блоками контроля входного давления и газоанализаторами непрерывного контроля состава смеси.</div>
+					<div class="h4 icon-vert-block__title">Gas mixing station</div>
+					<div class="icon-vert-block__descr">Designed for mixing two or three technical gases, equipped with inlet pressure control units and gas analyzers for continuous monitoring of the mixture composition.</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-12_s">
@@ -198,8 +198,8 @@ $APPLICATION->SetTitle("Генераторы водорода");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/dop-4.jpg" alt="1">
 					</div>
-					<div class="h4 icon-vert-block__title">Модульные агрегаты воздушного охлаждения (МАВО) </div>
-					<div class="icon-vert-block__descr">Замкнутая система охлаждения электролита и газов (рекомендуется использовать вместо обычного водяного контура).</div>
+					<div class="h4 icon-vert-block__title">Modular Air Cooling Units (MACU)</div>
+					<div class="icon-vert-block__descr">Closed system for cooling the electrolyte and gases (it is recommended to use instead of the usual water circuit).</div>
 				</div>
 			</div>
 		</div>
@@ -211,7 +211,7 @@ $APPLICATION->SetTitle("Генераторы водорода");
 <section class="s-lp-variants s-def">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Варианты размещения азотной станции</div>
+			<div class="h1">Nitrogen station placement options</div>
 		</div>
 
 
@@ -222,8 +222,8 @@ $APPLICATION->SetTitle("Генераторы водорода");
 				</div>
 				<div class="grid-6 grid-12_m">
 					<div class="user-content">
-						<div class="h3">Моноболочное исполнение</div>
-						<p>Для достижения концентраций продукционного водорода или азота выше 99,9995% методом дожига кислорода на палладиевом катализаторе.</p>
+						<div class="h3">Monoblock version</div>
+						<p>To achieve concentrations of production hydrogen or nitrogen above 99.9995% by burning oxygen on a palladium catalyst.</p>
 					</div>
 				</div>
 			</div>
@@ -236,8 +236,8 @@ $APPLICATION->SetTitle("Генераторы водорода");
 				</div>
 				<div class="grid-6 grid-12_m">
 					<div class="user-content">
-						<div class="h3">Блок контейнер</div>
-						<p>Предназначены для смешения двух или трех технических газов, комплектуются блоками контроля входного давления и газоанализаторами непрерывного контроля состава смеси.</p>
+						<div class="h3">Block container</div>
+						<p>Designed for mixing two or three technical gases, equipped with inlet pressure control units and gas analyzers for continuous monitoring of the mixture composition.</p>
 					</div>
 				</div>
 			</div>
@@ -258,7 +258,7 @@ $APPLICATION->SetTitle("Генераторы водорода");
 <?
 global $arrFilter;
 $arrFilter = Array(
-	"PROPERTY_GENERATOR_TYPE_VALUE" => 'Электролизные генераторы водорода'
+	"PROPERTY_GENERATOR_TYPE_VALUE" => 'Electrolytic Hydrogen Generators'
 );
 ?>
 <?$APPLICATION->IncludeComponent(

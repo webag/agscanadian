@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 <? if ($arResult["ITEMS"]) : ?>
 	<section class="s-cases-related">
 		<div class="container">
-			<div class="h1 section-title-left">Похожие проекты</div>
+			<div class="h1 section-title-left">Similar projects</div>
 				<div class="cases-grid">
 					<?foreach($arResult["ITEMS"] as $key => $arItem):?>
 						<?

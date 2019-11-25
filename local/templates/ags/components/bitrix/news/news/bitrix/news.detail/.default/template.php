@@ -38,7 +38,7 @@ $this->setFrameMode(true);
 		</div>
 		<h1 class="h1 news-detail-header__title"><?=$arResult['NAME']?></h1>
 		<div class="h4 news-detail-header__descr"><?=$arResult['~PREVIEW_TEXT']?></div>
-		<a href="#" class="btn btn--white news-detail-header__btn fancy-modal" data-src="#modal-order">Заказать проект</a>
+		<a href="#" class="btn btn--white news-detail-header__btn fancy-modal" data-src="#modal-order">Order a project</a>
 		<div class="views-counter"><i class="i-eye"></i><?=$arResult["SHOW_COUNTER"]?></div>
 	</div>
 
@@ -53,14 +53,14 @@ $this->setFrameMode(true);
 
 		<div class="news-detail-meta">
 			<div class="share">
-				<span class="share__title">Поделиться:</span>
+				<span class="share__title">Share:</span>
 				<div class="share__icons">
 					<script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
 					<script src="https://yastatic.net/share2/share.js"></script>
 					<div class="ya-share2" data-services="vkontakte,facebook,twitter"></div>
 				</div>
 			</div>
-			<a href="/news/" class="action-link">Все новости <i class="i-next"></i></a>
+			<a href="/news/" class="action-link">All news <i class="i-next"></i></a>
 		</div>
 	</div>
 </section>

@@ -14,7 +14,7 @@ $this->setFrameMode(true);
 ?>
 
 <section class="s-geo">
-	<div class="h2 s-geo__title">География поставок</div>
+	<div class="h2 s-geo__title">Supply Geography</div>
 
 	<div id="geomap" class="s-geo__map"></div>
 
@@ -38,13 +38,13 @@ $this->setFrameMode(true);
 							<div class="geo-item__city"><?=$arItem['PROPERTIES']['CITY']['VALUE']?></div>
 						</header>
 						<main class="geo-item__main">
-							<strong>Поставляемое оборудование:</strong>
+							<strong>Equipment supplied:</strong>
 							<div class="geo-item__param"><?=$arItem['PROPERTIES']['MODEL']['VALUE']?></div>
-							<div class="geo-item__param">Концентрация: <?=$arItem['PROPERTIES']['CONCENTRATION']['VALUE']?>%</div>
-							<div class="geo-item__param">Производительность: <?=$arItem['PROPERTIES']['PERFORMANCE']['VALUE']?> м3/ч</div>
+							<div class="geo-item__param">Concentration: <?=$arItem['PROPERTIES']['CONCENTRATION']['VALUE']?>%</div>
+							<div class="geo-item__param">Productivity: <?=$arItem['PROPERTIES']['PERFORMANCE']['VALUE']?> m3/h</div>
 						</main>
 						<footer class="geo-item__footer">
-							<a href="<?=$arItem['DETAIL_PAGE_URL']?>" class="action-link">Подробнее <i class="i-next"></i></a>
+							<a href="<?=$arItem['DETAIL_PAGE_URL']?>" class="action-link">Learn more <i class="i-next"></i></a>
 							<? if ($arItem['PROPERTIES']['LOGO']['VALUE']) : ?>
 								<?
 								$resize_logo = CFile::ResizeImageGet($arItem['PROPERTIES']['LOGO']['VALUE'], array("width" => 200, "height" => 50), BX_RESIZE_IMAGE_PROPORTIONAL, true, array());

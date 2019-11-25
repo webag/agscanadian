@@ -11,7 +11,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 		$plus = $arResult["NavPageNomer"]+1;
 		$url = $arResult["sUrlPathParams"] . "PAGEN_1=" . $plus
 		?>
-			<button class="action-link load_more" data-url="<?=$url?>">Показать еще</button>
+			<button class="action-link load_more" data-url="<?=$url?>">Show more</button>
 	<?endif?>
 
 <?endif?>

@@ -1,4 +1,4 @@
 <?
-$sSectionName = "Блочно-модульные конструкции";
+$sSectionName = "Block Modular Constructions";
 $arDirProperties = Array();
 ?>

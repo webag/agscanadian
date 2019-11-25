@@ -15,7 +15,7 @@ $this->setFrameMode(true);
 
 <section class="s-filter">
 	<div class="container">
-		<div class="action-link filter-show-btn">Фильтры <i class="i-down-arr-bold"></i></div>
+		<div class="action-link filter-show-btn">Filters <i class="i-down-arr-bold"></i></div>
 		<div class="filters">
 
 			<form name="<?echo $arResult["FILTER_NAME"]."_form"?>" action="<?echo $arResult["FORM_ACTION"]?>" method="get" class="smartfilter">
@@ -32,7 +32,7 @@ $this->setFrameMode(true);
 							<div class="filter__btns">
 								<label class="filter__btn">
 									<input type="radio" value="" checked name="<? echo $arCur["CONTROL_NAME_ALT"] ?>" id="<? echo "all_".$arCur["CONTROL_ID"] ?>" onclick="smartFilter.click(this)"/>
-									<span>Все</span>
+									<span>All</span>
 								</label>
 								<?foreach($arItem["VALUES"] as $val => $ar):?>
 									<label class="filter__btn" data-role="label_<?=$ar["CONTROL_ID"]?>">

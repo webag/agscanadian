@@ -17,7 +17,7 @@ $this->setFrameMode(true);
 	<section class="s-lp-cases s-def">
 		<div class="container">
 			<div class="section-title">
-				<div class="h1">Выполненные проекты</div>
+				<div class="h1">Implemented projects</div>
 			</div>
 
 			<div class="cases-grid">

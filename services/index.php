@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Услуги");
+$APPLICATION->SetTitle("AGS Services");
 ?>
 
 <script>
@@ -13,9 +13,9 @@ $APPLICATION->SetTitle("Услуги");
 	<div class="container">
 		<div class="row">
 			<div class="grid-6 grid-12_m services-header__content">
-				<h1 class="bold-title">Услуги «АГС»</h1>
-				<p>Сервисное постгарантийное обслуживание оборудования.<br>
-					Команда сервисных инженеров ООО&nbsp;«АГС Инжиниринг» выполняет работы по&nbsp;диагностике, наладке, проведению технического обслуживания воздухоразделительных установок, компрессорного оборудования как собственного производства, так и&nbsp;производства других компаний. Сервисные инженеры имеют лицензии и&nbsp;сертификаты на&nbsp;гарантийное и&nbsp;постгарантийное обслуживание компрессорного оборудования ряда мировых производителей.
+				<h1 class="bold-title">AGS Services</h1>
+				<p>After-sales service of equipment.<br>
+					The team of service engineers of AGS Engineering LLC performs diagnostics, adjustment, and maintenance of air separation plants, compressor equipment, both of its own production and that of other companies. Service engineers have licenses and certificates for warranty and post-warranty maintenance of compressor equipment of a number of world manufacturers.
 				</p>
 			</div>
 		</div>
@@ -27,8 +27,8 @@ $APPLICATION->SetTitle("Услуги");
 	<div class="container">
 		<div class="row">
 			<div class="grid-6 grid-12_m">
-				<div class="h1">Монтаж и&nbsp;пусконаладка оборудования</div>
-				<p>Команда сервисных инженеров ООО&nbsp;«АГС Инжиниринг» осуществляет монтаж и&nbsp;пусконаладку оборудования любой сложности, включая работы по&nbsp;обвязке трубопроводов, вывод оборудования на&nbsp;проектные мощности, инструктаж персонала заказчика.</p>
+				<div class="h1">Installation and commissioning of equipment</div>
+				<p>The team of service engineers of AGS Engineering LLC carries out installation and commissioning of equipment of any complexity, including piping, bringing equipment to its design capacity, and instructing customer personnel.</p>
 			</div>
 		</div>
 	</div>
@@ -38,17 +38,17 @@ $APPLICATION->SetTitle("Услуги");
 <section class="s-services-project">
 	<div class="container">
 		<div class="about-services">
-			<div class="h1">Проектирование</div>
-			<p>Специалисты проектно-конструкторского отдела ООО&nbsp;«АГС Инжиниринг» обладают высокой квалификацией и&nbsp;многолетним опытом проектирования и&nbsp;разработки проектной документации для&nbsp;строительства воздухоразделительных установок, реконструкции промышленных объектов, технического перевооружения опасных производственных объектов. ООО&nbsp;«АГС Инжиниринг» имеет все необходимые компетенции, а&nbsp;также лицензии и&nbsp;допуски на&nbsp;выполнение следующих работ:</p>
+			<div class="h1">Design</div>
+			<p>The specialists of the design department of AGS Engineering LLC are highly qualified and have many years of experience in the design and development of project documentation for the construction of air separation plants, the reconstruction of industrial facilities, and the technical re-equipment of hazardous production facilities. AGS Engineering LLC has all the necessary competencies, as well as licenses and approvals for the following work:</p>
 			<div class="about-list">
-				<div class="about-list__item"><span>01.</span>Разработки технико-экономического обоснования реализации проекта</div>
-				<div class="about-list__item"><span>02.</span>Разработки проектной документации </div>
-				<div class="about-list__item"><span>03.</span>Разработки документации на техническое перевооружение опасного производственного объекта</div>
-				<div class="about-list__item"><span>04.</span>Разработки РКД</div>
-				<div class="about-list__item"><span>05.</span>Прохождения экспертизы промышленной безопасности документации на техническое перевооружение, консервацию и ликвидацию опасного производственного объекта</div>
-				<div class="about-list__item"><span>06.</span>Регистрации (перерегистрации) опасных производственных объектов в Государственном реестре опасных производственных объектов
+				<div class="about-list__item"><span>01.</span>Development of a feasibility study for the implementation of the project</div>
+				<div class="about-list__item"><span>02.</span>Development of design documentation</div>
+				<div class="about-list__item"><span>03.</span>Development of documentation for the technical re-equipment of a hazardous production facility</div>
+				<div class="about-list__item"><span>04.</span>Development of RKD</div>
+				<div class="about-list__item"><span>05.</span>Passing an expert examination of industrial safety documentation for technical re-equipment, conservation and liquidation of a hazardous production facility</div>
+				<div class="about-list__item"><span>06.</span>Registration (re-registration) of hazardous production facilities in the State Register of hazardous production facilities
 				</div>
-				<div class="about-list__item"><span>07.</span>Прохождения экспертизы промышленной безопасности технических устройств на ОПО</div>
+				<div class="about-list__item"><span>07.</span>Passing expert examination of industrial safety of technical devices at the OPO</div>
 			</div>
 		</div>
 	</div>

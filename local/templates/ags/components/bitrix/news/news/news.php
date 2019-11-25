@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 
 <section class="s-page-header">
 	<div class="container">
-		<h1 class="h1">Новости</h1>
+		<h1 class="h1">News</h1>
 	</div>
 </section>
 

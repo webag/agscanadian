@@ -1,4 +1,4 @@
 <?
-$sSectionName = "Модульные кислородные станции";
+$sSectionName = "Modular Oxygen Stations";
 $arDirProperties = Array();
 ?>

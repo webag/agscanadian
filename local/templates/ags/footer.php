@@ -4,28 +4,28 @@
 			<div class="grid-4 grid-3_l grid-12_m footer-left__wrap">
 				<div class="footer-left">
 					<a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/img/logo-footer.svg" alt="logo" class="footer-left__logo"></a>
-					<div class="footer-left__descr">Инжиниринговая компания полного цикла</div>
-					<div class="footer-left__copy">© <?=date('Y')?> Все права защищены</div>
+					<div class="footer-left__descr">Full-cycle engineering company</div>
+					<div class="footer-left__copy">© <?=date('Y')?> All rights reserved</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_m">
 				<nav class="footer-nav">
-					<a href="/products/">Наша продукция</a>
-					<a href="/services/">Наши услуги</a>
-					<a href="/cases/">Выполненные проекты</a>
-					<a href="/info/">Полезная информация</a>
-					<a href="/news/">Новости</a>
-					<a href="/about/">О компании</a>
-					<a href="/contacts/">Контакты</a>
+					<a href="/products/">Our Products</a>
+					<a href="/services/">Our Services</a>
+					<a href="/cases/">Implemented Projects</a>
+					<a href="/info/">Useful Information</a>
+					<a href="/news/">News</a>
+					<a href="/about/">About Company</a>
+					<a href="/contacts/">Contacts</a>
 				</nav>
 			</div>
 			<div class="grid-3 grid-6_m">
 				<nav class="footer-nav">
-					<a href="/AGS_requisites.pdf" target="_blank" download>Реквизиты компании</a>
+					<a href="/AGS_requisites.pdf" target="_blank" download>Company Details</a>
 					<!--<span>Референс-лист</span>-->
-					<a href="/presentation.pdf" download="Презентация о компании AGS" target="_blank">Презентация о&nbsp;компании</a>
-					<a href="https://kazan.hh.ru/employer/4190110" target="_blank">Вакансии</a>
-					<a href="/AGS_policy.docx" target="_blank" download>Пользовательское соглашение</a>
+					<a href="/presentation.pdf" download="Презентация о компании AGS" target="_blank">Company Presentation</a>
+					<a href="https://kazan.hh.ru/employer/4190110" target="_blank">Openings</a>
+					<a href="/AGS_policy.docx" target="_blank" download>Terms of Use</a>
 				</nav>
 			</div>
 			<div class="grid-2 grid-3_l grid-12_m">

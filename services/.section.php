@@ -1,4 +1,4 @@
 <?
-$sSectionName = "Услуги";
+$sSectionName = "AGS Services";
 $arDirProperties = Array();
 ?>

@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Криогенные воздухоразделительные установки");
+$APPLICATION->SetTitle("Cryogen Air Separation Units");
 ?>
 
 
@@ -8,18 +8,18 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 	<div class="lp-header">
 		<div class="lp-header__left">
 			<div class="lp-header__content">
-				<h1 class="lp-header__title">Криогенные воздухоразделительные установки</h1>
-				<div class="lp-header__descr">«АГС Инжиниринг» проектирует и производит криогенные воздухоразделительные установки, работающие по циклу низкого давления.</div>
+				<h1 class="lp-header__title">Cryogen Air Separation Units</h1>
+				<div class="lp-header__descr">AGS Engineering designs and manufactures cryogenic air separation plants operating on a low pressure cycle.</div>
 				<div class="lp-header__border user-content">
-					<strong>Получаемые продукты в&nbsp;жидком и&nbsp;газообразном состоянии: </strong>
+					<strong>The resulting products in liquid and gaseous state:</strong>
 					<ul>
-						<li>Азот</li>
-						<li>Кислород</li>
-						<li>Аргон</li>
+						<li>Nitrogen</li>
+						<li>Oxygen</li>
+						<li>Argon</li>
 					</ul>
 				</div>
 				<div class="lp-header__actions">
-					<a href="#" class="btn fancy-modal" data-src="#modal-order">Заказать проект</a>
+					<a href="#" class="btn fancy-modal" data-src="#modal-order">Order a project</a>
 					<!--<a href="#" class="lp-header__video fancy-video">
 						<i class="i-play round-icon"></i>
 						<span>Видео о продукте</span>
@@ -36,45 +36,45 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 
 <section class="s-lp-cryo-about s-def-big">
 	<div class="container">
-		<div class="cryo-about-text">Технология работы криогенных воздухоразделительных установок основана на принципе низкотемпературной ректификации, то есть разделения воздуха в парожидкостной фазе на основные компоненты: азот, кислород и аргон. На сегодняшний день криогенные установки позволяют получать продукты разделения со следующими параметрами:</div>
+		<div class="cryo-about-text">The technology of operation of cryogenic air separation units is based on the principle of low-temperature rectification, that is, the separation of air in the vapor-liquid phase into the main components: nitrogen, oxygen and argon. Today, cryogenic units allow to obtain separation products with the following parameters:</div>
 
 		<div class="row">
 			<div class="grid-4 grid-12_m">
 				<div class="cryo-gas-params">
-					<div class="h3">Азот</div>
+					<div class="h3">Nitrogen</div>
 					<div class="cryo-gas-params__item">
-						<span>Концентрация: до</span>
+						<span>Concentration: up to</span>
 						<strong>99,99995<small>%</small></strong>
 					</div>
 					<div class="cryo-gas-params__item">
-						<span>Производительность: до</span>
-						<strong>200 000 <small>нм<sup>3</sup>/час</small></strong>
+						<span>Performance: up to</span>
+						<strong>200 000 <small>nm<sup>3</sup>/hour</small></strong>
 					</div>
 				</div>
 			</div>
 			<div class="grid-4 grid-12_m">
 				<div class="cryo-gas-params">
-					<div class="h3">Кислород</div>
+					<div class="h3">Oxygen</div>
 					<div class="cryo-gas-params__item">
-						<span>Концентрация: до</span>
+						<span>Concentration: up to</span>
 						<strong>99,9<small>%</small></strong>
 					</div>
 					<div class="cryo-gas-params__item">
-						<span>Производительность: до</span>
-						<strong>65 000 <small>нм<sup>3</sup>/час</small></strong>
+						<span>Performance: up to</span>
+						<strong>65 000 <small>nm<sup>3</sup>/hour</small></strong>
 					</div>
 				</div>
 			</div>
 			<div class="grid-4 grid-12_m">
 				<div class="cryo-gas-params">
-					<div class="h3">Аргон</div>
+					<div class="h3">Argon</div>
 					<div class="cryo-gas-params__item">
-						<span>Концентрация: до</span>
+						<span>Concentration: up to</span>
 						<strong>99,9999<small>%</small></strong>
 					</div>
 					<div class="cryo-gas-params__item">
-						<span>Производительность: до</span>
-						<strong>4000 <small>нм<sup>3</sup>/час</small></strong>
+						<span>Performance: up to</span>
+						<strong>4000 <small>nm<sup>3</sup>/hour</small></strong>
 					</div>
 				</div>
 			</div>
@@ -85,37 +85,37 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 
 <section class="s-lp-cryo-types s-def-big">
 	<div class="container">
-		<div class="h3 s-lp-cryo-types__title">Различные типы станций позволяют получать газообразные и жидкие продукты разделения с разными удельными энергозатратами. Поэтому для получения продуктов в сжиженном и газообразном состоянии технология криогенных ВРУ отличается и делится на основные типы:</div>
+		<div class="h3 s-lp-cryo-types__title">Different types of stations make it possible to obtain gaseous and liquid separation products with different specific energy inputs. Therefore, to obtain products in a liquefied and gaseous state, the technology of cryogenic ASU differs and is divided into the main types:</div>
 
 		<div class="cryo-types">
 			<div class="cryo-type">
 				<div class="cryo-type__header">
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/cryogen/type-1.png" alt="1">
 				</div>
-				<div class="cryo-type__text">Криогенная установка для получения газообразных продуктов разделения воздуха</div>
+				<div class="cryo-type__text">Cryogenic unit for producing gaseous air separation products</div>
 			</div>
 			<div class="cryo-type">
 				<div class="cryo-type__header">
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/cryogen/type-2.png" alt="1">
 				</div>
-				<div class="cryo-type__text">Криогенная установка для получения сниженных продуктов разделения воздуха</div>
+				<div class="cryo-type__text">Cryogenic unit for reduced air separation products</div>
 			</div>
 			<div class="cryo-type">
 				<div class="cryo-type__header">
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/cryogen/type-3.png" alt="1">
 				</div>
-				<div class="cryo-type__text">Криогенная установка для получения редких газов</div>
+				<div class="cryo-type__text">Rare gas cryogenic unit</div>
 			</div>
 		</div>
 
-		<div class="s-lp-cryo-types__bottom">В зависимости от технической задачи и требуемых технических газов выбирается тип криогенной воздухоразделительной установки для получения наибольшего экономического эффекта.</div>
+		<div class="s-lp-cryo-types__bottom">Depending on the technical task and the required technical gases, the type of cryogenic air separation unit is selected to obtain the greatest economic effect.</div>
 	</div>
 </section>
 
 
 <section class="s-lp-cryo-sostav s-def-big">
 	<div class="container">
-		<div class="h2">Технологическая линия криогенной ВРУ состоит из&nbsp;основного технологического оборудования:</div>
+		<div class="h2">The technological line of cryogenic ASU consists of the main technological equipment:</div>
 
 		<div class="cryo-sostav">
 
@@ -126,33 +126,33 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 					<figure class="blue-dot">2</figure>
 					<figure class="blue-dot">3</figure>
 					<figure class="blue-dot">4</figure>
-					<figure class="blue-dot">4а</figure>
-					<figure class="blue-dot">4б</figure>
-					<figure class="blue-dot">4в</figure>
+					<figure class="blue-dot">4a</figure>
+					<figure class="blue-dot">4b</figure>
+					<figure class="blue-dot">4c</figure>
 				</div>
 			</div>
 
 			<div class="cryo-sostav__items">
 				<div class="cryo-sostav__item cryo-sostav__item--1">
-					<strong>1.</strong> Компрессор обеспечивает повышение давления исходного воздуха, а также очистку от пыли, механических примесей и капельной влаги, с помощью встроенных воздушного фильтра и сепаратора
+					<strong>1.</strong> The compressor provides an increase in the pressure of the source air, as well as cleaning from dust, solids and droplet moisture, using the built-in air filter and separator
 				</div>
 				<div class="cryo-sostav__item cryo-sostav__item--2">
-					<strong>2.</strong> Система предварительного охлаждения воздуха на базе парокомпрессионной холодильной машины обеспечивает охлаждение воздуха до температуры +3…+7°С за счет теплообмена с холодильным агентом, циркулирующим в системе
+					<strong>2.</strong> The air pre-cooling system based on the steam compression chiller provides air cooling to a temperature of +3 ... +7 °C due to heat exchange with a refrigerant circulating in the system
 				</div>
 				<div class="cryo-sostav__item cryo-sostav__item--3">
-					<strong>3.</strong> Блок комплексной очистки предназначен для адсорбционной очистки воздуха от углекислого газа, паров воды и углеводородов. Регенерация адсорбента осуществляется потоком подогретой отбросной смеси
+					<strong>3.</strong> The complex purification unit is designed for adsorption purification of air from carbon dioxide, water vapor and hydrocarbons. Adsorbent regeneration is carried out by a stream of heated waste mixture
 				</div>
 				<div class="cryo-sostav__item cryo-sostav__item--4">
-					<strong>4.</strong> Низкотемпературный блок обеспечивает необходимые условия для протекания основных технологических процессов разделения воздуха и защищает оборудование от воздействия окружающей среды
+					<strong>4.</strong> The low-temperature unit provides the necessary conditions for the flow of the main technological processes of air separation and protects the equipment from environmental influences
 				</div>
 				<div class="cryo-sostav__item cryo-sostav__item--5">
-					<strong>4а.</strong> Охлаждение воздуха практически дo температуры сжижения за счет теплообмена с отбросной смесью и продуктовым азотом
+					<strong>4a.</strong> Air cooling practically up to liquefaction temperature due to heat exchange with waste mixture and product nitrogen
 				</div>
 				<div class="cryo-sostav__item cryo-sostav__item--6">
-					<strong>4б.</strong> Детандерный агрегат позволяет получить необходимый для низкотемпературной ректификации запас холода путем расширения кубового продукта из ректификационной колонны
+					<strong>4b.</strong> The expander unit allows you to get the required cold reserve for low-temperature distillation by expanding the bottom product from the distillation column
 				</div>
 				<div class="cryo-sostav__item cryo-sostav__item--7">
-					<strong>4в.</strong> Ректификационная колонна предназначена для правильной организации тепломассообмена при осуществлении низкотемпературной ректификации воздуха с получением продуктов разделения высокой чистоты
+					<strong>4c.</strong> The distillation column is designed for the proper organization of heat and mass transfer during the implementation of low-temperature air distillation to obtain high-purity separation products
 				</div>
 			</div>
 		</div>
@@ -164,7 +164,7 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 <section class="s-lp-cryo-textsec s-def-big">
 	<div class="container">
 		<div class="user-content">
-			<p>Воздух сжимается в компрессоре и подается в блок предварительного охлаждения, где происходит отделение капельной влаги. Далее сжатый воздух попадает в систему комплексной отчистки (БКО) для глубокой осушки и удаление углекислого газа. Осушенный, очищенный и предварительно охлажденный воздух подается в блок разделения, где происходит основной процесс ректификации и получения продуктов.</p>
+			<p>Air is compressed in the compressor and fed to the pre-cooling unit, where droplet moisture is separated. Further, compressed air enters the complex cleaning system (BCO) for deep drying and removal of carbon dioxide. Dried, purified and pre-cooled air is supplied to the separation unit, where the main process of rectification and production of products takes place.</p>
 		</div>
 	</div>
 </section>
@@ -173,7 +173,7 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 <section class="s-lp-cryo-princip s-def-big">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Принцип работы криогенной ВРУ</div>
+			<div class="h1">The principle of operation of cryogenic ASU</div>
 		</div>
 
 		<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/cryogen/princip.png" alt="1" class="img-responsive">
@@ -182,37 +182,37 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 			<div class="crio-princip">
 				<div class="crio-princip__header">
 					<figure class="blue-dot">1</figure>
-					<span>Сжатие воздуха</span>
+					<span>Air compression</span>
 				</div>
-				<div class="crio-princip__descr">Сжатие воздуха в многоступенчатом турбокомпресоре с промежуточным и концевым холодильником. Удаление частиц пыли с помощью воздушного фильтра на входе в компрессор.</div>
+				<div class="crio-princip__descr">Air compression in a multi-stage turbocharger with an intermediate and end cooler. Removing dust particles with an air filter at the inlet to the compressor.</div>
 			</div>
 			<div class="crio-princip">
 				<div class="crio-princip__header">
 					<figure class="blue-dot">2</figure>
-					<span>Подготовка воздуха</span>
+					<span>Air preparation</span>
 				</div>
-				<div class="crio-princip__descr">Комплексная очистка воздуха от углекислого газа, паров воды и углеводородов. Подогрев отбросной смеси для регенерации блока комплексной очистки.</div>
+				<div class="crio-princip__descr">Comprehensive air purification from carbon dioxide, water vapor and hydrocarbons. Heated waste mixture for regeneration of the complex cleaning unit.</div>
 			</div>
 			<div class="crio-princip">
 				<div class="crio-princip__header">
 					<figure class="blue-dot">3</figure>
-					<span>Теплообмен</span>
+					<span>Heat exchange</span>
 				</div>
-				<div class="crio-princip__descr">Ожладение воздуха практически до температуры сжижения за счет теплообмена с отбросной смесью и продуктовым азотом.</div>
+				<div class="crio-princip__descr">Air cooling to almost the liquefaction temperature due to heat exchange with the waste mixture and product nitrogen.</div>
 			</div>
 			<div class="crio-princip">
 				<div class="crio-princip__header">
 					<figure class="blue-dot">4</figure>
-					<span>Получение холода</span>
+					<span>Getting cold</span>
 				</div>
-				<div class="crio-princip__descr">Выработка холода путем расширения части кубового продукта из колонны ректификации в турбодетандере Использование продуктового азота для утилизации работы, получаемой в турбодетан</div>
+				<div class="crio-princip__descr">Production of cold by expanding part of the bottoms product from a distillation column in a turboexpander Use of product nitrogen to utilize the work obtained in turbo-expander.</div>
 			</div>
 			<div class="crio-princip">
 				<div class="crio-princip__header">
 					<figure class="blue-dot">5</figure>
-					<span>Ректификация</span>
+					<span>Rectification</span>
 				</div>
-				<div class="crio-princip__descr">Разделение сжиженного воздуха с получением азота и кислорода высокой чистоты в процессе тепло-массобмена в колонне двухкратной ректификации.</div>
+				<div class="crio-princip__descr">Separation of liquefied air with the production of nitrogen and oxygen of high purity in the process of heat and mass transfer in a double rectification column.</div>
 			</div>
 		</div>
 
@@ -222,14 +222,14 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 
 <section class="s-lp-triggers" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/triggers-bg.jpg">
 	<div class="container">
-		<div class="h1">Мы предоставляем</div>
+		<div class="h1">We provide</div>
 		<div class="icon-left-blocks">
 			<div class="icon-left-block">
 				<div class="icon-left-block__img">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/trigger-ic-1.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					Гарантию на генераторы азота 2 года
+					2 year nitrogen generator warranty
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -237,7 +237,7 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/trigger-ic-2.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					Оперативную сервисную поддержку в течение 24 часов
+					24-hour service support
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -245,7 +245,7 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/trigger-ic-3.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					Круглосуточную техническую поддержку
+					24/7 technical support
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -253,7 +253,7 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/trigger-ic-4.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					Обучение и консультацию персонала заказчика
+					Training and consultation of customer personnel
 				</div>
 			</div>
 		</div>
@@ -264,55 +264,55 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 <section class="s-lp-steps s-def">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Процесс взаимодействия</div>
+			<div class="h1">Interaction process</div>
 		</div>
 
 		<div class="lp-steps">
 			<div class="lp-step selected">
-				<div class="lp-step__title">шаг 1</div>
+				<div class="lp-step__title">step 1</div>
 				<ul class="lp-step__list">
-					<li>Запрос заказчика</li>
-					<li>Техническое задание на создание пневмосистемы</li>
+					<li>Customer request</li>
+					<li>Terms of Reference for the creation of a pneumatic system</li>
 				</ul>
 			</div>
 			<div class="lp-step">
-				<div class="lp-step__title">шаг 2</div>
+				<div class="lp-step__title">step 2</div>
 				<ul class="lp-step__list">
-					<li>Анализ технического задания</li>
-					<li>Выезд инженера</li>
-					<li>Пневмоаудит</li>
-					<li>Инженерно-технический анализ</li>
-					<li>Обмен информацией с заказчиком, уточнение информации</li>
+					<li>Analysis of the technical specifications</li>
+					<li>Engineer visit on site</li>
+					<li>Pneumatic audit</li>
+					<li>Engineering Analysis</li>
+					<li>Exchange of information with the customer, clarification of information</li>
 				</ul>
 			</div>
 			<div class="lp-step">
-				<div class="lp-step__title">шаг 3</div>
+				<div class="lp-step__title">step 3</div>
 				<ul class="lp-step__list">
-					<li>Проектирование</li>
-					<li>Подбор оборудования</li>
-					<li>Инжиниринг систем</li>
-					<li>Модернизация</li>
-					<li>Комплект проектно-конструкторской документации</li>
-					<li>Прохождение экспертизы</li>
-					<li>Инженерно-техническое заключение и обоснование</li>
-					<li>Поставка оборудования</li>
-					<li>Строительно-монтажные работы</li>
-					<li>Пусконаладочные работы</li>
+					<li>Design</li>
+					<li>Equipment selection</li>
+					<li>Systems engineering</li>
+					<li>Modernization</li>
+					<li>Set of design documentation</li>
+					<li>Passing examination</li>
+					<li>Engineering report and rationale</li>
+					<li>Equipment supply</li>
+					<li>Construction and installation work</li>
+					<li>Commissioning works</li>
 				</ul>
 			</div>
 			<div class="lp-step">
-				<div class="lp-step__title">шаг 4</div>
+				<div class="lp-step__title">step 4</div>
 				<ul class="lp-step__list">
-					<li>Сдача-приемка заказчиком</li>
+					<li>Customer acceptance</li>
 				</ul>
 			</div>
 			<div class="lp-step">
-				<div class="lp-step__title">шаг 5</div>
+				<div class="lp-step__title">step 5</div>
 				<ul class="lp-step__list">
-					<li>Удаленный контроль и мониторинг</li>
-					<li>Техническое обслуживание</li>
-					<li>Инженерная поддержка</li>
-					<li>Гарантии</li>
+					<li>Remote control and monitoring</li>
+					<li>Maintenance</li>
+					<li>Engineering support</li>
+					<li>Warranty</li>
 				</ul>
 			</div>
 		</div>
@@ -324,7 +324,7 @@ $APPLICATION->SetTitle("Криогенные воздухоразделител�
 <?
 global $arrFilter;
 $arrFilter = Array(
-	"PROPERTY_GENERATOR_TYPE_VALUE" => 'Криогенные воздухоразделительные'
+	"PROPERTY_GENERATOR_TYPE_VALUE" => 'Cryogenic Air Separation'
 );
 ?>
 <?$APPLICATION->IncludeComponent(

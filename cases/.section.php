@@ -1,4 +1,4 @@
 <?
-$sSectionName = "Выполненные проекты";
+$sSectionName = "Implemented projects";
 $arDirProperties = Array();
 ?>

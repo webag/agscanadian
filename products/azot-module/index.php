@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Модульные азотные станции");
+$APPLICATION->SetTitle("Modular Nitrogen Stations");
 ?>
 
 
@@ -8,20 +8,20 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 	<div class="lp-header">
 		<div class="lp-header__left">
 			<div class="lp-header__content">
-				<h1 class="lp-header__title">Модульные азотные станции</h1>
-				<div class="lp-header__descr">«АГС Инжиниринг» проектирует и производит блочно-модульные азотные станции, работающие по технологии короткоцикловой адсорбции</div>
+				<h1 class="lp-header__title">Modular Nitrogen Stations</h1>
+				<div class="lp-header__descr">AGS Engineering designs and manufactures block-modular nitrogen stations using short-cycle adsorption technology</div>
 				<div class="lp-header__params">
 					<div class="lp-header__param">
-						<span>Производительность до</span>
-						<strong>15000 <small>нм<sup>3</sup>/час</small></strong>
+						<span>Performance up</span>
+						<strong>15000 <small>nm<sup>3</sup>/hour</small></strong>
 					</div>
 					<div class="lp-header__param">
-						<span>Чистота до</span>
+						<span>Clean up</span>
 						<strong>99,9999 <small>%</small></strong>
 					</div>
 				</div>
 				<div class="lp-header__actions">
-					<a href="#" class="btn fancy-modal" data-src="#modal-order">Заказать проект</a>
+					<a href="#" class="btn fancy-modal" data-src="#modal-order">Order a project</a>
 					<!--<a href="#" class="lp-header__video fancy-video">
 						<i class="i-play round-icon"></i>
 						<span>Видео о продукте</span>
@@ -44,8 +44,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/param-ic-1.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					<strong>Полная автоматизация технологического процесса</strong>
-					<small>В&nbsp;контейнере смонтированы системы: управления оборудованием, терморегулирования, вентиляции, рекуперации, пожаротушения, автоматического ввода резерва, передачи данных и&nbsp;охраны.</small>
+					<strong>Full automation of the process</strong>
+					<small>Systems installed in the container: equipment control, temperature control, ventilation, recovery, fire extinguishing, automatic reserve input, data transfer and security.</small>
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -53,8 +53,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/param-ic-2.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					<strong>Производительность одного блока 750 м<sup>3</sup>/час</strong>
-					<small>Мы проработали конструктивную часть контейнера таким образом, что&nbsp;все оборудование, смонтированное внутри, работает с&nbsp;соблюдением температурного режима и&nbsp;требуемой вентиляции.</small>
+					<strong>Productivity of one block 750 m<sup>3</sup>/hour</strong>
+					<small>We worked out the constructive part of the container in such a way that all the equipment mounted inside works in compliance with the temperature regime and the required ventilation.</small>
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -62,8 +62,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/param-ic-3.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					<strong>Эксплуатация станций от -50&nbsp;&deg;С; до&nbsp;+50&nbsp;&deg;С</strong>
-					<small>Система терморегулирования контейнера в&nbsp;совокупности с&nbsp;применяемыми утеплителями и&nbsp;конструктивными решениями позволяет бесперебойно эксплуатировать оборудование на&nbsp;протяжении 24&nbsp;часов в&nbsp;сутки.</small>
+					<strong>Operation of stations from -50&nbsp;°&nbsp;C; up to +50&nbsp;°&nbsp;С</strong>
+					<small>The container temperature control system in conjunction with the used insulation and structural solutions allows you to operate equipment uninterruptedly for 24 hours a day.</small>
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -71,8 +71,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/param-ic-4.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					<strong>Полная заводская готовность</strong>
-					<small>Оборудование, смонтированное внутри блок-бокса, полностью готово к&nbsp;эксплуатации и&nbsp;протестировано у&nbsp;нас на&nbsp;предприятии. При условии готовности монтажной площадки, время до&nbsp;запуска станции сводится к&nbsp;минимальному.</small>
+					<strong>Full factory readiness</strong>
+					<small>The equipment mounted inside the block box is fully operational and tested at our enterprise. Provided the installation site is ready, the time to start the station is minimized.</small>
 				</div>
 			</div>
 		</div>
@@ -83,7 +83,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 <section class="s-module-complect s-def-big" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/complect-bg.jpg">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Комплектация азотной станции AGS </div>
+			<div class="h1">AGS Nitrogen Station Set</div>
 		</div>
 		<div class="row module-complect-items-row">
 			<div class="grid-3 grid-6_l grid-12_xs">
@@ -92,7 +92,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-1.svg" alt="">
 					</div>
 					<div class="module-complect-item__content">
-						<span><mark>1.</mark> Светодиодное освещение</span>
+						<span><mark>1.</mark> LED lighting</span>
 					</div>
 				</div>
 			</div>
@@ -102,7 +102,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-2.svg" alt="">
 					</div>
 					<div class="module-complect-item__content">
-						<span><mark>2.</mark> Система вентиляции и рекуперации выполнена на базе приводов BELIMO</span>
+						<span><mark>2.</mark> The ventilation and recovery system is based on BELIMO drives</span>
 					</div>
 				</div>
 			</div>
@@ -112,7 +112,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-3.svg" alt="">
 					</div>
 					<div class="module-complect-item__content">
-						<span><mark>3.</mark> Система пожарной сигнализации и порошкового пожаротушения</span>
+						<span><mark>3.</mark> Fire alarm system and powder fire extinguishing</span>
 					</div>
 				</div>
 			</div>
@@ -122,7 +122,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-4.svg" alt="">
 					</div>
 					<div class="module-complect-item__content">
-						<span><mark>4.</mark> Качественный 100 мм экологически чистый, негорючий утеплитель</span>
+						<span><mark>4.</mark> High-quality 100 mm environmentally friendly, non-combustible insulation</span>
 					</div>
 				</div>
 			</div>
@@ -139,7 +139,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-5.svg" alt="">
 					</div>
 					<div class="module-complect-item__content">
-						<span><mark>5.</mark> Система отопления</span>
+						<span><mark>5.</mark> Heating system</span>
 					</div>
 				</div>
 			</div>
@@ -149,7 +149,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-6.svg" alt="">
 					</div>
 					<div class="module-complect-item__content">
-						<span><mark>6.</mark> Система автоматики Siemens, Omron, Phoenix Contact, Овен</span>
+						<span><mark>6.</mark> Automation system Siemens, Omron, Phoenix Contact, Aries</span>
 					</div>
 				</div>
 			</div>
@@ -159,7 +159,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-7.svg" alt="">
 					</div>
 					<div class="module-complect-item__content">
-						<span><mark>7.</mark> Авиационная эмаль (срок службы до 25 лет)</span>
+						<span><mark>7.</mark> Aviation enamel (service life up to 25 years)</span>
 					</div>
 				</div>
 			</div>
@@ -169,7 +169,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-8.svg" alt="">
 					</div>
 					<div class="module-complect-item__content">
-						<span><mark>8.</mark> Система кондиционирования</span>
+						<span><mark>8.</mark> Air conditioning</span>
 					</div>
 				</div>
 			</div>
@@ -179,7 +179,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 	<div class="container">
 		<div class="module-complect-base">
 			<div class="section-title">
-				<div class="h2">Основные узлы и агрегаты блочно-модульной станции:</div>
+				<div class="h2">The main components and assemblies of a modular station:</div>
 			</div>
 			<div class="row module-complect-items-row">
 				<div class="grid-6 grid-12_s">
@@ -188,8 +188,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-5.svg" alt="">
 						</div>
 						<div class="module-complect-item__content">
-							<strong>Климатическое исполнение</strong>
-							<span>Температура эксплуатации +55 &deg;С … -60 &deg;С<br>Утепление контейнера выполнено из негорючих сэндвич-панелей толщиной 50-100 мм. Исполнение блок-контейнера подбирается индивидуально в соответствии с ГОСТ 15150 69 и требованиями заказчика.</span>
+							<strong>Climatic performance</strong>
+							<span>Operating temperature +55 &deg;С … -60 &deg;С<br>Container insulation is made of non-combustible sandwich-panels with a thickness of 50-100 mm. The execution of the block container is selected individually in accordance with GOST 15150 69 and customer requirements.</span>
 						</div>
 					</div>
 				</div>
@@ -199,8 +199,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-8.svg" alt="">
 						</div>
 						<div class="module-complect-item__content">
-							<strong>Система вентиляции и рекуперации</strong>
-							<span>Комплектуется промышленными вентиляторами и воздушными клапанами с электрическими приводами, управляется общей автоматизированной системой управления станции в соответствии с заданными параметрами микроклимата и сигналами датчика газовоздушной среды внутри контейнера. Также возможна установка системы кондиционирования.</span>
+							<strong>Ventilation and recovery system</strong>
+							<span>It is equipped with industrial fans and air valves with electric actuators, controlled by the general automated control system of the station in accordance with the specified microclimate parameters and the signals of the air-gas sensor inside the container. It is also possible to install an air conditioning system.</span>
 						</div>
 					</div>
 				</div>
@@ -210,8 +210,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-2.svg" alt="">
 						</div>
 						<div class="module-complect-item__content">
-							<strong>Отопление</strong>
-							<span>Настенные конвекторы и тепловые завесы, температурный режим регулируется по температурным датчикам единой автоматизированной системы управления модульной станции.</span>
+							<strong>Heating</strong>
+							<span>Wall convectors and thermal curtains, the temperature regime is regulated by temperature sensors of a single automated control system of a modular station.</span>
 						</div>
 					</div>
 				</div>
@@ -221,8 +221,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-3.svg" alt="">
 						</div>
 						<div class="module-complect-item__content">
-							<strong>Пожарно-охранная сигнализация</strong>
-							<span>В стандартной комплектации блок-контейнер оборудуется пожарной сигнализацией, также возможна установка порошкового пожаротушения. АУПП предназначена для обнаружения и тушения пожара, выдачи сигнала от системы АУПП в ЛСУ заказчика.</span>
+							<strong>Fire alarm</strong>
+							<span>As standard, the unit container is equipped with a fire alarm, and powder fire extinguishing is also possible. AUPP is designed to detect and extinguish a fire, to issue a signal from an AUPP system to a customer’s LSP.</span>
 						</div>
 					</div>
 				</div>
@@ -232,8 +232,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-6.svg" alt="">
 						</div>
 						<div class="module-complect-item__content">
-							<strong>Система управления</strong>
-							<span>Система управления представляет собой отдельный пылевлагозащищённый шкаф, класс защиты не менее IP54. Система АСУ в стандартной комплектации выполняется на базе ПЛК Siemens, но также может быть выполнена под индивидуальные требования заказчика. Система обеспечивает полностью автоматизированную работу станции, также дает возможность удаленного управления с АРМ.</span>
+							<strong>Control system</strong>
+							<span>The control system is a separate dust and water tight cabinet, protection class not less than IP54. The ACS system as standard is based on the Siemens PLC, but can also be tailored to individual customer requirements. The system provides fully automated operation of the station, also allows remote control from the workstation.</span>
 						</div>
 					</div>
 				</div>
@@ -243,8 +243,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/c-ic-9.svg" alt="">
 						</div>
 						<div class="module-complect-item__content">
-							<strong>Вводно-распределительное устройство</strong>
-							<span>В комплект поставки блочно-модульной станции входит шкаф ВРУ с 1 или 2 вводами питания и автоматическим переключением по средствам АВР. Монтаж и прокладка кабеля в коробах и отводах в металорукавах в ПВХ изоляции. Также в комплект поставки входит ИБП, что позволяет производить мониторинг параметров и управление запорной арматурой в случае отключения питания и аварийных остановок.</span>
+							<strong>Input distribution device</strong>
+							<span>A block-modular station is supplied with an ASU cabinet with 1 or 2 power inputs and automatic switching by ABP. Installation and cable laying in boxes and bends in metal hoses in PVC insulation. A UPS is also included in the package of delivery, which allows monitoring parameters and controlling shutoff valves in case of power failure and emergency stops.</span>
 						</div>
 					</div>
 				</div>
@@ -258,7 +258,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 <section class="s-lp-base s-def-big">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Станция может быть выполнена на&nbsp;базе</div>
+			<div class="h1">The station can be made on the basis of</div>
 		</div>
 
 		<div class="row-ng">
@@ -266,21 +266,21 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 				<div class="lp-base__header">
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/base-1.jpg" alt="1">
 				</div>
-				<div class="h3">Адсорбционного генератора азота с&nbsp;чистотой до</div>
+				<div class="h3">Adsorption nitrogen generator with purity up to</div>
 				<strong>99.9999%</strong>
 			</div>
 			<div class="lp-base">
 				<div class="lp-base__header">
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/base-2.jpg" alt="1">
 				</div>
-				<div class="h3">Мембранного азотного генератора с&nbsp;чистотой до</div>
+				<div class="h3">Membrane nitrogen generator with purity up to</div>
 				<strong>99%</strong>
 			</div>
 			<div class="lp-base">
 				<div class="lp-base__header">
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/base-3.jpg" alt="1">
 				</div>
-				<div class="h3">Криогенного азотного генератора с&nbsp;чистотой до</div>
+				<div class="h3">Cryogenic nitrogen generator with purity up to</div>
 				<strong>99.9999%</strong>
 			</div>
 		</div>
@@ -291,7 +291,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 <section class="s-lp-dop s-def-big" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/dop-bg.jpg">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Дополнительные опции</div>
+			<div class="h1">Additional Options</div>
 		</div>
 
 		<div class="row">
@@ -300,8 +300,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/dop-ic-1.svg" alt="">
 					</div>
-					<div class="h4 icon-vert-block__title">Взрывозащищенное исполнение</div>
-					<div class="icon-vert-block__descr">Вариант исполнения, который позволяет использовать оборудование во взрывоопасных зонах</div>
+					<div class="h4 icon-vert-block__title">Explosion Proof Design</div>
+					<div class="icon-vert-block__descr">A design option that allows the use of equipment in hazardous areas</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-12_s">
@@ -309,8 +309,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/dop-ic-3.svg" alt="">
 					</div>
-					<div class="h4 icon-vert-block__title">Дожимной компрессор</div>
-					<div class="icon-vert-block__descr">Служит для поднятия давления продукционного газа</div>
+					<div class="h4 icon-vert-block__title">Booster Compressor</div>
+					<div class="icon-vert-block__descr">Serves to increase the pressure of the production gas</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-12_s">
@@ -318,8 +318,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/dop-ic-2.svg" alt="">
 					</div>
-					<div class="h4 icon-vert-block__title">Заправочная станция</div>
-					<div class="icon-vert-block__descr">Комплекс оборудования, позволяющий заполнять стандартные баллоны сжатым газом под давлением до 200 Бар</div>
+					<div class="h4 icon-vert-block__title">Gas Station</div>
+					<div class="icon-vert-block__descr">A set of equipment that allows filling standard cylinders with compressed gas under pressure up to 200 Bar</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-12_s">
@@ -327,8 +327,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/base-1.svg" alt="1">
 					</div>
-					<div class="h4 icon-vert-block__title">Система доочистки</div>
-					<div class="icon-vert-block__descr">Позволяет получить продукционный кислород или азот более высокой концентрации</div>
+					<div class="h4 icon-vert-block__title">Aftertreatment system</div>
+					<div class="icon-vert-block__descr">Allows to obtain production oxygen or nitrogen of higher concentration</div>
 				</div>
 			</div>
 		</div>
@@ -340,7 +340,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 <section class="s-lp-module-preims s-def-big" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/preims-bg.jpg">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Преимущества азотных установок модульного типа</div>
+			<div class="h1">Advantages of modular nitrogen plants</div>
 		</div>
 
 		<div class="icon-left-blocks icon-left-blocks--bordered">
@@ -349,8 +349,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<strong>01</strong>
 				</div>
 				<div class="icon-left-block__content">
-					<strong>Мобильность станции</strong>
-					<small>Установка может транспортироваться любым видом транспорта и&nbsp;введена в&nbsp;эксплуатацию в&nbsp;течение 1-го дня.</small>
+					<strong>Station mobility</strong>
+					<small>The installation can be transported by any type of transport and put into operation within 1 day.</small>
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -358,8 +358,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<strong>02</strong>
 				</div>
 				<div class="icon-left-block__content">
-					<strong>Автономность</strong>
-					<small>Для работы станции требуется только подключение электроэнергии. Не&nbsp;требует присутствия оператора.</small>
+					<strong>Autonomy</strong>
+					<small>For the operation of the station only an electrical connection is required. Does not require the presence of an operator.</small>
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -367,8 +367,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<strong>03</strong>
 				</div>
 				<div class="icon-left-block__content">
-					<strong>Отсутствие капитальных затрат</strong>
-					<small>Монтаж оборудования возможен практически на&nbsp;любую открытую площадку.</small>
+					<strong>Lack of capital expenditures</strong>
+					<small>Installation of equipment is possible on almost any open area.</small>
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -376,8 +376,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<strong>04</strong>
 				</div>
 				<div class="icon-left-block__content">
-					<strong>Полная заводская готовность</strong>
-					<small>Для запуска станции не&nbsp;требуется дополнительного оборудования.</small>
+					<strong>Full factory readiness</strong>
+					<small>No additional equipment is required to start the station.</small>
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -385,8 +385,8 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<strong>05</strong>
 				</div>
 				<div class="icon-left-block__content">
-					<strong>Индивидуальное исполнение</strong>
-					<small>Возможность установки дополнительного оборудования в&nbsp;блок азотной станции: дожимного компрессора, резерной системы подачи азота, системы подготовки воздуха КИПиА и&nbsp;другие.</small>
+					<strong>Individual performance</strong>
+					<small>Possibility to install additional equipment in the nitrogen station block: booster compressor, nitrogen reserve supply system, instrumentation and air preparation system, and others.</small>
 				</div>
 			</div>
 		</div>
@@ -397,7 +397,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 <section class="s-lp-agspreims s-def-big" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/agspreims-bg.jpg">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Наши преимущества</div>
+			<div class="h1">Our advantages</div>
 		</div>
 
 		<div class="row agspreim-row">
@@ -406,7 +406,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<figure>
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/agspreim-ic-1.svg" alt="1">
 					</figure>
-					<span>Все возникшие проблемы с&nbsp;контейнером в&nbsp;течение 2&nbsp;лет мы устраняем за&nbsp;свой счёт</span>
+					<span>Within 2 years, we eliminate all problems encountered with the container at our own expense.</span>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xs">
@@ -414,7 +414,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<figure>
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/agspreim-ic-2.svg" alt="1">
 					</figure>
-					<span>Автоматизация технологических процессов на&nbsp;базе контроллеров Siemens, Omron, Phoenix Contact, Овен</span>
+					<span>Automation of technological processes based on controllers Siemens, Omron, Phoenix Contact, Aries</span>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xs">
@@ -422,7 +422,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<figure>
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/agspreim-ic-3.svg" alt="1">
 					</figure>
-					<span>Отдел проектирования, который контролирует производство и&nbsp;готовит пакет документов для сдачи в&nbsp;эксплуатацию “под&nbsp;ключ”</span>
+					<span>Design department, which controls the production and prepares a package of documents for turnkey commissioning</span>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xs">
@@ -430,7 +430,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<figure>
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/agspreim-ic-4.svg" alt="1">
 					</figure>
-					<span>Мы гарантируем производство модульных конструкций четко в&nbsp;указанный срок</span>
+					<span>We guarantee the production of modular structures clearly on time</span>
 				</div>
 			</div>
 		</div>
@@ -443,7 +443,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 
 		<div class="lp-box">
 			<div class="section-title">
-				<div class="h1">Вариации исполнения модульных станций</div>
+				<div class="h1">Variations of the execution of modular stations</div>
 			</div>
 
 			<div class="row">
@@ -454,14 +454,14 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 					<div class="lp-box__params">
 						<div class="lp-box__param">
 							<strong>20</strong>
-							<span>футовый блок</span>
+							<span>foot block</span>
 						</div>
 						<div class="lp-box__param">
 							<strong>40</strong>
-							<span>футовый блок</span>
+							<span>foot block</span>
 						</div>
 						<div class="lp-box__param">
-							<span>Индивидуальный<br>проект</span>
+							<span>Individual<br>Project</span>
 						</div>
 					</div>
 				</div>
@@ -469,24 +469,24 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 		</div>
 
 		<div class="lp-module-service">
-			АГС Инжиниринг осуществляет полный цикл работ, включая проектирование, производство, монтаж и пусконаладку блочно-модульных станций, укомплектованных различным технологическим оборудованием
+			AGS Engineering carries out a full cycle of work, including the design, manufacture, installation and commissioning of modular stations equipped with various technological equipment
 		</div>
 
 		<div class="lp-station-types row-ng">
 			<div class="lp-station-type grid-4 grid-12_m">
 				<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/st-type-1.jpg" alt="">
-				<div class="h4">Модульные азотные станции</div>
-				<span>Комплектуются адсорбционным, мембранным и криогенным генератором азота производства «АГС Инжиниринг».</span>
+				<div class="h4">Modular Nitrogen Stations</div>
+				<span>They are equipped with adsorption, membrane and cryogenic nitrogen generators manufactured by AGS Engineering.</span>
 			</div>
 			<div class="lp-station-type grid-4 grid-12_m">
 				<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/st-type-2.jpg" alt="">
-				<div class="h4">Модульные кислородные станции</div>
-				<span>Комплектуются адсорбционными генераторами кислорода производства «АГС Инжиниринг».</span>
+				<div class="h4">Modular oxygen stations</div>
+				<span>They are equipped with adsorption oxygen generators manufactured by AGS Engineering.</span>
 			</div>
 			<div class="lp-station-type grid-4 grid-12_m">
 				<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-module/st-type-3.jpg" alt="">
-				<div class="h4">Модульные компрессорные станции</div>
-				<span>Комплектуются компрессорным оборудованием Atlas Copco, Alup, Remeza, Kaeser, Sauer и т.д</span>
+				<div class="h4">Modular Compressor Stations</div>
+				<span>Equipped with compressor equipment by Atlas Copco, Alup, Remeza, Kaeser, Sauer, etc.</span>
 			</div>
 		</div>
 
@@ -497,7 +497,7 @@ $APPLICATION->SetTitle("Модульные азотные станции");
 <?
 global $arrFilter;
 $arrFilter = Array(
-	"PROPERTY_GENERATOR_TYPE_VALUE" => 'Адсорбционные азотные'
+	"PROPERTY_GENERATOR_TYPE_VALUE" => 'Modular Nitrogen Stations'
 );
 ?>
 <?$APPLICATION->IncludeComponent(

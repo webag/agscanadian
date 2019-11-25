@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Азотные станции");
+$APPLICATION->SetTitle("Nitrogen stations");
 ?>
 
 
@@ -8,20 +8,20 @@ $APPLICATION->SetTitle("Азотные станции");
 	<div class="lp-header">
 		<div class="lp-header__left">
 			<div class="lp-header__content">
-				<h1 class="lp-header__title">Азотные станции</h1>
-				<div class="lp-header__descr">«АГС Инжиниринг» проектирует и производит адсорбционные азотные станции, работающие по технологии короткоцикловой адсорбции.</div>
+				<h1 class="lp-header__title">Nitrogen stations</h1>
+				<div class="lp-header__descr">“AGS Engineering” designs and manufactures adsorption nitrogen stations using short-cycle adsorption technologies.</div>
 				<div class="lp-header__params">
 					<div class="lp-header__param">
-						<span>Производительность до</span>
-						<strong>15000 <small>нм<sup>3</sup>/час</small></strong>
+						<span>Performance up to</span>
+						<strong>15000 <small>nm<sup>3</sup>/hour</small></strong>
 					</div>
 					<div class="lp-header__param">
-						<span>Чистота до</span>
+						<span>Clean up</span>
 						<strong>99,9999 <small>%</small></strong>
 					</div>
 				</div>
 				<div class="lp-header__actions">
-					<a href="#" class="btn fancy-modal" data-src="#modal-order">Заказать проект</a>
+					<a href="#" class="btn fancy-modal" data-src="#modal-order">Order a project</a>
 					<!--<a href="#" class="lp-header__video fancy-video">
 						<i class="i-play round-icon"></i>
 						<span>Видео о продукте</span>
@@ -44,8 +44,8 @@ $APPLICATION->SetTitle("Азотные станции");
 			</div>
 			<div class="grid-6 grid-12_m">
 				<div class="user-content">
-					<div class="h1">Принцип работы КЦА</div>
-					<p>Короткоцикловая адсорбция — это технология разделения воздуха, основанная на применении углеродного молекулярного сита (УМС) или синтетического цеолита. Для получения азота применяется углеродное молекулярное сито, оно представляет собой гранулы с особой пористой структурой. При прохождении через УМС сжатого воздуха под определенным давлением за счет разницы в размере молекул кислорода и азота адсорбент удерживает на своей поверхности молекулы кислорода и водяного пара, позволяя азоту проходить дальше.</p>
+					<div class="h1">SCA working principle</div>
+					<p>Short-cycle adsorption is an air separation technology based on the use of a carbon molecular sieve (CMS) or synthetic zeolite. To obtain nitrogen, a carbon molecular sieve is used; which is granules with a special porous structure. When compressed air passes through the CMS under a certain pressure, due to the difference in the size of the oxygen and nitrogen molecules, the adsorbent retains oxygen and water vapor molecules on its surface, allowing nitrogen to pass on.</p>
 				</div>
 			</div>
 		</div>
@@ -57,14 +57,14 @@ $APPLICATION->SetTitle("Азотные станции");
 	<div class="container">
 		<div class="row">
 			<div class="grid-6 grid-12_m">
-				<div class="h1">Преимущества адсорбционных азотных станций AGS</div>
+				<div class="h1">Advantages of AGS Adsorption Nitrogen Stations</div>
 				<div class="icon-left-blocks">
 					<div class="icon-left-block">
 						<div class="icon-left-block__img">
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/preim-ic-1.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							Высокая чистота продукционного азота с наименьшими эксплуатационными затратами по сравнению с другими технологиями воздухоразделения.
+							High purity of production nitrogen with the lowest operational costs in comparison with other air separation technologies.
 						</div>
 					</div>
 					<div class="icon-left-block">
@@ -72,7 +72,7 @@ $APPLICATION->SetTitle("Азотные станции");
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/preim-ic-2.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							Надежность и долговечность – в адсорбционных установках АГС применяются комплектующие ведущих мировых производителей.
+							Reliability and durability - in the AGS adsorption units, components of leading world manufacturers are used.
 						</div>
 					</div>
 					<div class="icon-left-block">
@@ -80,7 +80,7 @@ $APPLICATION->SetTitle("Азотные станции");
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/preim-ic-3.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							Работа азотной станции без капитального ремонта более 20 лет.
+							The work of the nitrogen station without major repairs for more than 20 years.
 						</div>
 					</div>
 					<div class="icon-left-block">
@@ -88,7 +88,7 @@ $APPLICATION->SetTitle("Азотные станции");
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/preim-ic-4.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							Полная автоматизация процесса производства азота. Система управления на основе ПЛК автоматически поддерживает все параметры в заданных пределах.
+							Full automation of the nitrogen production process. The PLC-based control system automatically supports all parameters within specified limits.
 						</div>
 					</div>
 					<div class="icon-left-block">
@@ -96,7 +96,7 @@ $APPLICATION->SetTitle("Азотные станции");
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/preim-ic-5.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							Простота монтажа, малые габаритные размеры.
+							Easy installation, small overall dimensions.
 						</div>
 					</div>
 				</div>
@@ -110,45 +110,45 @@ $APPLICATION->SetTitle("Азотные станции");
 <section class="s-lp-komplect s-def" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/komplect-bg.jpg">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Комплект азотной станции</div>
+			<div class="h1">Nitrogen Station Set</div>
 		</div>
 
 		<div class="komplect anim">
 			<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/komplect-img.png" alt="" class="komplect__img komplect__img--as">
 
 			<div class="komplect__item komplect__item--down komplect__item--as-1">
-				<strong>Винтовой компрессор</strong>
-				<span>сжимает атмосферный воздух и подает в генератор азота. Чаще всего для азотных станций используют компрессор с максимальным давлением 10 бар.</span>
+				<strong>Spiral Compressor</strong>
+				<span>compresses atmospheric air and feeds it into a nitrogen generator. Most often for nitrogen stations a compressor with a maximum pressure of 10 bar is used.</span>
 				<figure><div></div></figure>
 			</div>
 
 			<div class="komplect__item komplect__item--down komplect__item--as-2">
-				<strong>Буферный воздушный ресивер</strong>
-				<span>необходим для выравнивания колебаний давления перед подачей воздуха в генератор азота.</span>
+				<strong>Buffer Air Receiver</strong>
+				<span>Is necessary to equalize pressure fluctuations before air is supplied to the nitrogen generator.</span>
 				<figure><div></div></figure>
 			</div>
 
 			<div class="komplect__item komplect__item--down komplect__item--as-3">
-				<strong>Адсорбционный генератор азота </strong>
-				<span>воздухоразделительная установка, работающая по технологии короткоцикловой адсорбции.</span>
+				<strong>Adsorption Nitrogen Generator</strong>
+				<span>This is an air separation unit using short-cycle adsorption technology.</span>
 				<figure><div></div></figure>
 			</div>
 
 			<div class="komplect__item komplect__item--up komplect__item--as-4">
-				<strong>Осушитель сжатого воздуха</strong>
-				<span>необходим для удаления влаги из сжатого воздуха. В азотной станции в зависимости от требований к качеству продукционного азота может применяться либо рефрижераторный осушитель с точкой росы +3 &deg;С, либо адсорбционный с точкой росы до -70 &deg;С.</span>
+				<strong>Compressed Air Desiccant</strong>
+				<span>Is necessary to remove moisture from compressed air. In a nitrogen station, depending on the requirements for the quality of production nitrogen, either a refrigeration desiccant with a dew point of +3° C or an adsorption one with a dew point of up to -70° C can be used.</span>
 				<figure><div></div></figure>
 			</div>
 
 			<div class="komplect__item komplect__item--up komplect__item--as-5">
-				<strong>Система фильтрации</strong>
-				<span>необходима для удаления остатков влаги, масла и твердых частиц после компрессора.</span>
+				<strong>Filtration System</strong>
+				<span>Is necessary to remove residual moisture, oil and particulate matter after the compressor.</span>
 				<figure><div></div></figure>
 			</div>
 
 			<div class="komplect__item komplect__item--up komplect__item--as-6">
-				<strong>Накопительный ресивер для азота</strong>
-				<span>необходим для выравнивания скачков давления после генератора, а также для создания запаса азота.</span>
+				<strong>Cumulative Receiver of Nitrogen</strong>
+				<span>Is necessary to equalize pressure surges after the generator, as well as to create a supply of nitrogen.</span>
 				<figure><div></div></figure>
 			</div>
 		</div>
@@ -160,7 +160,7 @@ $APPLICATION->SetTitle("Азотные станции");
 <section class="s-lp-dop s-def-big">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Дополнительные опции, котрые мы предоставляем</div>
+			<div class="h1">Additional Options Which We Provide</div>
 		</div>
 
 		<div class="row">
@@ -169,8 +169,8 @@ $APPLICATION->SetTitle("Азотные станции");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/dop-ic-1.svg" alt="">
 					</div>
-					<div class="h4 icon-vert-block__title">Взрывозащищенное исполнение</div>
-					<div class="icon-vert-block__descr">Вариант исполнения, который позволяет использовать оборудование во взрывоопасных зонах</div>
+					<div class="h4 icon-vert-block__title">Explosion Proof Design</div>
+					<div class="icon-vert-block__descr">A design option that allows the use of equipment in hazardous areas</div>
 				</div>
 			</div>
 			<div class="grid-4 grid-12_s">
@@ -178,8 +178,8 @@ $APPLICATION->SetTitle("Азотные станции");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/dop-ic-2.svg" alt="">
 					</div>
-					<div class="h4 icon-vert-block__title">Заправочная станция</div>
-					<div class="icon-vert-block__descr">Комплекс оборудования, позволяющий заполнять стандартные баллоны сжатым газом под давлением до 200 Бар</div>
+					<div class="h4 icon-vert-block__title">Gas Station</div>
+					<div class="icon-vert-block__descr">A set of equipment that allows filling standard cylinders with compressed gas under pressure up to 200 Bar</div>
 				</div>
 			</div>
 			<div class="grid-4 grid-12_s">
@@ -187,8 +187,8 @@ $APPLICATION->SetTitle("Азотные станции");
 					<div class="icon-vert-block__header">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/dop-ic-3.svg" alt="">
 					</div>
-					<div class="h4 icon-vert-block__title">Дожимной компрессор</div>
-					<div class="icon-vert-block__descr">Служит для поднятия давления продукционного газа</div>
+					<div class="h4 icon-vert-block__title">Booster Compressor</div>
+					<div class="icon-vert-block__descr">Serves to increase the pressure of the production gas</div>
 				</div>
 			</div>
 		</div>
@@ -200,7 +200,7 @@ $APPLICATION->SetTitle("Азотные станции");
 <section class="s-lp-sostav s-def">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Состав генератора азота AGS</div>
+			<div class="h1">The composition of the AGS Nitrogen Generator</div>
 		</div>
 
 		<div class="sostav">
@@ -219,16 +219,16 @@ $APPLICATION->SetTitle("Азотные станции");
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/sostav-1.png" alt="">
-						<strong><mark>1.</mark> Система управления и автоматизации</strong>
-						<span>построена на базе контроллеров Siemens с локальной панелью оператора Touch-screen.</span>
+						<strong><mark>1.</mark> Management and automation system</strong>
+						<span>Is built on the basis of Siemens controllers with a local operator Touch-screen panel.</span>
 					</div>
 				</div>
 				<div class="grid-4 sostav-middle"></div>
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/sostav-3.png" alt="">
-						<strong><mark>2.</mark> Клапанный блок с пневмоуправлением</strong>
-						<span>с использованием пневмоуправляемых клапанов, рассчитанных на высокую циклическую нагрузку, более 2 млн. циклов срабатывания.</span>
+						<strong><mark>2.</mark> Valve block with pneumatic control</strong>
+						<span>using pneumatically controlled valves designed for high cyclic loads, more than 2 million cycles of operation.</span>
 					</div>
 				</div>
 			</div>
@@ -236,16 +236,16 @@ $APPLICATION->SetTitle("Азотные станции");
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/sostav-2.png" alt="">
-						<strong><mark>3.</mark> Модуль набора концентрации</strong>
-						<span>для предотвращения попадания некондиционного азота потребителю.</span>
+						<strong><mark>3.</mark> The module set concentration</strong>
+						<span>to prevent the ingress of substandard nitrogen to the consumer.</span>
 					</div>
 				</div>
 				<div class="grid-4 sostav-middle"></div>
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/sostav-4.png" alt="">
-						<strong><mark>4.</mark> Глушитель для сброса адсорбата</strong>
-						<span>для снижения уровня шума.</span>
+						<strong><mark>4.</mark> Silencer for adsorbate discharge</strong>
+						<span>to reduce noise.</span>
 					</div>
 				</div>
 			</div>
@@ -253,16 +253,16 @@ $APPLICATION->SetTitle("Азотные станции");
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/sostav-5.png" alt="">
-						<strong><mark>5.</mark> Адсорберы</strong>
-						<span>изготовленные специально для работы под циклическими нагрузками. Внутреннее устройство адсорберов специально разработано для улучшения характеристик станции.</span>
+						<strong><mark>5.</mark> Adsorbers</strong>
+						<span>made specifically for cyclic loads. The internal structure of the adsorbers is specially designed to improve station performance.</span>
 					</div>
 				</div>
 				<div class="grid-4 sostav-middle"></div>
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/sostav-6.png" alt="">
-						<strong><mark>6.</mark> Система динамического поджима</strong>
-						<span>для предотвращения стирания адсорбента и предотвращения появления адсорбционной пыли.</span>
+						<strong><mark>6.</mark> Dynamic preload system</strong>
+						<span>prevents abrasion of the adsorbent and the occurrence of adsorption dust.</span>
 					</div>
 				</div>
 			</div>
@@ -275,7 +275,7 @@ $APPLICATION->SetTitle("Азотные станции");
 <section class="s-lp-variants s-def">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Варианты размещения азотной станции</div>
+			<div class="h1">Nitrogen station placement options</div>
 		</div>
 
 
@@ -286,8 +286,8 @@ $APPLICATION->SetTitle("Азотные станции");
 				</div>
 				<div class="grid-6 grid-12_m">
 					<div class="user-content">
-						<div class="h3">Стационарное исполнение</div>
-						<p>Все модели генераторов могут быть смонтированы на одной раме для быстрого монтажа в любом отапливаемом помещении. В данном случае оборудование находится в полной технической готовности к запуску.</p>
+						<div class="h3">Stationary execution</div>
+						<p>All models of generators can be mounted on one frame for quick installation in any heated room. In this case, the equipment is in full technical readiness for launch.</p>
 					</div>
 				</div>
 			</div>
@@ -300,8 +300,8 @@ $APPLICATION->SetTitle("Азотные станции");
 				</div>
 				<div class="grid-6 grid-12_m">
 					<div class="user-content">
-						<div class="h3">Блочно-модульное исполнение</div>
-						<p>Мы производим генераторы кислорода и чистого азота в контейнерном исполнении на базе 20 или 40-футового морского контейнера, в любом климатическом исполнении: как для тропического климата, так и для крайнего севера.</p>
+						<div class="h3">Block Modular Design</div>
+						<p>We produce oxygen and pure nitrogen generators in container design on the basis of a 20 or 40-foot sea container, in any climatic modification: both for the tropical climate and for the far north.</p>
 					</div>
 				</div>
 			</div>
@@ -314,14 +314,14 @@ $APPLICATION->SetTitle("Азотные станции");
 
 <section class="s-lp-triggers" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/triggers-bg.jpg">
 	<div class="container">
-		<div class="h1">Мы предоставляем</div>
+		<div class="h1">We provide</div>
 		<div class="icon-left-blocks">
 			<div class="icon-left-block">
 				<div class="icon-left-block__img">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/trigger-ic-1.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					Гарантию на генераторы азота 2 года
+					2 year nitrogen generator warranty
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -329,7 +329,7 @@ $APPLICATION->SetTitle("Азотные станции");
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/trigger-ic-2.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					Оперативную сервисную поддержку в течение 24 часов
+					24-hour service support
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -337,7 +337,7 @@ $APPLICATION->SetTitle("Азотные станции");
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/trigger-ic-3.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					Круглосуточную техническую поддержку
+					24/7 technical support
 				</div>
 			</div>
 			<div class="icon-left-block">
@@ -345,7 +345,7 @@ $APPLICATION->SetTitle("Азотные станции");
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/trigger-ic-4.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					Обучение и консультацию персонала заказчика
+					Training and consultation of customer personnel
 				</div>
 			</div>
 		</div>
@@ -356,55 +356,55 @@ $APPLICATION->SetTitle("Азотные станции");
 <section class="s-lp-steps s-def">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Процесс взаимодействия</div>
+			<div class="h1">Interaction process</div>
 		</div>
 
 		<div class="lp-steps">
 			<div class="lp-step selected">
-				<div class="lp-step__title">шаг 1</div>
+				<div class="lp-step__title">step 1</div>
 				<ul class="lp-step__list">
-					<li>Запрос заказчика</li>
-					<li>Техническое задание на создание пневмосистемы</li>
+					<li>Customer request</li>
+					<li>Terms of Reference for the creation of a pneumatic system</li>
 				</ul>
 			</div>
 			<div class="lp-step">
-				<div class="lp-step__title">шаг 2</div>
+				<div class="lp-step__title">step 2</div>
 				<ul class="lp-step__list">
-					<li>Анализ технического задания</li>
-					<li>Выезд инженера</li>
-					<li>Пневмоаудит</li>
-					<li>Инженерно-технический анализ</li>
-					<li>Обмен информацией с заказчиком, уточнение информации</li>
+					<li>Analysis of the technical specifications</li>
+					<li>Engineer visit on site</li>
+					<li>Pneumatic audit</li>
+					<li>Engineering Analysis</li>
+					<li>Exchange of information with the customer, clarification of information</li>
 				</ul>
 			</div>
 			<div class="lp-step">
-				<div class="lp-step__title">шаг 3</div>
+				<div class="lp-step__title">step 3</div>
 				<ul class="lp-step__list">
-					<li>Проектирование</li>
-					<li>Подбор оборудования</li>
-					<li>Инжиниринг систем</li>
-					<li>Модернизация</li>
-					<li>Комплект проектно-конструкторской документации</li>
-					<li>Прохождение экспертизы</li>
-					<li>Инженерно-техническое заключение и обоснование</li>
-					<li>Поставка оборудования</li>
-					<li>Строительно-монтажные работы</li>
-					<li>Пусконаладочные работы</li>
+					<li>Design</li>
+					<li>Equipment selection</li>
+					<li>Systems engineering</li>
+					<li>Modernization</li>
+					<li>Set of design documentation</li>
+					<li>Passing examination</li>
+					<li>Engineering report and rationale</li>
+					<li>Equipment supply</li>
+					<li>Construction and installation work</li>
+					<li>Commissioning works</li>
 				</ul>
 			</div>
 			<div class="lp-step">
-				<div class="lp-step__title">шаг 4</div>
+				<div class="lp-step__title">step 4</div>
 				<ul class="lp-step__list">
-					<li>Сдача-приемка заказчиком</li>
+					<li>Customer acceptance</li>
 				</ul>
 			</div>
 			<div class="lp-step">
-				<div class="lp-step__title">шаг 5</div>
+				<div class="lp-step__title">step 5</div>
 				<ul class="lp-step__list">
-					<li>Удаленный контроль и мониторинг</li>
-					<li>Техническое обслуживание</li>
-					<li>Инженерная поддержка</li>
-					<li>Гарантии</li>
+					<li>Remote control and monitoring</li>
+					<li>Maintenance</li>
+					<li>Engineering support</li>
+					<li>Warranty</li>
 				</ul>
 			</div>
 		</div>
@@ -416,7 +416,7 @@ $APPLICATION->SetTitle("Азотные станции");
 <?
 global $arrFilter;
 $arrFilter = Array(
-	"PROPERTY_GENERATOR_TYPE_VALUE" => 'Адсорбционные азотные'
+	"PROPERTY_GENERATOR_TYPE_VALUE" => 'Adsorption Nitrogen'
 );
 ?>
 <?$APPLICATION->IncludeComponent(

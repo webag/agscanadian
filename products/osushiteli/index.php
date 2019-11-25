@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Адсорбционные осушители сжатого воздуха");
+$APPLICATION->SetTitle("Adsorption compressed air desiccants");
 ?>
 
 
@@ -8,20 +8,20 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 	<div class="lp-header">
 		<div class="lp-header__left">
 			<div class="lp-header__content">
-				<h1 class="lp-header__title">Адсорбционные осушители сжатого воздуха</h1>
-				<div class="lp-header__descr">«АГС Инжиниринг» проектирует и&nbsp;производит адсорбционные осушители сжатого воздуха, работающие по&nbsp;технологии короткоцикловой адсорбции.</div>
+				<h1 class="lp-header__title">Adsorption compressed air desiccants</h1>
+				<div class="lp-header__descr">“AGS Engineering” designs and manufactures adsorption compressed air desiccants using short-cycle adsorption technology.</div>
 				<div class="lp-header__params">
 					<div class="lp-header__param">
 						<span>Производительность до</span>
-						<strong>200 <small>м<sup>3</sup>/мин</small></strong>
+						<strong>200 <small>m<sup>3</sup>/min</small></strong>
 					</div>
 					<div class="lp-header__param">
-						<span>Точка росы от</span>
-						<strong>-20 <small>до</small> -70</strong>
+						<span>Dew point from</span>
+						<strong>-20 <small>to</small> -70</strong>
 					</div>
 				</div>
 				<div class="lp-header__actions">
-					<a href="#" class="btn fancy-modal" data-src="#modal-order">Заказать проект</a>
+					<a href="#" class="btn fancy-modal" data-src="#modal-order">Order a project</a>
 					<!--<a href="#" class="lp-header__video fancy-video">
 						<i class="i-play round-icon"></i>
 						<span>Видео о продукте</span>
@@ -41,12 +41,12 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 		<div class="row">
 			<div class="grid-6 grid-12_m">
 				<div class="user-content">
-					<div class="h1">Принцип работы адсорбционного осушителя</div>
-					<div>Принцип работы адсорбционного осушителя - основан на поглощении паров влаги твердой поверхностью адсорбента (активного оксида алюминия): Исходный воздух от компрессора подается в осушитель через фильтра (Ф-1 и Ф-2), которые очищают его от масла и капельной влаги. Далее воздух поступает в колонну «А», где происходит поглощение влаги при помощи слоя активного оксида алюминия, а далее через пылевой фильтр (Ф-3) поступает потребителю. Во время стадии осушения в колонне «А» происходит процесс поглощения влаги, а в колонне «Б» стадия регенерации. «Холодная» регенерация - Процесс адсорбции — это равновесный процесс, при котором время адсорбции равно времени десорбции</div>
+					<div class="h1">The principle of operation of the adsorption desiccant</div>
+					<div>The principle of operation of the adsorption desiccant is based on the absorption of moisture vapor by the solid surface of the adsorbent (active aluminum oxide): The source air from the compressor is supplied to the dryer through a filter (F-1 and F-2), which cleans it of oil and drip moisture. Next, air enters the column "A", where moisture is absorbed using a layer of active alumina, and then through the dust filter (F-3) to the consumer. During the drying stage in the column "A", the process of absorption of moisture occurs, and in the column "B" -  the regeneration stage. “Cold” regeneration - The adsorption process is an equilibrium process in which the adsorption time is equal to the desorption time.</div>
 					<div class="toggler__hidden">
-						<div>Принцип работы адсорбционного осушителя - основан на поглощении паров влаги твердой поверхностью адсорбента (активного оксида алюминия): Исходный воздух от компрессора подается в осушитель через фильтра (Ф-1 и Ф-2), которые очищают его от масла и капельной влаги. Далее воздух поступает в колонну «А», где происходит поглощение влаги при помощи слоя активного оксида алюминия, а далее через пылевой фильтр (Ф-3) поступает потребителю. Во время стадии осушения в колонне «А» происходит процесс поглощения влаги, а в колонне «Б» стадия регенерации. «Холодная» регенерация - Процесс адсорбции — это равновесный процесс, при котором время адсорбции равно времени десорбции</div>
+						<div>The principle of operation of the adsorption desiccant is based on the absorption of moisture vapor by the solid surface of the adsorbent (active aluminum oxide): The source air from the compressor is supplied to the dryer through a filter (F-1 and F-2), which cleans it of oil and drip moisture. Next, air enters the column "A", where moisture is absorbed using a layer of active alumina, and then through the dust filter (F-3) to the consumer. During the drying stage in the column "A", the process of absorption of moisture occurs, and in the column "B" -  the regeneration stage. “Cold” regeneration - The adsorption process is an equilibrium process in which the adsorption time is equal to the desorption time.</div>
 					</div>
-					<div class="toggler__link action-link"><span>Читать еще</span> <i class="i-down-arr-bold"></i></div>
+					<div class="toggler__link action-link"><span>Read more</span> <i class="i-down-arr-bold"></i></div>
 				</div>
 			</div>
 			<div class="grid-6 grid-12_m">
@@ -60,8 +60,8 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 <section class="s-lp-sostav s-def">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Из чего состоит осушитель</div>
-			<div class="section-title__descr">Адсорбционные осушители AGS могут работать с минимальными потерями сжатого воздуха на регенерацию.</div>
+			<div class="h1">What a desiccant consists of</div>
+			<div class="section-title__descr">AGS adsorption desiccants can operate with minimal loss of compressed air for regeneration.</div>
 		</div>
 
 		<div class="sostav">
@@ -80,16 +80,16 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/sostav-1.jpg" alt="">
-						<strong><mark>1.</mark> Высокоэффективный адсорбент</strong>
-						<span>В наших генераторах мы применяем только качественные и проверенные адсорбенты.</span>
+						<strong><mark>1.</mark> Highly efficient adsorbent</strong>
+						<span>In our generators we use only high-quality and proven adsorbents.</span>
 					</div>
 				</div>
 				<div class="grid-4 sostav-middle"></div>
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/sostav-2.jpg" alt="">
-						<strong><mark>2.</mark> Два типа регенерации</strong>
-						<span>Серийные осушители GA могут поставляться с двумя методами регенерации: «Холодная» и «Горяче-вакуумная».</span>
+						<strong><mark>2.</mark> Two types of regeneration</strong>
+						<span>GA series dehumidifiers can be supplied with two regeneration methods: Cold and Hot Vacuum.</span>
 					</div>
 				</div>
 			</div>
@@ -97,16 +97,16 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/sostav-3.jpg" alt="">
-						<strong><mark>3.</mark> Встроенные фильтры</strong>
-						<span>Все осушители поставляются с установленными фильтрами на входе и выходе.</span>
+						<strong><mark>3.</mark> Built-in filters</strong>
+						<span>All dehumidifiers are supplied with filters installed at the inlet and outlet.</span>
 					</div>
 				</div>
 				<div class="grid-4 sostav-middle"></div>
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/sostav-4.jpg" alt="">
-						<strong><mark>4.</mark> Датчик точки Росы</strong>
-						<span>На выходе из осушителя установлен преобразователь точки росы, для управления циклами при насыщении адсорбента.</span>
+						<strong><mark>4.</mark> Dew Point Sensor</strong>
+						<span>At the outlet of the dryer, a dew point converter is installed to control the cycles when the adsorbent is saturated.</span>
 					</div>
 				</div>
 			</div>
@@ -114,24 +114,24 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/sostav-5.jpg" alt="">
-						<strong><mark>5.</mark> Адсорберы</strong>
-						<span>Изготовлены из алюминиевой трубы с полированной поверхностью и устройствами распределения воздуха по сечению.</span>
+						<strong><mark>5.</mark> Adsorbers</strong>
+						<span>Made of aluminum pipe with a polished surface and air distribution devices over the cross section.</span>
 					</div>
 				</div>
 				<div class="grid-4 sostav-middle"></div>
 				<div class="grid-4 grid-6_l grid-12_s">
 					<div class="sostav-item">
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/sostav-6.jpg" alt="">
-						<strong><mark>6.</mark> Пневмоуправляемые клапаны </strong>
-						<span>Пневматическая обвязка рассчитана на 2 млн. циклов нагрузки разгрузки.</span>
+						<strong><mark>6.</mark> Pneumatic valves</strong>
+						<span>Pneumatic piping is designed for 2 million cycles of unloading load.</span>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="lp-sostav__text">
-			<strong>Конструкция адсорберов</strong><br>
-			<p>имеет устройство для&nbsp;распределения сжатого воздуха по&nbsp;сечению адсорбционного слоя на&nbsp;входе и&nbsp;выходе. Также внутри адсорбера установлены фильтрующие элементы, задерживающие адсорбционную пыль для&nbsp;предотвращения истирания уплотнений клапанов. Адсорберы имеют сервисные штуцеры для&nbsp;обслуживания и&nbsp;замены молекулярного сита.</p>
+			<strong>Adsorber design</strong><br>
+			<p>has a device for distributing compressed air over the cross section of the adsorption layer at the inlet and outlet. Also, filter elements are installed inside the adsorber that trap adsorption dust to prevent abrasion of valve seals. The adsorbers have service fittings for servicing and replacing the molecular sieve.</p>
 		</div>
 
 	</div>
@@ -143,8 +143,8 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 	<div class="container">
 		<div class="row">
 			<div class="grid-6 grid-12_m">
-				<div class="h1">Преимущества
-					<small>В адсорбционных осушителях серии GA применяются только качественные европейские комплектующие с увеличенным сроком службы и повышенной надежностью </small>
+				<div class="h1">Advantages
+					<small>In the GA series adsorption desiccants, only high-quality European components with extended service life and increased reliability are used</small>
 				</div>
 				<div class="icon-left-blocks">
 					<div class="icon-left-block icon-left-block--small">
@@ -152,8 +152,8 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/preim-ic-1.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							<strong>Срок службы >5 лет</strong>
-							<small>В наших осушителях мы применяем только качественные и проверенные адсорбенты компании CarboTech.</small>
+							<strong>Service life >5 years</strong>
+							<small>In our dehumidifiers, we use only high-quality and proven CarboTech adsorbents.</small>
 						</div>
 					</div>
 					<div class="icon-left-block icon-left-block--small">
@@ -161,8 +161,8 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/preim-ic-2.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							<strong>Датчик точки росы</strong>
-							<small>Интегрированный датчик точки росы позволяет управлять циклами адсорбции в более экономичном режиме.</small>
+							<strong>Dew point sensor</strong>
+							<small>An integrated dew point sensor allows you to control adsorption cycles in a more economical mode.</small>
 						</div>
 					</div>
 					<div class="icon-left-block icon-left-block--small">
@@ -170,8 +170,8 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/preim-ic-3.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							<strong>Клапанная обвязка</strong>
-							<small>Клапанная обвязка реализована на базе пневмоуправляемых клапанов SMC и FESTO, рассчитанных на 2 млн. циклов срабатывания.</small>
+							<strong>Valve Harness</strong>
+							<small>The valve strapping is implemented on the basis of pneumatic valves SMC and FESTO, designed for 2 million cycles of operation.</small>
 						</div>
 					</div>
 					<div class="icon-left-block icon-left-block--small">
@@ -179,8 +179,8 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/preim-ic-4.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							<strong>Модульная конструкция</strong>
-							<small>Осушители имеют компактные габариты и модульную конструкцию, благодаря чему ввод в эксплуатацию займет не более двух часов.</small>
+							<strong>Modular design</strong>
+							<small>The dehumidifiers are compact in size and modular in design, so commissioning will take no more than two hours.</small>
 						</div>
 					</div>
 					<div class="icon-left-block icon-left-block--small">
@@ -188,8 +188,8 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/preim-ic-5.svg" alt="1">
 						</div>
 						<div class="icon-left-block__content">
-							<strong>Адаптивное управление</strong>
-							<small>Интеллектуальная система управления позволяет в значительной степени добиться экономии сжатого воздуха на регенерацию.</small>
+							<strong>Adaptive management</strong>
+							<small>The intelligent control system allows significant savings in compressed air for regeneration.</small>
 						</div>
 					</div>
 				</div>
@@ -203,8 +203,8 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 <section class="s-def">
 	<div class="container">
 		<div class="section-title">
-			<div class="h1">Модельный ряд</div>
-			<div class="section-title__descr">Серийные осушители GA поставляются в различных модификациях</div>
+			<div class="h1">The lineup</div>
+			<div class="section-title__descr">GA Series Desiccants Available in Various Modifications</div>
 		</div>
 
 		<div class="osush-models">
@@ -213,7 +213,7 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/model-1.jpg" alt="1">
 				</div>
 				<div class="osush-model__title">GA - 2</div>
-				<div class="osush-model__descr">Серия: GA 5..84 (0,1-6 м3/мин) C холодной регенирацией</div>
+				<div class="osush-model__descr">Series: GA 5..84 (0,1-6 m3/min), cold regeneration</div>
 				<a href="/upload/docs/catalog_osushiteli_GA.pdf" class="link-icon" target="_blank"><figure><i class="i-file-empty"></i></figure>Скачать буклет</a>
 			</div>
 			<div class="osush-model">
@@ -221,7 +221,7 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/model-2.jpg" alt="1">
 				</div>
 				<div class="osush-model__title">GA - 35</div>
-				<div class="osush-model__descr">Серия: GA 5..84 (0,1-6 м3/мин) C холодной регенирацией</div>
+				<div class="osush-model__descr">Series: GA 5..84 (0,1-6 m3/min), cold regeneration</div>
 				<a href="/upload/docs/catalog_osushiteli_GA.pdf" class="link-icon" target="_blank"><figure><i class="i-file-empty"></i></figure>Скачать буклет</a>
 			</div>
 			<div class="osush-model">
@@ -229,7 +229,7 @@ $APPLICATION->SetTitle("Адсорбционные осушители сжато
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/osush/model-3.jpg" alt="1">
 				</div>
 				<div class="osush-model__title">GA - 170</div>
-				<div class="osush-model__descr">Серия: GA 100-1500 (6-95 м3/мин) C холодной регенирацией</div>
+				<div class="osush-model__descr">Series: GA 100-1500 (6-95 m3/min), cold regeneration</div>
 				<a href="/upload/docs/catalog_osushiteli_GA_100+.pdf" class="link-icon" target="_blank"><figure><i class="i-file-empty"></i></figure>Скачать буклет</a>
 			</div>
 		</div>

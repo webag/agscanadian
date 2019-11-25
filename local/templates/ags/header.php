@@ -81,12 +81,12 @@ endif;
 		</a>
 	</div>
 	<nav class="header-nav">
-		<a href="/products/">Продукция</a>
-		<a href="/services/">Услуги</a>
-		<a href="/cases/">Выполненные проекты</a>
-		<a href="/info/">Информация</a>
-		<a href="/about/">О компании</a>
-		<a href="/contacts/">Контакты</a>
+		<a href="/products/">Products</a>
+		<a href="/services/">Services</a>
+		<a href="/cases/">Implemented projects</a>
+		<a href="/info/">Information</a>
+		<a href="/about/">About Company</a>
+		<a href="/contacts/">Contacts</a>
 	</nav>
 	<div class="header-conts">
 		<div class="header-conts__main">
@@ -111,11 +111,11 @@ endif;
 		<i class="i-phone fancy-modal" data-src="#modal-call"></i>
 	</div>
 	<nav class="mobile-nav">
-		<a href="/products/">Продукция</a>
-		<a href="/services/">Услуги</a>
-		<a href="/cases/">Выполненные проекты</a>
-		<a href="/info/">Информация</a>
-		<a href="/about/">О компании</a>
-		<a href="/contacts/">Контакты</a>
+		<a href="/products/">Products</a>
+		<a href="/services/">Services</a>
+		<a href="/cases/">Implemented projects</a>
+		<a href="/info/">Information</a>
+		<a href="/about/">About Company</a>
+		<a href="/contacts/">Contacts</a>
 	</nav>
 </div>

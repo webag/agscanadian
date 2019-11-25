@@ -1,6 +1,6 @@
 <?
-$sSectionName = "AGS - инжиниринговая компания полного цикла";
+$sSectionName = "AGS Engineering";
 $arDirProperties = Array(
-   "description" => "Проектирование, производсто, поставка и ввод в эксплуатацию сложного технического оборудования"
+   "description" => "Effective Air Separation Solutions"
 );
 ?>

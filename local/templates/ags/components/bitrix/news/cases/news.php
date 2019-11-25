@@ -57,7 +57,7 @@ $this->setFrameMode(true);
 
 <section class="s-page-header">
 	<div class="container">
-		<h1 class="h1">Выполненные проекты</h1>
+		<h1 class="h1">Implemented projects</h1>
 	</div>
 </section>
 

@@ -1,4 +1,4 @@
 <?
-$sSectionName = "Криогенные воздухоразделительные установки";
+$sSectionName = "Cryogen Air Separation Units";
 $arDirProperties = Array();
 ?>

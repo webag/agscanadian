@@ -51,14 +51,14 @@ $this->setFrameMode(true);
 
 		<div class="news-detail-meta">
 			<div class="share">
-				<span class="share__title">Поделиться:</span>
+				<span class="share__title">Share:</span>
 				<div class="share__icons">
 					<script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
 					<script src="https://yastatic.net/share2/share.js"></script>
 					<div class="ya-share2" data-services="vkontakte,facebook,twitter"></div>
 				</div>
 			</div>
-			<a href="/info/" class="action-link">К списку статей <i class="i-next"></i></a>
+			<a href="/info/" class="action-link">To the list of articles <i class="i-next"></i></a>
 		</div>
 	</div>
 </section>

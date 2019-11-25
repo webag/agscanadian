@@ -25,7 +25,7 @@ endif;
 	<div class="info-preview__bottom">
 		<div class="h3 info-preview__title"><?=$arResult['NAME']?></div>
 		<div class="info-preview__descr"><?=$arResult['~PREVIEW_TEXT']?></div>
-		<span class="action-link">Подробнее <i class="i-next"></i></span>
+		<span class="action-link">Details <i class="i-next"></i></span>
 	</div>
 </a>
 

@@ -34,12 +34,12 @@ $this->setFrameMode(true);
 
 	<div class="intro-left">
 		<div class="intro-left__content">
-			<div class="intro-left__title">Выполненные проекты</div>
+			<div class="intro-left__title">Implemented projects</div>
 		</div>
 	</div>
 
 	<div class="intro-nav">
-		<a href="/cases/" class="intro-back-link"><i class="i-prev"></i>все проекты</a>
+		<a href="/cases/" class="intro-back-link"><i class="i-prev"></i>All projects</a>
 	</div>
 
 </div>
@@ -50,14 +50,14 @@ $this->setFrameMode(true);
 		<div class="case-details">
 
 			<div class="case-details__left">
-				<div class="h1 section-title-left">Поставленная задача</div>
+				<div class="h1 section-title-left">Task</div>
 				<div class="case-problem">
 					<div class="user-content">
 						<?=$arResult['PROPERTIES']['PROBLEM']['VALUE']['TEXT']?>
 					</div>
 				</div>
 				<div class="case-answer">
-					<div class="h1">Решение</div>
+					<div class="h1">Solution</div>
 					<div class="user-content">
 						<?=$arResult['PROPERTIES']['SOLUTION']['VALUE']['TEXT']?>
 					</div>
@@ -67,27 +67,27 @@ $this->setFrameMode(true);
 			<div class="case-details__right">
 				<div class="case-what">
 					<div class="h3 case-what__title"><?=$arResult['PROPERTIES']['MODEL']['VALUE']?></div>
-					<div class="case-what__variant">Вариант исполнения:<br><strong><?=$arResult['PROPERTIES']['VARIANT']['VALUE']?></strong></div>
+					<div class="case-what__variant">Implementation Option:<br><strong><?=$arResult['PROPERTIES']['VARIANT']['VALUE']?></strong></div>
 					<div class="case-params">
 						<div class="case-param">
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/cases/param-icon-1.svg" alt="1" class="case-param__icon">
 							<div class="case-param__content">
-								<div>Концентрация газа</div>
+								<div>Gas concentration</div>
 								<strong><?=$arResult['PROPERTIES']['CONCENTRATION']['VALUE']?>%</strong>
 							</div>
 						</div>
 						<div class="case-param">
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/cases/param-icon-2.svg" alt="1" class="case-param__icon">
 							<div class="case-param__content">
-								<div>Производительность</div>
-								<strong><?=$arResult['PROPERTIES']['PERFORMANCE']['VALUE']?> м<sup>3</sup>/ч</strong>
+								<div>Capacity</div>
+								<strong><?=$arResult['PROPERTIES']['PERFORMANCE']['VALUE']?> m<sup>3</sup>/h</strong>
 							</div>
 						</div>
 						<div class="case-param">
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/cases/param-icon-3.svg" alt="1" class="case-param__icon">
 							<div class="case-param__content">
-								<div>Давление</div>
-								<strong><?=$arResult['PROPERTIES']['PRESSURE']['VALUE']?> бар</strong>
+								<div>Pressure</div>
+								<strong><?=$arResult['PROPERTIES']['PRESSURE']['VALUE']?> bar</strong>
 							</div>
 						</div>
 					</div>
@@ -102,7 +102,7 @@ $this->setFrameMode(true);
 <? if ($arResult['PROPERTIES']['PHOTOS']['VALUE']) : ?>
 	<section class="s-case-photos">
 		<div class="container">
-			<div class="h1 section-title-left">Фотоотчет проекта</div>
+			<div class="h1 section-title-left">Project photo report</div>
 
 			<div class="case-slider">
 				<? foreach ($arResult['PROPERTIES']['PHOTOS']['VALUE'] as $photo) : ?>
@@ -142,7 +142,7 @@ if (
 				<? if ($arResult['PROPERTIES']['VIDEO_LINK']['VALUE']) : ?>
 					<div class="grid-6 grid-12_m">
 						<div class="case-video">
-							<div class="h1 section-title-left">Видео</div>
+							<div class="h1 section-title-left">Video</div>
 							<a href="<?=$arResult['PROPERTIES']['VIDEO_LINK']['VALUE']?>" class="case-video__frame fancy-video">
 								<?
 								$resize_img = CFile::ResizeImageGet($arResult['PROPERTIES']['VIDEO_COVER']['VALUE'], array("width" => 592, "height" => 332), BX_RESIZE_IMAGE_EXACT, true, array());
@@ -169,7 +169,7 @@ if (
 							<img data-lazy="<?=$resize_img['src']?>" alt="1" class="case-product__img">
 						<? endif; ?>
 						<? if ($arResult['PROPERTIES']['OBORUD_LINK']['VALUE']) : ?>
-							<a href="<?=$arResult['PROPERTIES']['OBORUD_LINK']['VALUE']?>" class="btn case-product__btn">Подробнее</a>
+							<a href="<?=$arResult['PROPERTIES']['OBORUD_LINK']['VALUE']?>" class="btn case-product__btn">Learn more</a>
 						<? endif; ?>
 					</div>
 				</div>
