@@ -379,13 +379,13 @@ $APPLICATION->SetTitle("Adsorption compressed air desiccants");
 		<div class="round-icon">
 			<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/call.svg" alt="">
 		</div>
-		<span>Заказать звонок</span>
+		<span>Order a call back</span>
 	</a>
 	<a href="#" class="fancy-modal lp-action" data-src="#modal-order">
 		<div class="round-icon">
 			<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/file.svg" alt="">
 		</div>
-		<span>Заказать КП</span>
+		<span>Order a business proposal</span>
 	</a>
 </div>
 

@@ -46,41 +46,41 @@
 <div class="modals-sec">
 
 	<div id="modal-call" class="modal">
-		<p class="h2 modal__title">Обратный звонок</p>
-		<p class="modal__descr">Оставьте заявку на&nbsp;обратный звонок и&nbsp;мы перезвоним Вам в&nbsp;течение 5&nbsp;минут</p>
+		<p class="h2 modal__title">Call back</p>
+		<p class="modal__descr">Leave your inquiry for a call back and we shall call you within 5 minutes</p>
 		<form class="ajax-form vertical-form">
 			<input type="hidden" value="Заказ обратного звонка" name="form_subject">
 			<input type="hidden" value="<?=$_SERVER['REQUEST_URI']?>" name="site_page" data-label="Со страницы сайта">
-			<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
-			<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
-			<button type="submit" class="btn">Заказать звонок</button>
-			<div class="form-note">Нажимая кнопку, принимаю <a href="/AGS_policy.docx" target="_blank" download>условия пользовательского соглашения</a></div>
+			<input type="text" name="user_name" placeholder="Your name" data-label="Имя пользователя" class="input-text" >
+			<input type="tel" name="user_tel" placeholder="Phone number*" data-label="Телефон"  class="input-text" data-req="true">
+			<button type="submit" class="btn">Order a call back</button>
+			<div class="form-note">Pressing a button, I accept the <a href="/AGS_policy.docx" target="_blank" download>terms of the end-user license agreement</a></div>
 		</form>
 	</div>
 
 	<div id="modal-order" class="modal">
-		<p class="h2 modal__title">Заказать проект</p>
-		<p class="modal__descr">Оставьте заявку на&nbsp;просчет проекта и&nbsp;мы свяжемся с&nbsp;Вами для&nbsp;уточнения деталей</p>
+		<p class="h2 modal__title">Order a project</p>
+		<p class="modal__descr">Please, leave an inquiry for estimating the cost of the project and we shall contact you to clarify the details</p>
 		<form class="ajax-form vertical-form">
 			<input type="hidden" value="Новая заявка" name="form_subject">
 			<input type="hidden" value="<?=$_SERVER['REQUEST_URI']?>" name="site_page" data-label="Со страницы сайта">
-			<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя" class="input-text" >
-			<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон"  class="input-text" data-req="true">
+			<input type="text" name="user_name" placeholder="Your name" data-label="Имя пользователя" class="input-text" >
+			<input type="tel" name="user_tel" placeholder="Phone number*" data-label="Телефон"  class="input-text" data-req="true">
 			<input type="email" name="user_email" placeholder="E-mail" data-label="Email" class="input-text">
-			<button type="submit" class="btn">Заказать просчет</button>
+			<button type="submit" class="btn">Order the calculation</button>
 			<label class="style-file">
-				<input type="file" name="user_photo" data-multiple-caption="{count} файла(ов)" multiple>
+				<input type="file" name="user_photo" data-multiple-caption="{count} files" multiple>
 				<i></i>
-				<span class="style-file__text">Прикрепить файл</span>
-				<span class="style-file__delete" title="Очистить">&#10006;</span>
+				<span class="style-file__text">Attach a file</span>
+				<span class="style-file__delete" title="Clear">&#10006;</span>
 			</label>
-			<div class="form-note">Нажимая кнопку, принимаю <a href="/AGS_policy.docx" target="_blank" download>условия пользовательского соглашения</a></div>
+			<div class="form-note">Pressing a button, I accept the <a href="/AGS_policy.docx" target="_blank" download>terms of the end-user license agreement</a></div>
 		</form>
 	</div>
 
 	<div id="modal-thanks" class="modal modal--thanks">
-		<p class="h2 modal__title">Спасибо за&nbsp;обращение в&nbsp;нашу компанию</p>
-		<p class="modal__descr">Мы уже&nbsp;начали работу по&nbsp;вашей заявке</p>
+		<p class="h2 modal__title">Thank you</p>
+		<!--<p class="modal__descr">Мы уже&nbsp;начали работу по&nbsp;вашей заявке</p>-->
 	</div>
 
 	<div id="modal-error" class="modal">
