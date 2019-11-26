@@ -214,7 +214,7 @@ $APPLICATION->SetTitle("Adsorption compressed air desiccants");
 				</div>
 				<div class="osush-model__title">GA - 2</div>
 				<div class="osush-model__descr">Series: GA 5..84 (0,1-6 m3/min), cold regeneration</div>
-				<a href="/upload/docs/catalog_osushiteli_GA.pdf" class="link-icon" target="_blank"><figure><i class="i-file-empty"></i></figure>Скачать буклет</a>
+				<a href="/upload/docs/catalog_osushiteli_GA.pdf" class="link-icon" target="_blank"><figure><i class="i-file-empty"></i></figure>Download a brochure</a>
 			</div>
 			<div class="osush-model">
 				<div class="osush-model__img">
@@ -222,7 +222,7 @@ $APPLICATION->SetTitle("Adsorption compressed air desiccants");
 				</div>
 				<div class="osush-model__title">GA - 35</div>
 				<div class="osush-model__descr">Series: GA 5..84 (0,1-6 m3/min), cold regeneration</div>
-				<a href="/upload/docs/catalog_osushiteli_GA.pdf" class="link-icon" target="_blank"><figure><i class="i-file-empty"></i></figure>Скачать буклет</a>
+				<a href="/upload/docs/catalog_osushiteli_GA.pdf" class="link-icon" target="_blank"><figure><i class="i-file-empty"></i></figure>Download a brochure</a>
 			</div>
 			<div class="osush-model">
 				<div class="osush-model__img">
@@ -230,7 +230,7 @@ $APPLICATION->SetTitle("Adsorption compressed air desiccants");
 				</div>
 				<div class="osush-model__title">GA - 170</div>
 				<div class="osush-model__descr">Series: GA 100-1500 (6-95 m3/min), cold regeneration</div>
-				<a href="/upload/docs/catalog_osushiteli_GA_100+.pdf" class="link-icon" target="_blank"><figure><i class="i-file-empty"></i></figure>Скачать буклет</a>
+				<a href="/upload/docs/catalog_osushiteli_GA_100+.pdf" class="link-icon" target="_blank"><figure><i class="i-file-empty"></i></figure>Download a brochure</a>
 			</div>
 		</div>
 
