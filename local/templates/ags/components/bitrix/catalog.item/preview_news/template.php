@@ -10,7 +10,7 @@ endif;
 ?>
 
 <?
-if ($arResult['PROPERTIES']['TYPE']['VALUE'] == 'Видео') :
+if ($arResult['PROPERTIES']['TYPE']['VALUE'] == 'Video') :
 	$link = $arResult['PROPERTIES']['VIDEO_LINK']['VALUE'];
 	$link_class = 'fancy-video';
 	$play_icon = '<i class="i-play news-preview__play"></i>';
