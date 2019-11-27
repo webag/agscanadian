@@ -9,7 +9,7 @@ $APPLICATION->SetTitle("Modular Oxygen Stations");
 			<div class="lp-header__left">
 				<div class="lp-header__content">
 					<h1 class="lp-header__title">Modular Oxygen Stations</h1>
-					<div class="lp-header__descr">AGS Engineering designs and manufactures block-modular nitrogen stations using short-cycle adsorption technology</div>
+					<div class="lp-header__descr">AGS Engineering designs and manufactures block-modular oxygen stations using short-cycle adsorption technology</div>
 					<div class="lp-header__params">
 						<div class="lp-header__param">
 							<span>Performance up</span>
