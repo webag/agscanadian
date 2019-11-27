@@ -7,7 +7,7 @@ $APPLICATION->SetTitle("AGS Engineering");
 
 	<div class="intro-slider">
 		<div class="intro-slide">
-			<div class="intro-slide__bg" style="background-image: url('<?=SITE_TEMPLATE_PATH?>/img/home/intro-bg.jpg?v=1')"></div>
+			<div class="intro-slide__bg" style="background-image: url('<?=SITE_TEMPLATE_PATH?>/img/home/intro-bg.jpg?v=2')"></div>
 			<div class="intro-slide__video">
 				<video autoplay loop muted class="head_video">
 					<source src="" type="video/mp4" class="source_mp4" data-videosrc="<?=SITE_TEMPLATE_PATH?>/img/home/bg_1.mp4">
