@@ -40,7 +40,7 @@ $APPLICATION->SetTitle("Nitrogen stations");
 	<div class="container">
 		<div class="row">
 			<div class="grid-6 grid-12_m">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/princip.png?v=1" alt="1" class="img-responsive">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/princip.png?v=2" alt="1" class="img-responsive">
 			</div>
 			<div class="grid-6 grid-12_m">
 				<div class="user-content">
