@@ -50,7 +50,7 @@ $APPLICATION->SetTitle("Adsorption compressed air desiccants");
 				</div>
 			</div>
 			<div class="grid-6 grid-12_m">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/princip.png" alt="1" class="img-responsive">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/azot-station/princip.png?v=1" alt="1" class="img-responsive">
 			</div>
 		</div>
 	</div>

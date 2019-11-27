@@ -176,7 +176,7 @@ $APPLICATION->SetTitle("Cryogen Air Separation Units");
 			<div class="h1">The principle of operation of cryogenic ASU</div>
 		</div>
 
-		<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/cryogen/princip.png" alt="1" class="img-responsive">
+		<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/cryogen/princip.png?v=1" alt="1" class="img-responsive">
 
 		<div class="crio-princips">
 			<div class="crio-princip">

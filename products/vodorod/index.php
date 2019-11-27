@@ -92,11 +92,11 @@ $APPLICATION->SetTitle("Hydrogen generators");
 	<div class="container">
 		<div class="row">
 			<div class="grid-6 grid-12_m">
-				<a href="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/system.png?v=1" class="fancy">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/system.png?v=1" alt="1" class="img-responsive"></a>
+				<a href="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/system.png?v=2" class="fancy">
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/system.png?v=2" alt="1" class="img-responsive"></a>
 				<br>
 				<br>
-				<a href="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/system.png?v=1" class="fancy action-link">Click to enlarge +</a>
+				<a href="<?=SITE_TEMPLATE_PATH?>/img/lp/vodorod/system.png?v=2" class="fancy action-link">Click to enlarge +</a>
 			</div>
 			<div class="grid-6 grid-12_m">
 				<div class="user-content">

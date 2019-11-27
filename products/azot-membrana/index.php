@@ -41,7 +41,7 @@ $APPLICATION->SetTitle("Membrane nitrogen stations");
 		<div class="section-title">
 			<div class="h1">Nitrogen Membrane System</div>
 		</div>
-		<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/membrana/system.png?v=1" alt="" class="membran-system__sheme">
+		<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/membrana/system.png?v=3" alt="" class="membran-system__sheme">
 		<div class="membran-system__descr">
 			<strong>How the membrane nitrogen generator works</strong><br>
 			<p>AGS Engineering produces air separation plants of various configurations based on hollow fiber membrane modules. To separate nitrogen, the purified and dried compressed air is supplied with a membrane gas separation unit. The size of oxygen molecules is smaller than that of nitrogen, as a result of which oxygen passes through the membrane fibers faster than nitrogen molecules. This leads to the enrichment of nitrogen to the required purity inside the hollow fibers, while the air stream enriched with oxygen (permeate) is discharged outside the membrane module. The purity of production nitrogen can be controlled by setting the operating conditions - the purity of nitrogen increases with decreasing nitrogen flow rate and vice versa. Regulation is carried out using the flow / purity control valve installed after the flow meter and nitrogen analyzer at the outlet of the membrane module, which allows final control of both the flow and nitrogen purity. The use of membrane air separation technology is energy efficient in industrial enterprises where there is a need for nitrogen of low concentration of 93% -99%.</p>
