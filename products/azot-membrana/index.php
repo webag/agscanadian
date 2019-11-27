@@ -64,7 +64,7 @@ $APPLICATION->SetTitle("Membrane nitrogen stations");
 				</div>
 			</div>
 			<div class="grid-7 grid-12_m">
-				<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/membrana/module.png?v=1" alt="" class="membran-module__sheme">
+				<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/membrana/module.png?v=2" alt="" class="membran-module__sheme">
 			</div>
 		</div>
 	</div>
