@@ -21,9 +21,9 @@
 			</div>
 			<div class="grid-3 grid-6_m">
 				<nav class="footer-nav">
-					<a href="/AGS_requisites.pdf" target="_blank" download>Company Details</a>
+					<!--<a href="/AGS_requisites.pdf" target="_blank" download>Company Details</a>-->
 					<!--<span>Референс-лист</span>-->
-					<a href="/presentation.pdf" download="Презентация о компании AGS" target="_blank">Company Presentation</a>
+					<!--<a href="/presentation.pdf" download="Презентация о компании AGS" target="_blank">Company Presentation</a>-->
 					<a href="https://kazan.hh.ru/employer/4190110" target="_blank">Openings</a>
 					<a href="/AGS_policy.docx" target="_blank" download>Terms of Use</a>
 				</nav>

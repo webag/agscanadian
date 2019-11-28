@@ -14,7 +14,7 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 <section class="s-contacts-links">
 	<div class="container">
 		<div class="link-icon-list">
-			<a href="/AGS_requisites.pdf" class="link-icon" target="_blank" download><i class="i-pdf"></i>Company Details</a>
+			<!--<a href="/AGS_requisites.pdf" class="link-icon" target="_blank" download><i class="i-pdf"></i>Company Details</a>-->
 			<a href="#order_form" class="link-icon scrollto"><i class="i-bubbles"></i>Write to us</a>
 			<a href="https://kazan.hh.ru/employer/4190110" class="link-icon" target="_blank"><i class="i-badge"></i>Openings</a>
 		</div>

@@ -177,18 +177,18 @@ $APPLICATION->SetTitle("AGS Engineering");
 			</span>
 		</div>
 		<div class="about-aside__links">
-			<a href="/presentation.pdf" target="_blank" download="Презентация о компании AGS" class="about-aside__doc">
+			<!--<a href="/presentation.pdf" target="_blank" download="Презентация о компании AGS" class="about-aside__doc">
 				<i class="i-pdf"></i>
 				<span>Company Presentation</span>
-			</a>
+			</a>-->
 			<!--<span class="about-aside__doc">
 				<i class="i-pdf"></i>
 				<span>Референс - лист</span>
 			</span>-->
-			<a href="/AGS_requisites.pdf" class="about-aside__doc" target="_blank" download>
+			<!--<a href="/AGS_requisites.pdf" class="about-aside__doc" target="_blank" download>
 				<i class="i-pdf"></i>
 				<span>Company Details</span>
-			</a>
+			</a>-->
 		</div>
 	</aside>
 
