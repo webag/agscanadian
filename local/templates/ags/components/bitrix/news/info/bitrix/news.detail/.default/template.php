@@ -37,6 +37,7 @@ $this->setFrameMode(true);
 			</div>
 		</div>
 		<h1 class="h1 news-detail-header__title"><?=$arResult['NAME']?></h1>
+		<div class="h4 news-detail-header__descr"><?=$arResult['~PREVIEW_TEXT']?></div>
 		<div class="views-counter"><i class="i-eye"></i><?=$arResult["SHOW_COUNTER"]?></div>
 	</div>
 
