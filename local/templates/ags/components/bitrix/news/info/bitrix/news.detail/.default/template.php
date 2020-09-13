@@ -53,7 +53,6 @@ $this->setFrameMode(true);
 		<?
 		$related_product = $arResult['PROPERTIES']['RELATED_PRODUCT']['VALUE'];
 		?>
-		<pre style="font-size: 12px;"><?print_r($related_product)?></pre>
 		<? if (!empty($related_product)) : ?>
 			<?
 			switch ($related_product) {

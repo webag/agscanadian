@@ -39,4 +39,4 @@ Disallow: /*&view_result=
 Disallow: /info
 Disallow: /wiki
 Disallow: /ajax
-Sitemap: https://agse.ru/sitemap.xml
+Sitemap: https://ags-e.com/sitemap.xml
