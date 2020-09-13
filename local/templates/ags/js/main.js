@@ -274,32 +274,42 @@ $(function($){
 
 /***********************
 header panel BEGIN
-***********************/
+ ***********************/
 $(function($){
 	const burger = $('.burger');
 	const header = $('.s-header');
-	let transparentFlag = false;
-	if (header.hasClass('s-header--transparent')){
-		transparentFlag = true;
-	}
-	$('body').waypoint(function (direction) {
+	$('.header-panel-wrap').waypoint(function (direction) {
 		header.toggleClass('s-header--scrolled');
-		if (direction === 'down'){
-			header.removeClass('s-header--transparent');
-		} else {
-			if (transparentFlag){
-				header.addClass('s-header--transparent');
-			}
-		}
 		burger.toggleClass('burger--ontop');
 		burger.toggleClass('burger--shadow');
 	}, {
-		offset: -10
+		offset: -2
 	});
 });
 /***********************
 header panel END
-***********************/
+ ***********************/
+
+
+/***********************
+Header banner BEGIN
+ ***********************/
+$(function($){
+	$('.js-header-banner-close').on('click',function () {
+		$('.header-banner').slideUp(300, function () {
+			Waypoint.refreshAll();
+		});
+		$.ajax({
+			url: "/ajax/header_banner_close.php",
+			success: (function (result) {
+				console.log(result);
+			})
+		});
+	})
+});
+/***********************
+Header banner END
+ ***********************/
 
 
 /***********************

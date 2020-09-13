@@ -1,0 +1,45 @@
+.doc-block{
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px;
+	background: #FFF;
+	border: 1px solid $polar-star;
+	border-radius: 10px;
+	transition: box-shadow 0.3s ease;
+
+	&:hover{
+		box-shadow: $shadow-light;
+
+		.text-small{
+			color: $azure-focus;
+		}
+	}
+}
+
+.doc-block__content{
+	.text-small{
+		margin-bottom: 5px;
+		transition: color 0.3s ease;
+	}
+
+	.text-micro{
+		color: $text-light-grey;
+	}
+}
+
+.doc-block__icon{
+	flex-shrink: 0;
+	width: 56px;
+	height: 56px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: $snow;
+	border-radius: 16px;
+	margin-left: 16px;
+
+	i{
+		font-size: 18px;
+	}
+}

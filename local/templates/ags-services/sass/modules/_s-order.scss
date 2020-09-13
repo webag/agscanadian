@@ -1,0 +1,168 @@
+.s-order{
+	padding: 55px 0;
+	border-top: 1px solid $polar-star;
+	border-bottom: 1px solid $polar-star;
+	overflow: hidden;
+	@include res(xs){
+		padding: 40px 0;
+	}
+}
+
+.order{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	z-index: 3;
+	@include res(s){
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.order__content{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	@include res(s){
+		margin-bottom: 30px;
+		width: 100%;
+		text-align: center;
+		align-items: center;
+	}
+
+	.lead{
+		color: $text-light-grey;
+		margin-bottom: 10px;
+	}
+
+	.h1{
+		max-width: 580px;
+		margin-bottom: 1em;
+		@include res(s){
+			margin-bottom: 0;
+		}
+	}
+
+	.doc-block{
+		margin-top: auto;
+		@include res(s){
+			margin-top: 20px;
+		}
+	}
+}
+
+.order__right{
+	flex-shrink: 0;
+	padding: 0 50px;
+	@include res(l){
+		padding: 0;
+	}
+
+	.vertical-form{
+		width: 280px;
+		max-width: 100%;
+	}
+}
+
+.s-order__img{
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	@include res(s){
+		display: none;
+	}
+}
+
+.s-order--generatorkp{
+
+	.h1{
+		max-width: 400px;
+		@include res(s){
+			max-width: 100%;
+		}
+	}
+
+	.s-order__img{
+		bottom: 0;
+		left: calc(50% - 600px);
+		max-width: 80%;
+		@include res(c){
+			max-width: 60%;
+			left: 10%;
+		}
+		@include res(m){
+			left: 0;
+		}
+	}
+
+	.vertical-form{
+		.btn{
+			width: auto;
+			position: relative;
+			left: 50%;
+			transform: translate(-50%,0);
+			@include res(m){
+				transform: none;
+				left: 0;
+				width: 100%;
+			}
+		}
+	}
+}
+
+.s-order--generator-price{
+
+	&:before{
+		content: '';
+		position: absolute;
+		left: -35%;
+		top: 0;
+		bottom: 0;
+		width: 80%;
+		background: $gradient-blue-reverse;
+		transform: skewX(-40deg);
+		pointer-events: none;
+		z-index: 1;
+		@include res(s){
+			width: 150%;
+			top: -30%;
+			bottom: 50%;
+			transform: skewy(-30deg);
+		}
+	}
+	
+	.order__content{
+		color: #FFF;
+
+		.lead{
+			color: #FFF;
+		}
+	}
+
+	.s-order__img{
+		bottom: 0;
+		left: calc(50% - 620px);
+		max-width: 80%;
+		@include res(c){
+			max-width: 60%;
+			left: 10%;
+		}
+		@include res(m){
+			left: 0%;
+		}
+	}
+
+	.vertical-form{
+		.btn{
+			min-width: 100%;
+			width: auto;
+			position: relative;
+			left: 50%;
+			transform: translate(-50%,0);
+			@include res(xl){
+				transform: none;
+				left: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,146 @@
+.s-products{
+
+}
+
+.s-products__lead{
+	margin-bottom: 40px;
+}
+
+.products-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: $gutter*2;
+	@include res(l){
+		grid-template-columns: 1fr 1fr;
+	}
+	@include res(s){
+		grid-template-columns: 1fr;
+	}
+}
+
+.product{
+	display: flex;
+	flex-direction: column;
+	background: $gradient-grey;
+	position: relative;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	min-height: 500px;
+	-webkit-tap-highlight-color: transparent;
+	@include res(l){
+		min-height: 400px;
+	}
+	@include res(s){
+		min-height: 0;
+	}
+
+	&:hover{
+		transform: translate3d(0,-8px,0);
+		box-shadow: $shadow-dark-blue;
+
+		.product__link{
+			opacity: 1;
+			color: $azure-focus;
+		}
+	}
+}
+
+.product__num{
+	position: absolute;
+	z-index: 2;
+	left: 30px;
+	top: 30px;
+	color: $text-light-grey;
+}
+
+.product__img{
+	display: block;
+	width: 100%;
+	height: auto;
+	flex-shrink: 0;
+}
+
+.product__content{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 25px 30px 30px 30px;
+	@include res(l){
+		padding: 20px 20px 20px 20px;
+	}
+}
+
+.product__title{
+	margin-bottom: 16px;
+}
+
+.product__params{
+	color: $text-light-grey;
+	list-style: none;
+	margin-bottom: 16px;
+	@include res(l){
+		font-size: 14px;
+	}
+
+	li{
+		position: relative;
+		padding-left: 20px;
+		line-height: 1.2;
+		margin-bottom: 0.4em;
+
+		&:before{
+			content: '•';
+			left: 0;
+			top: 0;
+			position: absolute;
+		}
+	}
+}
+
+.product__link{
+	margin-top: auto;
+	color: $text-light-grey;
+	opacity: 0.3;
+	@include res(l){
+		opacity: 1;
+		color: $azure;
+	}
+}
+
+.product--big{
+	grid-column: span 2;
+	@include res(s){
+		grid-column: span 1;
+	}
+
+	.product__content{
+		max-width: 50%;
+		position: relative;
+		z-index: 2;
+		@include res(xs){
+			max-width: 100%;
+		}
+	}
+
+	.product__num{
+		position: relative;
+		top: 0;
+		left: 0;
+		margin-bottom: 30px;
+		@include res(xs){
+			margin-bottom: 15px;
+		}
+	}
+
+	.product__img{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: auto;
+		height: 100%;
+		@include res(xs){
+			//height: 300px;
+			opacity: 0.3;
+		}
+	}
+}

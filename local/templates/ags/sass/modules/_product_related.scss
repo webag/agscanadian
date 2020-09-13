@@ -1,0 +1,66 @@
+.product-related{
+	display: flex;
+	align-content: flex-end;
+	color: #FFF;
+	background: url("../img/product-related/bg.jpg") center top no-repeat $blue;
+	background-size: cover;
+	min-height: 290px;
+	margin-top: 100px;
+	@include res(s){
+		flex-wrap: wrap;
+		margin-top: 40px;
+	}
+}
+
+.product-related__left{
+	padding: 45px 0 45px 90px;
+	width: 50%;
+	flex-shrink: 0;
+	@include res(l){
+		padding: 45px 0 45px 40px;
+	}
+	@include res(s){
+		width: 100%;
+	}
+	@include res(xs){
+		padding: 25px;
+	}
+
+	.btn{
+		width: 220px;
+		max-width: 100%;
+		color: $blue;
+	}
+}
+
+.product-related__sup{
+	margin-bottom: 10px;
+}
+
+.product-related__title{
+	margin-bottom: 20px;
+}
+
+.product-related__right{
+	position: relative;
+	width: 50%;
+	flex-shrink: 0;
+	@include res(s){
+		width: 100%;
+	}
+
+	img{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		pointer-events: none;
+		max-width: 120%;
+		@include res(s){
+			position: relative;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+		}
+	}
+}

@@ -1,0 +1,211 @@
+body {
+	font-family: $font;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5;
+	color: $text-night;
+	@include res(m){
+		font-size: 14px;
+	}
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1,.h1{
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 1.15;
+	@include res(m){
+		font-size: 24px;
+	}
+	@include res(xs){
+		font-size: 20px;
+	}
+}
+
+h2,.h2{
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 1.1;
+	@include res(m){
+		font-size: 20px;
+	}
+	@include res(xs){
+		font-size: 18px;
+	}
+}
+
+h3,.h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1.1;
+	@include res(m){
+		font-size: 16px;
+	}
+}
+
+.h1-promo{
+	font-weight: bold;
+	font-size: 54px;
+	letter-spacing: -0.01em;
+	line-height: 1.15;
+	@include res(xl){
+		font-size: 48px;
+	}
+	@include res(m){
+		font-size: 36px;
+	}
+	@include res(xs){
+		font-size: 30px;
+	}
+}
+
+.h2-promo{
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 1.1;
+	@include res(xl){
+		font-size: 36px;
+	}
+	@include res(m){
+		font-size: 30px;
+	}
+	@include res(xs){
+		font-size: 20px;
+	}
+}
+
+.link{
+	color: $azure;
+	letter-spacing: 0.02em;
+	white-space: nowrap;
+	transition: color 0.3s ease;
+
+	&:hover{
+		color: $azure-focus;
+	}
+}
+
+.link-white{
+	color: #FFF;
+	letter-spacing: 0.02em;
+	white-space: nowrap;
+	transition: color 0.3s ease;
+
+	&:hover{
+		color: $silver-moon;
+	}
+}
+
+.lead{
+	font-size: 18px;
+	line-height: 1.4;
+	@include res(m){
+		font-size: 16px;
+	}
+}
+
+.text-long{
+	line-height: 1.6;
+}
+
+.text-bold{
+	font-weight: bold;
+	line-height: 1.25;
+}
+
+.text-small{
+	font-size: 14px;
+	line-height: 1.4;
+	@include res(m){
+		//font-size: 12px;
+	}
+}
+
+.text-micro{
+	font-size: 12px;
+	line-height: 1.3;
+	@include res(m){
+		font-size: 11px;
+	}
+}
+
+.sec-title{
+	margin-bottom: 40px;
+	@include res(m){
+		margin-bottom: 30px;
+	}
+}
+
+.sec-descr{
+	margin-bottom: 40px;
+	@include res(m){
+		margin-bottom: 30px;
+	}
+}
+
+.s-def{
+	padding: 120px 0;
+	@include res(xl){
+		padding: 80px 0;
+	}
+	@include res(l){
+		padding: 60px 0;
+	}
+
+	&--small{
+		padding: 60px 0;
+		@include res(xl){
+			padding: 30px 0;
+		}
+	}
+}
+
+.s-def-top{
+	padding-top: 120px;
+	@include res(xl){
+		padding-top: 80px;
+	}
+	@include res(l){
+		padding-top: 60px;
+	}
+
+	&--small{
+		padding-top: 60px;
+		@include res(xl){
+			padding-top: 30px;
+		}
+	}
+}
+
+.s-def-bottom{
+	padding-bottom: 120px;
+	@include res(xl){
+		padding-bottom: 80px;
+	}
+	@include res(l){
+		padding-bottom: 60px;
+	}
+
+	&--small{
+		padding-bottom: 60px;
+		@include res(xl){
+			padding-bottom: 30px;
+		}
+	}
+}
+
+sup,sub{
+	font-size: 65%;
+}
+
+.gray{
+	color: $text-light-grey;
+}
+
+.ta-right{
+	text-align: right;
+}

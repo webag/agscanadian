@@ -1,0 +1,149 @@
+.side-slider{
+	overflow: hidden;
+}
+
+.side-slider__wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: $gutter*2;
+	position: relative;
+	@include res(m){
+		display: block;
+	}
+}
+
+.side-slider__info{
+	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	min-height: 200px;
+	transition: transform 0.6s ease,opacity 0.6s ease;
+	transform: translate3d(0,0,0);
+	@include res(m){
+		min-height: initial;
+		padding-top: 0;
+		padding-right: 110px;
+		margin-bottom: 20px;
+	}
+
+	&.is-hidden{
+		opacity: 0;
+		transform: translate3d(-150px,0,0);
+		pointer-events: none;
+		@include res(m){
+			opacity: 1;
+			transform: none;
+			transition: none;
+		}
+	}
+
+	.h2{
+		margin-bottom: 2em;
+		@include res(m){
+			margin-bottom: 0.5em;
+		}
+	}
+}
+
+.side-slider__info__text{
+	margin-bottom: 2em;
+	padding-right: 20px;
+	@include res(m){
+		margin-bottom: 1em;
+	}
+	@include res(xs){
+		font-size: 12px;
+		padding-right: 0;
+	}
+}
+
+.side-slider__slides{
+	display: flex;
+	grid-column: span 3;
+	margin-left: -$gutter;
+	margin-right: -$gutter;
+
+	&.flickity-enabled{
+		display: block;
+		position: static;
+		@include res(m){
+			position: relative;
+		}
+	}
+
+	.flickity-viewport{
+		overflow: visible;
+	}
+
+	.flickity-prev-next-button{
+		transform: none;
+		left: 16px;
+		right: initial;
+		top: 0;
+		@include res(m){
+			left: initial;
+			top: -60px;
+			right: 0;
+		}
+
+		&.next{
+			left: calc(16px + 60px + 4px);
+			@include res(m){
+				left: initial;
+				right: $gutter;
+			}
+		}
+
+		&.previous{
+			@include res(m){
+				right: calc(#{$gutter} + 40px + 4px);
+			}
+		}
+	}
+}
+
+.side-slider__slide{
+	flex-shrink: 0;
+	padding: 0 $gutter;
+}
+
+.side-slider--cases{
+	.side-slider__slide{
+		width: 384px + $gutter*2;
+		@include res(xl){
+			width: 340px + $gutter*2;
+		}
+		@include res(c){
+			width: 300px + $gutter*2;
+		}
+		@include res(m){
+			width: 300px;
+		}
+		@include res(xs){
+			width: 270px;
+		}
+	}
+}
+
+
+.side-slider--photos{
+	.side-slider__wrapper{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.side-slider__slides{
+		grid-column: span 2;
+	}
+
+	.side-slider__slide{
+		width: 100%;
+
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+}

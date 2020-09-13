@@ -1,0 +1,43 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/placeholders';
+
+@import 'vendors/jquery.fancybox';
+@import 'vendors/flickity';
+
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/icons';
+@import 'base/typography';
+@import 'base/grid';
+@import 'base/forms';
+@import 'base/buttons';
+@import 'base/modals';
+
+@import 'modules/animations';
+@import 'modules/tabs';
+@import 'modules/fly-btns';
+@import 'modules/lp-header';
+@import 'modules/media-block';
+@import 'modules/s-order';
+@import 'modules/doc-block';
+@import 'modules/icon-block-horizontal';
+@import 'modules/table-params';
+@import 'modules/article-intro';
+@import 'modules/case-intro';
+@import 'modules/sliders';
+@import 'modules/side-slider';
+@import 'modules/side-tabs';
+
+@import 'pages/header';
+@import 'pages/s-intro';
+@import 'pages/s-sheme';
+@import 'pages/s-preims';
+@import 'pages/s-gases';
+@import 'pages/s-products';
+@import 'pages/s-steps';
+@import 'pages/footer';
+@import 'pages/s-calc';
+@import 'pages/s-gen-params';
+@import 'pages/lp-generator';
+@import 'pages/lp-station';

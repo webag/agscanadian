@@ -1,0 +1,10 @@
+.s-page-header{
+	background-size: cover;
+	padding: 50px 0;
+	@include res(xl){
+		padding: 40px 0;
+	}
+	@include res(xs){
+		padding: 20px 0;
+	}
+}

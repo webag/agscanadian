@@ -1,40 +1,43 @@
-<footer class="s-footer">
+<footer class="s-site-footer">
 	<div class="container">
-		<div class="row">
-			<div class="grid-4 grid-3_l grid-12_m footer-left__wrap">
-				<div class="footer-left">
-					<a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/img/logo-footer.svg" alt="logo" class="footer-left__logo"></a>
-					<div class="footer-left__descr">Full-cycle engineering company</div>
-					<div class="footer-left__copy">© <?=date('Y')?> All rights reserved</div>
+		<div class="footer">
+
+			<div class="footer__left">
+				<a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/img/logo-footer.svg" alt="logo" class="footer__logo"></a>
+				<!--<div class="lead footer__logo-descr">Adsorption Gas System</div>-->
+				<div class="text-small">Full-cycle engineering company</div>
+				<div class="footer__copy text-small">&copy; <?=date('Y')?> All rights reserved</div>
+			</div>
+
+			<div class="footer__nav">
+				<a href="/products/">Our Products</a>
+				<a href="/services/">Our Services</a>
+				<a href="/cases/">Implemented Projects</a>
+				<a href="/info/">Useful Information</a>
+				<a href="/news/">News</a>
+				<a href="/about/">About Company</a>
+				<a href="/contacts/">Contacts</a>
+			</div>
+
+			<div class="footer__nav">
+				<a href="/AGS_requisites.pdf" target="_blank" download>Company Details</a>
+				<a href="/presentation.pdf" download="Презентация о компании AGS" target="_blank">Company Presentation</a>
+				<a href="https://kazan.hh.ru/employer/4190110" target="_blank">Openings</a>
+				<a href="/AGS_policy.docx" target="_blank" download>Terms of Use</a>
+			</div>
+
+			<div class="footer__right">
+				<div class="site-footer__contacts">
+					<a href="tel:+74955328640" class="site-footer__phone">+7 495 532 86 40</a>
+					<a href="mailto:info@agse.ru" class="site-footer__email">info@agse.ru</a>
+				</div>
+				<div class="footer__social">
+					<a href="https://www.facebook.com/agseing/?modal=composer" target="_blank" title="Facebook"><i class="i-fb"></i></a>
+					<a href="https://www.youtube.com/channel/UC8R-uqqQxtyrqxMw7oohjWA?view_as=subscriber" target="_blank"><i class="i-youtube" title="Youtube"></i></a>
+					<a href="https://zen.yandex.ru/id/5ddc0d9f4b1a762d7ecbcee8?clid=300&token=" target="_blank" title="Яндекс Дзен"><i class="i-dzen"></i></a>
 				</div>
 			</div>
-			<div class="grid-3 grid-6_m">
-				<nav class="footer-nav">
-					<a href="/products/">Our Products</a>
-					<a href="/services/">Our Services</a>
-					<a href="/cases/">Implemented Projects</a>
-					<a href="/info/">Useful Information</a>
-					<a href="/news/">News</a>
-					<a href="/about/">About Company</a>
-					<a href="/contacts/">Contacts</a>
-				</nav>
-			</div>
-			<div class="grid-3 grid-6_m">
-				<nav class="footer-nav">
-					<!--<a href="/AGS_requisites.pdf" target="_blank" download>Company Details</a>-->
-					<!--<span>Референс-лист</span>-->
-					<!--<a href="/presentation.pdf" download="Презентация о компании AGS" target="_blank">Company Presentation</a>-->
-					<a href="https://kazan.hh.ru/employer/4190110" target="_blank">Openings</a>
-					<a href="/AGS_policy.docx" target="_blank" download>Terms of Use</a>
-				</nav>
-			</div>
-			<div class="grid-2 grid-3_l grid-12_m">
-				<div class="footer-socials">
-					<a href="#" target="_blank"><i class="i-twitter"></i></a>
-					<a href="#" target="_blank"><i class="i-fb"></i></a>
-					<a href="#" target="_blank"><i class="i-vk"></i></a>
-				</div>
-			</div>
+
 		</div>
 	</div>
 </footer>

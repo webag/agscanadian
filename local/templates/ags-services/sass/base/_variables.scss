@@ -1,0 +1,53 @@
+$container_width: 1200px;
+
+$breakpoints: (
+	'xxl': (max-width: 1680px),
+	'xl': (max-width: 1450px),
+	'c': (max-width: $container_width + 32px),
+	'l': (max-width: 1024px),
+	'm': (max-width: 768px),
+	's': (max-width: 680px),
+	'xs': (max-width: 480px),
+	'xxs': (max-width: 375px),
+);
+
+$font: 'Mont', Segoe Ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+$font-icon: 'icomoon' !important;
+
+$gutter: 12px;
+
+$text-night: #262C40;
+$text-light-grey: #7C8793;
+$text-inactive: #B8BDCE;
+
+$azure: #0057B6;
+$azure-focus: #0C6EDA;
+$blue: #003399;
+$deap-sea: #0D356C;
+$night-sky: #343D57;
+$dark-sky: #414C6D;
+$light-blue: #508BE2;
+$silver-moon: #D7DEE9;
+$polar-star: #EEF1F3;
+$snow: #F7F9FB;
+$rain-sky: #E6EAF0;
+$white: #FFF;
+
+$black: #0F0F0F;
+$blue: #3182E6;
+$blue-dark: #2960D8;
+$orange: #FA6655;
+$gray-border: #eeeeee;
+$gray-bg: #EDF0F5;
+$gray-text: #8f8f8f;
+$blue-border: #B5C8F0;
+$blue-light-bg: #f4f8ff;
+
+$gradient-blue: linear-gradient(70deg, #003399 0%, #0057B6 50%, #5960EA 100%);
+$gradient-blue-reverse: linear-gradient(-70deg, #003399 0%, #0057B6 50%, #5960EA 100%);
+$gradient-grey: linear-gradient(108deg, #F7F9FB, #E6EAF0);
+$gradient-grey-reverse: linear-gradient(108deg, #E6EAF0, #F7F9FB);
+
+$shadow-card: 0px 20px 20px 0 #D7DEE9;
+$shadow-dark-blue: 0px 20px 30px rgba(13, 53, 108, 0.2);
+$shadow-light: 0 8px 15px 0 rgba(221, 223, 227, 0.4);

@@ -1,0 +1,208 @@
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding: 1.1em 2.3em;
+	font-size: 20px;
+	font-family: $font;
+	line-height: 1.3;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	user-select: none;
+	background: $azure;
+	border: none;
+	border-radius: 4px;
+	color: #FFF;
+	letter-spacing: 0.02em;
+	@include res(xl){
+		font-size: 16px;
+	}
+	@include res(xs){
+		font-size: 14px;
+	}
+
+	&:hover,&:focus{
+		outline: none;
+		background: $azure-focus;
+	}
+}
+
+.btn--medium{
+	font-size: 16px;
+	padding: 0.875em 1.5em;
+	@include res(xl){
+		font-size: 14px;
+	}
+	@include res(xs){
+		font-size: 12px;
+	}
+}
+
+.btn--secondary{
+	background: $snow;
+	color: $azure;
+
+	&:hover,&:focus{
+		outline: none;
+		background: $polar-star;
+		color: $azure;
+	}
+}
+
+.btn--grey{
+	background: $polar-star;
+	color: $azure;
+
+	&:hover,&:focus{
+		outline: none;
+		background: $rain-sky;
+		color: $azure;
+	}
+}
+
+.btn--dark{
+	background: $night-sky;
+	color: #FFF;
+
+	&:hover,&:focus{
+		outline: none;
+		background: $dark-sky;
+		color: #FFF;
+	}
+}
+
+.btn--white{
+	background: #FFF;
+	color: $text-night;
+
+	&:hover,&:focus{
+		outline: none;
+		background: $snow;
+		color: $text-night;
+	}
+}
+
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+
+//btn-arrow
+.btn-arrows{
+	display: flex;
+	align-items: flex-start;
+
+	.btn-arrow{
+		margin-right: 4px;
+	}
+}
+
+.btn-arrow{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 60px;
+	height: 60px;
+	border-radius: 4px;
+	opacity: 1;
+	background: $snow;
+	color: $azure;
+	border: none;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	@include res(m){
+		width: 40px;
+		height: 40px;
+	}
+
+	i{
+		font-size: 22px;
+		@include res(m){
+			font-size: 15px;
+		}
+	}
+
+	&:hover{
+		background: $polar-star;
+		opacity: 1;
+		color: $azure-focus;
+	}
+
+	&:focus{
+		box-shadow: none;
+		outline: none;
+		background: $polar-star;
+		opacity: 1;
+		color: $azure-focus;
+	}
+
+	&--disabled{
+		pointer-events: all;
+		opacity: 1;
+		background: $snow;
+		color: $silver-moon;
+	}
+}
+//btn-arrow
+
+
+//plus-dot
+.plus-dot{
+	display: inline-block;
+	position: relative;
+	width: 22px;
+	height: 22px;
+	background: rgba($text-light-grey,0.5);
+	border-radius: 7px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	cursor: pointer;
+
+	&:hover,&.hovered{
+		background: $text-light-grey;
+	}
+
+	&:before{
+		content: '';
+		position: absolute;
+		width: 2px;
+		height: 10px;
+		background: #FFF;
+		left: calc(50% - 1px);
+		top: calc(50% - 5px);
+	}
+
+	&:after{
+		content: '';
+		position: absolute;
+		height: 2px;
+		width: 10px;
+		background: #FFF;
+		left: calc(50% - 5px);
+		top: calc(50% - 1px);
+	}
+
+	&.active{
+		background: $azure;
+
+		&:before{
+			opacity: 0;
+			transform: scale3d(0,0,0);
+		}
+
+		&:after{
+			height: 10px;
+			border-radius: 50%;
+			left: calc(50% - 5px);
+			top: calc(50% - 5px);
+		}
+	}
+}
+//plus-dot

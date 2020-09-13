@@ -27,7 +27,7 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 	<div class="contacts-map-btns">
 		<button class="contacts-map-btn">Moscow</button>
 		<button class="contacts-map-btn">Saint Petersburg</button>
-		<button class="contacts-map-btn">Novocherkassk</button>
+		<button class="contacts-map-btn">Rostov-on-Don</button>
 	</div>
 
 	<div id="geomap_cont" class="s-geo__map"></div>
@@ -38,14 +38,14 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 
 			<div class="contact-item">
 				<div class="contact-item__city">Moscow</div>
-				<address class="contact-item__address">Preobrazhenskoye district, Preobrazhenskaya square, 7AS1</address>
+				<address class="contact-item__address">Novajs Perevedenovskaja 8, building 1, Floor 2,<br>office 2-10</address>
 				<a href="tel:+74955328640" class="contact-item__phone">+7 (495) 532-86-40</a>
 				<div class="contacts-item__info">
 					Send vacancies and inquiries via email:<br>
 					<a href="mailto:info@agse.ru">info@agse.ru</a>
 				</div>
 				<a href="#" class="link-icon"><i class="i-mappin"></i>How to get to</a>
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/contacts/img-4.jpg" alt="1" class="contact-item__photo">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/contacts/img-1.jpg" alt="1" class="contact-item__photo">
 			</div>
 			<div class="contact-item">
 				<div class="contact-item__city">Saint Petersburg</div>
@@ -59,15 +59,15 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/contacts/img-2.jpg" alt="1" class="contact-item__photo">
 			</div>
 			<div class="contact-item">
-				<div class="contact-item__city">Novocherkassk</div>
-				<address class="contact-item__address">Kharkiv highway, 10B, building 851</address>
+				<div class="contact-item__city">Rostov-on-Don</div>
+				<address class="contact-item__address">НИП УК (Industrial park)</address>
 				<a href="tel:+74955328640" class="contact-item__phone">+7 (495) 532-86-40</a>
 				<div class="contacts-item__info">
 					Send vacancies and inquiries via email:<br>
 					<a href="mailto:info@agse.ru">info@agse.ru</a>
 				</div>
 				<a href="#" class="link-icon"><i class="i-mappin"></i>How to get to</a>
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/contacts/img-3.jpg" alt="1" class="contact-item__photo">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/contacts/img-5.jpg" alt="1" class="contact-item__photo">
 			</div>
 
 		</div>
@@ -76,9 +76,9 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 
 	<script>
 		const contacts_from_admin = [
-			['Moscow', 55.795560, 37.709156],
+			['Moscow', 55.778593, 37.682269],
 			['Saint Petersburg', 59.957482, 30.343706],
-			['Novocherkassk', 47.469283, 40.100484],
+			['Rostov-on-Don', 47.254008, 39.602912],
 		];
 	</script>
 </section>

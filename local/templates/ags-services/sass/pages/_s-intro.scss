@@ -1,0 +1,106 @@
+.s-intro{
+	height: 680px;
+	background: $gradient-grey;
+	padding: 90px 0;
+
+	@include res(xl){
+		padding: 60px 0;
+		min-height: 400px;
+		height: auto;
+	}
+	@include res(l){
+		padding: 40px 0;
+	}
+	@include res(m){
+		padding-bottom: 210px;
+	}
+	@include res(xs){
+		padding-bottom: 40%;
+	}
+}
+
+.s-intro__bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+
+	&:before{
+		content: '';
+		position: absolute;
+		width: 2000px;
+		height: 2000px;
+		left: calc(50% - 2480px);
+		top: 70px;
+		background: $gradient-grey;
+		transform: rotate(-140deg);
+		opacity: 0.5;
+		@include res(xl){
+			left: calc(50% - 2180px);
+		}
+	}
+}
+
+.intro{
+
+}
+
+.intro__title{
+	max-width: 58%;
+	font-size: 54px;
+	letter-spacing: -0.01em;
+	margin-bottom: 0.8em;
+	@include res(xl){
+		font-size: 42px;
+	}
+	@include res(l){
+		font-size: 36px;
+	}
+	@include res(m){
+		max-width: 100%;
+		font-size: 24px;
+	}
+	@include res(xs){
+		font-size: 20px;
+	}
+}
+
+.intro__lead{
+	max-width: 50%;
+	color: $text-light-grey;
+	margin-bottom: 60px;
+	@include res(l){
+		font-size: 16px;
+		margin-bottom: 40px;
+	}
+	@include res(m){
+		max-width: 100%;
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+}
+
+.intro__car{
+	position: absolute;
+	right: 0;
+	bottom: -100px;
+	user-select: none;
+	pointer-events: none;
+	max-width: 53%;
+	@include res(xl){
+		bottom: -60px;
+	}
+	@include res(m){
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 380px;
+		max-width: 100%;
+	}
+	@include res(xs){
+		width: 70%;
+		bottom: -40px;
+	}
+}

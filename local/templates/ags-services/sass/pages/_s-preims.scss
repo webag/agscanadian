@@ -1,0 +1,39 @@
+.s-preims{
+
+}
+
+.preim{
+	margin-bottom: 48px;
+	@include res(xs){
+		margin-bottom: 30px;
+	}
+}
+
+.preim__counter{
+	margin-bottom: 24px;
+	@include res(m){
+		margin-bottom: 15px;
+	}
+}
+
+.preim__img{
+	display: block;
+	max-width: 100%;
+	margin-bottom: 24px;
+	@include res(m){
+		margin-bottom: 15px;
+		width: 100px;
+	}
+}
+
+.preim__title{
+	margin-bottom: 30px;
+	@include res(m){
+		margin-bottom: 15px;
+	}
+}
+
+.preim__text{
+	color: $text-light-grey;
+	max-width: 540px;
+}

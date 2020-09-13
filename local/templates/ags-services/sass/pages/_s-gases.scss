@@ -1,0 +1,151 @@
+.s-gases{
+	background: $gradient-grey-reverse;
+}
+
+.gas-type-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: $gutter*2;
+	@include res(l){
+		grid-template-columns: 1fr 1fr;
+	}
+	@include res(s){
+		grid-template-columns: 1fr;
+	}
+}
+
+.gas-type{
+	position: relative;
+	background: $white;
+	border-radius: 10px;
+	padding: 32px 24px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+
+	&:hover{
+		box-shadow: $shadow-card;
+		transform: translate3d(0,-8px,0);
+
+		.gas-type__link{
+			color: $azure-focus;
+			opacity: 1;
+		}
+
+		.gas-type__label{
+			&--azot{
+				box-shadow: 0px 20px 20px rgba(38, 44, 64, 0.3);
+			}
+			&--kislorod{
+				box-shadow: 0px 20px 20px rgba(45, 156, 219, 0.3);
+			}
+			&--argon{
+				box-shadow: 0px 20px 20px rgba(111, 207, 151, 0.3);
+			}
+			&--vodorod{
+				box-shadow: 0px 20px 20px rgba(33, 150, 83, 0.3);
+			}
+			&--uglekis{
+				box-shadow: 0px 20px 20px rgba(124, 135, 147, 0.3);
+			}
+		}
+	}
+}
+
+.gas-type__title{
+	margin-bottom: 22px;
+	padding-right: 60px;
+}
+
+.gas-type__descr{
+	color: $text-light-grey;
+	margin-bottom: 22px;
+	padding-right: 60px;
+}
+
+.gas-type__link{
+	letter-spacing: 0.02em;
+	color: $text-light-grey;
+	opacity: 0.3;
+	white-space: nowrap;
+	transition: all 0.3s ease;
+	@include res(l){
+		opacity: 1;
+		color: $azure;
+	}
+}
+
+.gas-type__label{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: absolute;
+	right: 24px;
+	top: 32px;
+	border-radius: 16px;
+	width: 56px;
+	height: 56px;
+	transition: all 0.3s ease;
+	@include res(xs){
+		width: 40px;
+		height: 40px;
+		border-radius: 10px;
+	}
+
+	sub{
+		font-size: 70%;
+		position: relative;
+		top: 0.3em;
+	}
+
+	&--azot{
+		background: $text-night;
+		color: $white;
+	}
+
+	&--kislorod{
+		background: #2D9CDB;
+		color: $white;
+	}
+
+	&--argon{
+		background: #6FCF97;
+		color: $white;
+	}
+
+	&--vodorod{
+		background: #219653;
+		color: $white;
+	}
+
+	&--uglekis{
+		background: $polar-star;
+	}
+}
+
+
+.gas-type-manager{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	border-radius: 16px;
+	background: $rain-sky;
+	padding: 32px 24px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+
+	&:hover{
+		box-shadow: $shadow-card;
+		transform: translate3d(0,-8px,0);
+
+		.link{
+			color: $azure-focus;
+		}
+	}
+}
+
+.gas-type-manager__text{
+	margin-bottom: 24px;
+}

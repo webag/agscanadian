@@ -73,27 +73,42 @@ endif;
 <body class="<?=$body_class?>" id="site-body">
 
 
-<header class="s-header compensate-for-scrollbar <?=$header_class?>">
-	<div class="header-left">
-		<a href="/" class="header-logo">
-			<?$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . "/img/logo.svg", Array(), Array("MODE" => "php"));?>
-			<?$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . "/img/logo-mob.svg", Array(), Array("MODE" => "php"));?>
-		</a>
-	</div>
-	<nav class="header-nav">
-		<a href="/products/">Products</a>
-		<a href="/services/">Services</a>
-		<a href="/cases/">Implemented projects</a>
-		<a href="/info/">Information</a>
-		<a href="/about/">About Company</a>
-		<a href="/contacts/">Contacts</a>
-	</nav>
-	<div class="header-conts">
-		<div class="header-conts__main">
-			<a href="tel:+74955328640" class="header-conts__phone">+7 (495) 532-86-40</a>
-			<a href="mailto:info@agse.ru" class="header-conts__email">info@agse.ru</a>
+<header class="s-header <?=$header_class?>">
+
+	<? if ($_SESSION['header_banner_show'] !== false) : ?>
+		<!--<div class="header-banner">
+			<figure>!</figure>
+			<div class="header-banner__text">Компания АГС является полностью российским производителем. Повышение курса доллара и евро не повлияло на стоимость оборудования. Все цены на нашу продукцию остаются неизменными.<br>
+				<span class="header-banner__close-mob js-header-banner-close">Закрыть</span>
+			</div>
+			<div class="header-banner__close js-header-banner-close"></div>
+		</div>-->
+	<? endif; ?>
+
+	<div class="header-panel-wrap">
+		<div class="header-panel">
+			<div class="header-left">
+				<a href="/" class="header-logo">
+					<?$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . "/img/logo.svg", Array(), Array("MODE" => "php"));?>
+					<?$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . "/img/logo-mob.svg", Array(), Array("MODE" => "php"));?>
+				</a>
+			</div>
+			<nav class="header-nav">
+				<a href="/products/">Products</a>
+				<a href="/services/">Services</a>
+				<a href="/cases/">Implemented projects</a>
+				<a href="/info/">Information</a>
+				<a href="/about/">About Company</a>
+				<a href="/contacts/">Contacts</a>
+			</nav>
+			<div class="header-conts">
+				<div class="header-conts__main">
+					<a href="tel:+74955328640" class="header-conts__phone">+7 (495) 532-86-40</a>
+					<a href="mailto:info@agse.ru" class="header-conts__email">info@agse.ru</a>
+				</div>
+				<i class="i-phone fancy-modal" data-src="#modal-call"></i>
+			</div>
 		</div>
-		<i class="i-phone fancy-modal" data-src="#modal-call"></i>
 	</div>
 </header>
 

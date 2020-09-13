@@ -1,0 +1,300 @@
+label {
+	//cursor: pointer;
+}
+
+.input-group{
+	display: block;
+	position: relative;
+
+	.input-text{
+		width: 100%;
+
+		&--110{
+			width: 110px;
+		}
+
+		&--150{
+			width: 150px;
+		}
+	}
+
+	&.not-empty{
+		.input-group__label{
+			transform: translate3d(0,-22px,0);
+			font-size: 12px;
+			color: $azure-focus;
+		}
+	}
+}
+
+.input-group__label{
+	position: absolute;
+	z-index: 2;
+	color: $text-light-grey;
+	top: 16px;
+	left: 13px;
+	font-size: 14px;
+	height: 20px;
+	white-space: nowrap;
+	border-left: 5px solid $white;
+	border-right: 5px solid $white;
+	border-radius: 4px;
+	transition: all 0.1s ease;
+	background: $white;
+	pointer-events: none;
+
+	sup,sub{
+		line-height: 0;
+	}
+}
+
+.input-text {
+	display: inline-block;
+	position: relative;
+	font-family: $font;
+	font-size: 16px;
+	line-height: 1.3;
+	-webkit-appearance: none;
+	border: 2px solid $silver-moon;
+	padding: 14px 18px;
+	overflow: visible;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+
+	&::placeholder {
+		font-size: 14px;
+		line-height: 1.3;
+		color: $text-light-grey;
+		opacity: 1;
+		transition: opacity 0.3s ease;
+	}
+
+	&:hover{
+		border-color: $azure-focus;
+		z-index: 2;
+	}
+
+	&:focus {
+		outline: none;
+		border-color: $azure-focus;
+		z-index: 2;
+		&::placeholder {
+			opacity: 0.5;
+		}
+		
+		&+.input-group__label{
+			transform: translate3d(0,-22px,0);
+			font-size: 12px;
+		}
+	}
+
+	&:disabled{
+		background: #FFF;
+		opacity: 0.3;
+	}
+
+	&.error{
+		border-color: #ff543c;
+		z-index: 2;
+	}
+}
+
+.form-privacy{
+	color: $text-light-grey;
+
+	a{
+		color: $light-blue;
+
+		&:hover{
+			color: $azure-focus;
+		}
+	}
+}
+
+.file-notes{
+	font-size: 12px;
+	color: $text-inactive;
+}
+
+//vertical-form
+.vertical-form{
+	.input-group{
+		margin-bottom: 16px;
+		width: 100%;
+	}
+
+	.double-inputs{
+		width: 100%;
+		margin-bottom: 16px;
+	}
+
+	.form-privacy{
+		padding-top: 16px;
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+		margin-top: 16px;
+		@include res(xs){
+			margin-top: 0;
+		}
+	}
+	.style-file{
+		justify-content: center;
+		margin-bottom: 16px;
+	}
+}
+//vertical-form
+
+
+//double-inputs
+.double-inputs{
+	.input-text{
+		width: 100%;
+		max-width: 100%;
+		display: block;
+
+		&:first-child{
+			border-radius: 4px 4px 0 0;
+		}
+
+		&:last-child{
+			margin-top: -2px;
+			border-radius: 0 0 4px 4px;
+		}
+	}
+}
+//double-inputs
+
+
+
+//filestyle
+.style-file{
+	position: relative;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	color: $azure;
+	transition: all 0.3s ease;
+
+	&:hover{
+		color: $azure-focus;
+	}
+
+	input{
+		opacity: 0;
+		position: absolute;
+		left: 0;
+		visibility: hidden;
+	}
+
+	&__text{
+		line-height: 1.2;
+		font-size: 16px;
+		font-weight: normal;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: calc(100% - 50px);
+	}
+
+	i{
+		font-size: 20px;
+		margin-right: 7px;
+		&:before{
+			content: '\e909';
+		}
+	}
+
+	&__delete{
+		line-height: 0;
+		display: none;
+		color: $azure;
+		margin-left: 10px;
+		transition: color 0.3s ease;
+
+		&:hover{
+			color: #ff543c;
+		}
+	}
+
+	&--selected{
+
+		i{
+			&:before{
+				content: '\e909';
+			}
+		}
+
+		.style-file__delete{
+			display: block;
+		}
+	}
+}
+//filestyle
+
+
+//radio-group
+.radio-group{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.radio-group__item{
+	display: block;
+	position: relative;
+	cursor: pointer;
+	margin-right: -2px;
+	margin-bottom: -2px;
+
+	&:hover{
+
+		span{
+			z-index: 2;
+			border: 2px solid darken($silver-moon,15%);
+		}
+	}
+
+	input{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 0;
+		opacity: 0;
+
+		&:checked{
+
+			&+span{
+				z-index: 3;
+				border: 2px solid $light-blue;
+			}
+		}
+	}
+
+	span{
+		display: block;
+		position: relative;
+		color: $azure;
+		border: 2px solid $silver-moon;
+		padding: 12px 26px;
+		user-select: none;
+		white-space: nowrap;
+		transition: all 0.3s ease;
+		@include res(xl){
+			padding: 12px 15px;
+		}
+		@include res(xs){
+			padding: 12px 12px;
+		}
+	}
+
+	&:first-child span{
+		border-radius: 4px 0 0 4px;
+	}
+
+	&:last-child span{
+		border-radius: 0 4px 4px 0;
+	}
+}
+//radio-group

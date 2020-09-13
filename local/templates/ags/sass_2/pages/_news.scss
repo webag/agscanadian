@@ -1,0 +1,13 @@
+.s-news-list{
+	padding: 0 0 40px 0;
+}
+
+.news-page-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 6px;
+	grid-auto-rows: 255px;
+	@include res(m){
+		grid-template-columns: 1fr;
+	}
+}

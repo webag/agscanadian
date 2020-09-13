@@ -1,0 +1,43 @@
+.icon-block-h{
+	display: flex;
+	align-items: center;
+	padding: 8px 0;
+}
+
+.icon-block-h__icon{
+	width: 113px;
+	flex-shrink: 0;
+	margin-right: 16px;
+	@include res(l){
+		width: 60px;
+		margin-right: 8px;
+	}
+
+	img{
+		display: block;
+		max-width: 100%;
+	}
+}
+
+.icon-block-h__text{
+	@include res(l){
+		font-size: 14px;
+	}
+}
+
+.icon-blocks-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: $gutter*2;
+	grid-row-gap: $gutter*4;
+	@include res(l){
+		grid-row-gap: $gutter*2;
+	}
+	@include res(m){
+		grid-template-columns: 1fr 1fr;
+	}
+	@include res(xs){
+		grid-template-columns: 1fr;
+		grid-row-gap: $gutter;
+	}
+}

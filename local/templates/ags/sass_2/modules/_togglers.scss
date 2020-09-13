@@ -1,0 +1,15 @@
+.toggler__hidden{
+	display: none;
+}
+
+.toggler__link{
+	margin-top: 25px;
+	i{
+		display: block;
+	}
+	&.opened{
+		i{
+			transform: rotate(180deg);
+		}
+	}
+}

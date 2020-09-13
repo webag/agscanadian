@@ -1,0 +1,188 @@
+.s-contacts-links{
+	padding-bottom: 30px;
+}
+
+.contact-form{
+
+	textarea{
+		height: 130px;
+		display: block;
+	}
+
+	.btn{
+		margin-top: 0;
+	}
+	
+	.form-note{
+		text-align: left;
+	}
+}
+
+.contact-form__actions{
+	align-items: center;
+
+	.btn{
+		display: block;
+	}
+
+	.style-file{
+		margin-top: 0;
+		@include res(m){
+			margin-top: 20px;
+		}
+	}
+}
+
+
+//s-geo-contacts
+.s-geo-contacts{
+	background: #F7F7F7;
+	padding: 50px 0;
+	min-height: 650px;
+	@include res(m){
+		padding: 0;
+	}
+
+	.container{
+		pointer-events: none;
+		@include res(m){
+			padding: 0;
+		}
+	}
+}
+
+.contacts-map-btns{
+	position: absolute;
+	z-index: 2;
+	left: calc(50% - 618px);
+	user-select: none;
+	max-width: 45%;
+	@include res(c){
+		left: $gutter;
+	}
+	@include res(m){
+		top: 0;
+		position: relative;
+		left: 0;
+		right: 0;
+		max-width: 100%;
+		padding: 10px $gutter;
+		background: #FFF;
+	}
+}
+
+.contacts-map-btn{
+	font-family: $font;
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+	border: none;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: 500;
+	background: $blue;
+	border-radius: 30px;
+	text-align: center;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin: 0 5px 5px 5px;
+	@include res(m){
+		padding: 8px 8px;
+		margin: 0 1px 5px 1px;
+		font-size: 13px;
+	}
+
+	&:hover{
+		background: #FFF;
+		color: $orange;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+	}
+
+	&:focus{
+		outline: none;
+	}
+
+	&.active{
+		background: #FFF;
+		color: $orange;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+		pointer-events: none;
+	}
+}
+
+.contact-items{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	@include res(m){
+		justify-content: center;
+	}
+}
+
+.contact-item{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #FFF;
+	pointer-events: all;
+	width: 480px;
+	max-width: 100%;
+	box-shadow: $shadow-for-block;
+	padding: 20px 25px 25px 25px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease;
+	@include res(m){
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		transform: none;
+		z-index: 2;
+	}
+
+	&.active{
+		position: relative;
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.contact-item__city{
+	font-size: 27px;
+	line-height: 1.2;
+}
+
+.contact-item__address{
+	font-style: normal;
+	margin-bottom: 12px;
+}
+
+.contact-item__phone{
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+.contacts-item__info{
+	margin-top: 15px;
+	padding-top: 12px;
+	margin-bottom: 15px;
+	border-top: 1px solid $gray-border;
+
+	a{
+		color: $blue;
+		transition: color 0.3s ease;
+
+		&:hover{
+			color: $orange;
+		}
+	}
+}
+
+.contact-item__photo{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+}
+//s-geo-contacts

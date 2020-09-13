@@ -1,0 +1,397 @@
+//station-intro
+.station-intro{
+	position: relative;
+	background: $gradient-grey;
+	overflow: hidden;
+	min-height: 460px;
+	@include res(l){
+		min-height: initial;
+	}
+
+	&:before{
+		content: '';
+		position: absolute;
+		z-index: 1;
+		left: 55%;
+		top: 0;
+		bottom: 0;
+		width: 80%;
+		background: $gradient-blue;
+		transform: skewX(-30deg);
+		pointer-events: none;
+		@include res(m){
+			transform: skewY(-30deg);
+			left: 0;
+			right: 0;
+			width: 100%;
+			bottom: -750px;
+			height: 900px;
+			top: initial;
+		}
+	}
+}
+
+.station-intro__content{
+	position: relative;
+	z-index: 3;
+	max-width: 40%;
+	padding: 64px;
+	@include res(l){
+		padding: 36px;
+	}
+	@include res(m){
+		max-width: 100%;
+		padding-bottom: 10px;
+	}
+	@include res(xs){
+		padding: 24px 24px 10px 24px;
+	}
+
+	.h2-promo{
+		min-height: 2.2em;
+		margin-bottom: 1.8em;
+		@include res(l){
+			margin-bottom: 1em;
+			min-height: initial;
+		}
+	}
+}
+
+.station-intro__text{
+	margin-bottom: 2em;
+	@include res(xs){
+		margin-bottom: 1em;
+	}
+}
+
+.station-intro__img{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+	pointer-events: none;
+	max-width: 100%;
+	max-height: 100%;
+	@include res(m){
+		position: relative;
+	}
+	@include res(xs){
+		position: relative;
+		width: 160%;
+		max-width: 160%;
+		left: -60%;
+	}
+}
+//station-intro
+
+
+//gen-princip
+.gen-princip{
+
+}
+
+.gen-princip__left{
+	max-width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	@include res(s){
+		max-width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.btn-arrows{
+		margin-bottom: 70px;
+		@include res(xl){
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.gen-princip__info{
+	position: relative;
+}
+
+.gen-princip__info__step{
+	display: none;
+
+	&.active{
+		display: block;
+	}
+
+	.lead{
+		margin-bottom: 12px;
+	}
+	.h2{
+		margin-bottom: 1em;
+	}
+	p{
+		margin-bottom: 0.5em;
+		color: $text-light-grey;
+		@include res(xl){
+			font-size: 14px;
+		}
+	}
+}
+
+.gen-princip__sheme{
+	position: relative;
+}
+
+.gen-princip__sheme__step{
+	display: none;
+
+	&.active{
+		display: block;
+	}
+
+	img{
+		display: block;
+		max-width: 100%;
+		@include res(xl){
+			max-width: 70%;
+		}
+		@include res(l){
+			max-width: 80%;
+		}
+		@include res(m){
+			max-width: 100%;
+		}
+	}
+}
+//gen-princip
+
+
+//useful
+.useful{
+	background: $snow;
+	padding: 64px;
+	@include res(xl){
+		padding: 36px;
+	}
+	@include res(m){
+		padding: 24px;
+	}
+}
+
+.useful__title{
+	margin-bottom: 32px;
+	@include res(m){
+		margin-bottom: 24px;
+	}
+}
+
+.useful__bottom{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 32px;
+	margin-top: 28px;
+	border-top: 1px solid $silver-moon;
+	@include res(m){
+		padding-top: 24px;
+		margin-top: 20px;
+	}
+	@include res(s){
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.btn{
+		margin-left: 32px;
+		@include res(s){
+			margin-left: 0;
+			margin-top: 12px;
+		}
+	}
+}
+//useful
+
+
+//gen-sostav
+.s-gen-sostav{
+	overflow: hidden;
+}
+
+.gen-sostav{
+
+	.h2-promo{
+		margin-bottom: 100px;
+		@include res(xl){
+			margin-bottom: 40px;
+		}
+		@include res(l){
+			margin-bottom: 20px;
+		}
+	}
+
+	&.animated{
+		.gen-sostav__second-img{
+			transform: translate3d(170%,-15%,0);
+		}
+	}
+}
+
+.gen-sostav__nav__item{
+	position: relative;
+	margin-bottom: 36px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	padding-left: 64px + 24px;
+	@include res(xl){
+		margin-bottom: 24px;
+	}
+	@include res(l){
+		padding-left: 40px;
+	}
+	@include res(xs){
+		font-size: 14px;
+		margin-bottom: 16px;
+	}
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	&:hover,&.hovered{
+		.lead{
+			color: $text-night;
+		}
+
+		&:before{
+			transform: scale3d(1,1,1);
+		}
+	}
+
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0.6em;
+		left: 0;
+		width: 64px;
+		height: 1px;
+		background: $text-inactive;
+		transform: scale3d(0.5,1,1);
+		transform-origin: right center;
+		transition: all 0.3s ease;
+		@include res(l){
+			width: 32px;
+		}
+	}
+
+	&.active{
+		.lead{
+			color: $text-night;
+		}
+
+		&:before{
+			transform: scale3d(1,1,1);
+			height: 2px;
+			background: $azure-focus;
+		}
+	}
+
+	.lead{
+		color: $text-light-grey;
+		transition: color 0.3s ease;
+		@include res(m){
+			font-size: 14px;
+		}
+	}
+}
+
+.gen-sostav__nav__item__hidden{
+	padding-top: 24px;
+	padding-bottom: 12px;
+	display: none;
+	@include res(xl){
+		font-size: 14px;
+		padding-top: 12px;
+	}
+	@include res(m){
+		font-size: 12px;
+		padding-top: 8px;
+	}
+
+	img{
+		max-width: 100%;
+		margin-top: 10px;
+		@include res(l){
+			transform: scale(0.5);
+			transform-origin: left top;
+		}
+	}
+}
+
+
+.gen-sostav__stage{
+	position: relative;
+	width: 626px;
+	@include res(xl){
+		width: 100%;
+	}
+	@include res(s){
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+}
+
+.gen-sostav__main-img{
+	display: block;
+	width: 100%;
+}
+
+.gen-sostav__second-img{
+	position: absolute;
+	z-index: 2;
+	top: 14.5%;
+	right: 25.5%;
+	width: 21.9%;
+	transition: all 0.8s ease;
+}
+
+.gen-sostav__dots{
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	.plus-dot{
+		position: absolute;
+	}
+}
+
+.gen-sostav__dot--1{
+	right: calc(20% - 11px);
+	top: calc(45% - 11px);
+}
+
+.gen-sostav__dot--2{
+	right: calc(38% - 11px);
+	top: calc(38% - 11px);
+}
+
+.gen-sostav__dot--3{
+	right: calc(75.5% - 11px);
+	top: calc(35.5% - 11px);
+}
+
+.gen-sostav__dot--4{
+	right: calc(84% - 11px);
+	top: calc(52% - 11px);
+}
+
+.gen-sostav__dot--5{
+	right: calc(38% - 11px);
+	top: calc(18% - 11px);
+}
+
+.gen-sostav__dot--6{
+	right: calc(74% - 11px);
+	top: calc(60% - 11px);
+}
+//gen-sostav

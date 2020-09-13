@@ -1,0 +1,91 @@
+.s-calc{
+	padding: 0 0 40px 0;
+
+	&:before{
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		height: 160px;
+		background: $text-night;
+	}
+}
+
+.calc{
+	border-radius: 10px;
+	box-shadow: $shadow-dark-blue;
+	background: #FFF;
+	padding: 65px 100px;
+	@include res(xl){
+		padding: 50px;
+	}
+	@include res(m){
+		padding: 25px;
+	}
+}
+
+.calc__lead{
+	max-width: 800px;
+	margin-bottom: 38px;
+}
+
+.calc__steptitle{
+	margin-bottom: 38px;
+	@include res(m){
+		margin-bottom: 20px;
+	}
+}
+
+.calc-param{
+	margin-bottom: 38px;
+	@include res(m){
+		margin-bottom: 20px;
+	}
+}
+
+.calc-param__title{
+	margin-bottom: 12px;
+	white-space: nowrap;
+
+	.h2{
+		display: inline-block;
+		margin-right: 10px;
+		width: 20px;
+	}
+}
+
+.calc-param__values{
+	padding-left: 30px;
+}
+
+.calc-param__note{
+	padding-left: 30px;
+	padding-top: 10px;
+	color: $text-light-grey;
+}
+
+.calc-param__row{
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+
+	.calc-param{
+		margin-right: 50px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+}
+
+.calc__user{
+	margin-bottom: 16px;
+}
+
+.input-group--other-gas{
+	margin-left: 30px;
+	margin-top: 16px;
+	max-width: 400px;
+	display: none;
+}

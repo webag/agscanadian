@@ -34,3 +34,51 @@
 	font-display: auto;
 }
 
+
+@font-face {
+	font-family: 'Mont';
+	src: url('../fonts/hinted-subset-Mont-Regular.woff2') format('woff2'),
+	url('../fonts/hinted-subset-Mont-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Mont';
+	src: url('../fonts/hinted-subset-Mont-RegularItalic.woff2') format('woff2'),
+	url('../fonts/hinted-subset-Mont-RegularItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Mont';
+	src: url('../fonts/hinted-subset-Mont-Bold.woff2') format('woff2'),
+	url('../fonts/hinted-subset-Mont-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Mont';
+	src: url('../fonts/hinted-subset-Mont-SemiBold.woff2') format('woff2'),
+	url('../fonts/hinted-subset-Mont-SemiBold.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Mont';
+	src: url('../fonts/hinted-subset-Mont-Heavy.woff2') format('woff2'),
+	url('../fonts/hinted-subset-Mont-Heavy.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Mont';
+	src: url('../fonts/hinted-subset-Mont-BoldItalic.woff2') format('woff2'),
+	url('../fonts/hinted-subset-Mont-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+}

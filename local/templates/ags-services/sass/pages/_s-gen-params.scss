@@ -1,0 +1,61 @@
+.gen-params{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-size: cover;
+	background-position: left center;
+	min-height: 745px;
+	border-radius: 1px;
+	border: 1px solid $polar-star;
+	padding: 64px;
+	@include res(xl){
+		min-height: 620px;
+		padding: 36px;
+	}
+	@include res(s){
+		background: $gradient-grey !important;
+		min-height: initial;
+	}
+	@include res(xs){
+		padding: 20px;
+	}
+
+	.h1{
+		margin-bottom: 1em;
+	}
+
+	.doc-block{
+		margin-top: auto;
+		max-width: 310px;
+	}
+}
+
+.gen-params__list{
+	margin-bottom: 24px;
+	@include res(xs){
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+}
+
+.gen-params__item{
+	display: flex;
+	margin-bottom: 1em;
+
+	strong{
+		font-weight: normal;
+		width: 200px;
+		flex-shrink: 0;
+		margin-right: 28px;
+		@include res(xs){
+			max-width: 55%;
+			width: 160px;
+			margin-right: 16px;
+		}
+	}
+
+	span{
+		color: $text-light-grey;
+		white-space: nowrap;
+	}
+}

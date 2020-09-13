@@ -51,6 +51,69 @@ $this->setFrameMode(true);
 			<?=$arResult["DETAIL_TEXT"]?>
 		</div>
 
+
+		<?
+		$related_product = $arResult['PROPERTIES']['RELATED_PRODUCT']['VALUE'];
+		?>
+		<pre style="font-size: 12px;"><?print_r($related_product)?></pre>
+		<? if (!empty($related_product)) : ?>
+			<?
+			switch ($related_product) {
+				case 'Адсорбционные азотные станции':
+					$link = '/products/azot-station/';
+					$name_en = 'Adsorption Nitrogen';
+					$img_name = 'azot-station.png';
+					break;
+				case 'Адсорбционные кислородные станции':
+					$link = '/products/kislorod-station/';
+					$name_en = 'Adsorption Oxygen';
+					$img_name = 'kislorod-station.png';
+					break;
+				case 'Мембранные установки':
+					$link = '/products/azot-membrana/';
+					$name_en = 'Membrane Nitrogen';
+					$img_name = 'membrana.png';
+					break;
+				case 'Адсорбционные осушители сжатого воздуха':
+					$link = '/products/osushiteli/';
+					$name_en = 'Adsorption Compressed Air Desiccants';
+					$img_name = 'osush.png';
+					break;
+				case 'Блочно-модульные азотные станции':
+					$link = '/products/azot-module/';
+					$name_en = 'Block-Modular Nitrogen Stations';
+					$img_name = 'azot-module.png';
+					break;
+				case 'Блочно-модульные кислородные станции':
+					$link = '/products/kislorod-module/';
+					$name_en = 'Block-Modular Oxygen Stations';
+					$img_name = 'kislorod-module.png';
+					break;
+				case 'Криогенные воздухоразделительные установки':
+					$link = '/products/cryogen/';
+					$name_en = 'Cryogen Air Separation Units';
+					$img_name = 'cryo.png';
+					break;
+				case 'Электролизные генераторы водорода':
+					$link = '/products/vodorod/';
+					$name_en = 'Electrolysis Hydrogen Generators';
+					$img_name = 'vodorod.png';
+					break;
+			}
+			?>
+			<div class="product-related">
+				<div class="product-related__left">
+					<div class="product-related__sup">Go to product page</div>
+					<div class="h2 product-related__title"><?=$name_en?></div>
+					<a href="<?=$link?>" class="btn btn--white">View</a>
+				</div>
+				<div class="product-related__right">
+					<img src="/local/templates/ags/img/product-related/<?=$img_name?>" alt="<?=$related_product?>">
+				</div>
+			</div>
+		<? endif; ?>
+
+
 		<div class="news-detail-meta">
 			<div class="share">
 				<span class="share__title">Share:</span>

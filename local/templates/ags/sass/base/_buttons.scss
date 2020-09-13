@@ -57,4 +57,42 @@ button::-moz-focus-inner {
 		background: #FFF;
 		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
 	}
+
+	&.btn--pulsed:after{
+		background: #FFF;
+	}
+}
+
+.btn--pulsed{
+	z-index: 2;
+	&:after{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		border-radius: 5px;
+		background: $blue;
+		animation: btn-puls 1s ease infinite;
+		pointer-events: none;
+		z-index: -1;
+	}
+
+	&:hover{
+		&:after{
+			animation-play-state: paused;
+		}
+	}
+}
+
+@keyframes btn-puls {
+	from{
+		transform: scale3d(1,1,1);
+		opacity: 1;
+	}
+	to{
+		transform: scale3d(1.1,1.4,1);
+		opacity: 0;
+	}
 }

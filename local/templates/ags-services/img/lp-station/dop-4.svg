@@ -1,0 +1,30 @@
+<svg width="282" height="130" viewBox="0 0 282 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="282" height="130" fill="white"/>
+<rect x="91" y="22" width="101" height="105" rx="5" fill="#D7DEE9"/>
+<path d="M243.244 129H39" stroke="#E0E8F0" stroke-width="2"/>
+<path d="M69 123H214V128H69V123Z" fill="#0057B6"/>
+<path d="M153 111H155V124H153V111Z" fill="#0057B6"/>
+<path d="M174 111H176V124H174V111Z" fill="#0057B6"/>
+<rect x="148" y="16" width="33" height="105" rx="14" fill="#F7F9FB"/>
+<path d="M163 34C163 27.3726 168.373 22 175 22H176C178.761 22 181 24.2386 181 27V109.263C181 111.879 178.879 114 176.263 114V114C168.938 114 163 108.062 163 100.737V34Z" fill="#EBF0F5"/>
+<rect x="146" y="104" width="37" height="5" fill="#EBF0F5"/>
+<rect x="145" y="28" width="39" height="5" fill="#EBF0F5"/>
+<path d="M157 17C157 15.3431 158.343 14 160 14H168C169.657 14 171 15.3431 171 17V18H157V17Z" fill="#B8BDCE"/>
+<path d="M107 111H109V124H107V111Z" fill="#0057B6"/>
+<path d="M128 111H130V124H128V111Z" fill="#0057B6"/>
+<rect x="102" y="16" width="33" height="105" rx="14" fill="#F7F9FB"/>
+<path d="M117 34C117 27.3726 122.373 22 129 22H130C132.761 22 135 24.2386 135 27V109.263C135 111.879 132.879 114 130.263 114V114C122.938 114 117 108.062 117 100.737V34Z" fill="#EBF0F5"/>
+<rect x="100" y="104" width="37" height="5" fill="#EBF0F5"/>
+<rect x="99" y="28" width="39" height="5" fill="#EBF0F5"/>
+<path d="M111 17C111 15.3431 112.343 14 114 14H122C123.657 14 125 15.3431 125 17V18H111V17Z" fill="#B8BDCE"/>
+<path d="M128 47H155V91H128V47Z" fill="#E0E8F0"/>
+<rect x="131" y="56" width="21" height="9" fill="#B8BDCE"/>
+<rect x="136" y="63" width="11" height="19" fill="#B8BDCE"/>
+<path d="M152 60.5L131 60.5" stroke="#003399" stroke-width="3"/>
+<path d="M141.5 60.5898V82" stroke="#003399" stroke-width="3"/>
+<path d="M141.5 91V93.5C141.5 96.8137 138.814 99.5 135.5 99.5H76" stroke="#0C6EDA" stroke-width="3"/>
+<path d="M124 51.5L128 47V91H124V51.5Z" fill="#D7DEE9"/>
+<path d="M159 51.5L155 47V91H159V51.5Z" fill="#D7DEE9"/>
+<path d="M117.5 16V13C117.5 9.96243 115.038 7.5 112 7.5V7.5C108.962 7.5 106.5 9.96243 106.5 13V54.5C106.5 57.8137 109.186 60.5 112.5 60.5H126" stroke="#0C6EDA" stroke-width="3"/>
+<path d="M164.5 16V13.5C164.5 10.4624 166.962 8 170 8V8C173.038 8 175.5 10.4624 175.5 13.5V54.5C175.5 57.8137 172.814 60.5 169.5 60.5H157" stroke="#0C6EDA" stroke-width="3"/>
+</svg>

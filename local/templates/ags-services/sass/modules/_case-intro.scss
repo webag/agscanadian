@@ -1,0 +1,78 @@
+.case-intro{
+	display: block;
+	position: relative;
+	background: #666;
+	color: #FFF;
+	max-width: 384px;
+	border-radius: 1px;
+	overflow: hidden;
+	transform: translate3d(0,0,0);
+
+	&:hover{
+		.case-intro__img{
+			//transform: scale3d(1.05,1.05,1.05);
+		}
+
+		.case-intro__link{
+			opacity: 1;
+		}
+
+		&:before{
+			opacity: 1;
+		}
+	}
+
+	&:before{
+		content: '';
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: linear-gradient(to top, rgba(#000, 0.7), transparent);
+		opacity: 0.8;
+		transition: opacity 0.6s ease;
+	}
+}
+
+.case-intro__img{
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: all 0.6s ease;
+	transform: scale3d(1,1,1);
+}
+
+.case-intro__content{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 32px;
+	transform: translate3d(0,0,0);
+	@include res(c){
+		padding: 24px;
+	}
+	@include res(m){
+		padding: 16px;
+	}
+}
+
+.case-intro__company{
+	margin-bottom: 6px;
+}
+
+.case-intro__title{
+	margin-bottom: 1.2em;
+}
+
+.case-intro__link{
+	opacity: 0.3;
+	transition: all 0.6s ease;
+}
