@@ -1,4 +1,4 @@
 <?
-$sSectionName = "Генераторы азота";
+$sSectionName = "Nitrogen generators";
 $arDirProperties = Array();
 ?>

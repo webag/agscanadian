@@ -1,4 +1,4 @@
 <?
-$sSectionName = "Генераторы кислорода";
+$sSectionName = "Oxygen Generators";
 $arDirProperties = Array();
 ?>

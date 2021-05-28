@@ -438,7 +438,7 @@ $(function($){
 		const hiddenRows = $(this).parents('section').find('.table-params__hidden');
 		hiddenRows.slideToggle(200);
 		let text = $(this).text();
-		$(this).text(text === "Раскрыть список" ? "Свернуть список" : "Раскрыть список");
+		$(this).text(text === "Expand the list" ? "Collapse the list" : "Expand the list");
 	})
 });
 /***********************

@@ -23,6 +23,6 @@ endif;
 	<div class="case-intro__content">
 		<div class="case-intro__company"><?=$arResult['NAME']?></div>
 		<div class="h2 case-intro__title"><?=$arResult['PROPERTIES']['MODEL']['VALUE']?></div>
-		<span class="case-intro__link link-white">Подробнее</span>
+		<span class="case-intro__link link-white">More</span>
 	</div>
 </a>

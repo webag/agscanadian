@@ -17,8 +17,8 @@ $this->setFrameMode(true);
 <div class="side-slider side-slider--cases">
 	<div class="side-slider__wrapper container">
 		<div class="side-slider__info">
-			<div class="h2">Более 140 успешно реализованных проектов</div>
-			<a href="/cases/" class="link">Все проекты</a>
+			<div class="h2">More than 140 successfully completed projects</div>
+			<a href="/cases/" class="link">All projects</a>
 		</div>
 		<div class="side-slider__slides">
 			<?foreach($arResult["ITEMS"] as $key => $arItem):?>

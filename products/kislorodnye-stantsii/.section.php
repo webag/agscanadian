@@ -1,4 +1,4 @@
 <?
-$sSectionName = "Кислородные станции";
+$sSectionName = "Oxygen Adsorption Plants";
 $arDirProperties = Array();
 ?>

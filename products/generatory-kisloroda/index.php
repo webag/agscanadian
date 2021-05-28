@@ -1,42 +1,42 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Генераторы кислорода");
+$APPLICATION->SetTitle("Oxygen Generators");
 ?>
 
 
 <section class="s-lp-header anim">
 	<div class="container lp-header">
 		<div class="lp-header__content">
-			<div class="lp-header__label anim anim--bottom">Адсорбционные</div>
-			<h1 class="h1-promo anim anim--bottom">Генераторы кислорода</h1>
-			<div class="h1 anim anim--bottom">от надежного Российского производителя</div>
+			<div class="lp-header__label anim anim--bottom">Adsorption</div>
+			<h1 class="h1-promo anim anim--bottom">Oxygen Generators</h1>
+			<div class="h1 anim anim--bottom">from a reliable Russian manufacturer</div>
 			<div class="lp-header__triggers">
 				<div class="lp-header__trigger anim anim--bottom">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-1.svg" alt="1">
 					<div class="lp-header__trigger__content">
-						<p class="text-small">Производительность:</p>
-						<div class="lead">до 500 м<sup>3</sup></div>
+						<p class="text-small">Productivity:</p>
+						<div class="lead">up to 500 m<sup>3</sup></div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-2.svg" alt="1">
 					<div class="lp-header__trigger__content">
-						<p class="text-small">Гарантия:</p>
-						<div class="lead">24 месяца</div>
+						<p class="text-small">Warranty:</p>
+						<div class="lead">24 months</div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-o.svg" alt="1">
 					<div class="lp-header__trigger__content">
-						<p class="text-small">Концентрация газа:</p>
-						<div class="lead">до 95.5%</div>
+						<p class="text-small">Gas concentration:</p>
+						<div class="lead">up to 95.5%</div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-4.svg" alt="1">
 					<div class="lp-header__trigger__content">
-						<p class="text-small">Срок службы:</p>
-						<div class="lead">20 лет</div>
+						<p class="text-small">Service life:</p>
+						<div class="lead">20 years</div>
 					</div>
 				</div>
 			</div>
@@ -46,9 +46,9 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 						<i class="i-play"></i>
 					</div>
 					<div class="media-block__content">
-						<div class="text-small">Обзор кислородной станции АГС</div>
+						<div class="text-small">AGS oxygen plant overview</div>
 						<div class="media-block__actions">
-							<div class="text-small media-block__action">Смотреть</div>
+							<div class="text-small media-block__action">View</div>
 						</div>
 					</div>
 				</a>
@@ -62,12 +62,12 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 <section class="s-order s-order--generatorkp">
 	<div class="container order">
 		<div class="order__content">
-			<div class="lead">Оставьте заявку и</div>
-			<div class="h1">Получите коммерческое предложение<br>и&nbsp;рассчет стоимости генератора</div>
+			<div class="lead">Submit a request and</div>
+			<div class="h1">receive a commercial offer and a calculation of the cost of the generator</div>
 			<a href="/products/generatory-azota/briefing.docx" class="doc-block" target="_blank" download="Опросный лист (азотная станция)">
 				<div class="doc-block__content">
-					<div class="text-small">Опросный лист</div>
-					<div class="text-micro">(74 КБ, docx)</div>
+					<div class="text-small">Questionnaire</div>
+					<div class="text-micro">(74 КB, docx)</div>
 				</div>
 				<div class="doc-block__icon">
 					<i class="i-download"></i>
@@ -79,7 +79,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 				<input type="hidden" value="Запрос КП (генераторы кислорода)" name="form_subject">
 				<label class="input-group">
 					<input type="text" name="user_name" data-label="Имя пользователя" class="input-text">
-					<span class="input-group__label">Ваше имя</span>
+					<span class="input-group__label">Name</span>
 				</label>
 				<label class="input-group">
 					<input type="email" name="user_email" data-label="Email" class="input-text" data-req="true">
@@ -87,16 +87,16 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 				</label>
 				<label class="input-group">
 					<input type="tel" name="user_tel" data-label="Телефон"  class="input-text" data-req="true">
-					<span class="input-group__label">Телефон*</span>
+					<span class="input-group__label">Telephone*</span>
 				</label>
 				<label class="style-file">
 					<input type="file" name="user_file" data-multiple-caption="{count} файла(ов)" multiple>
 					<i></i>
-					<span class="style-file__text">Прикрепить файл</span>
-					<span class="style-file__delete" title="Очистить">&#10006;</span>
+					<span class="style-file__text">Attach a file</span>
+					<span class="style-file__delete" title="Clear">&#10006;</span>
 				</label>
-				<button type="submit" class="btn">Запросить КП</button>
-				<div class="form-privacy text-micro">Нажимая кнопку, принимаю<br><a href="/AGS_policy.docx" target="_blank" download>условия пользовательского соглашения</a></div>
+				<button type="submit" class="btn">Request a quotation</button>
+				<div class="form-privacy text-micro">By clicking the button, I accept<br><a href="/AGS_policy.docx" target="_blank" download>the user agreement terms</a></div>
 			</form>
 		</div>
 	</div>
@@ -106,50 +106,50 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 
 <section class="s-gen-params s-def">
 	<div class="container">
-		<div class="h2-promo sec-title">О нашем серийном генераторе кислорода</div>
+		<div class="h2-promo sec-title">About our serial oxygen generator</div>
 
 		<div class="gen-params" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/lp/gen-params-kislorod.jpg">
-			<div class="h1">Технические характеристики</div>
+			<div class="h1">Specifications</div>
 
 			<div class="gen-params__list text-long">
 				<div class="gen-params__item">
-					<strong>Производительность:</strong>
-					<span>до 500 м<sup>3</sup>/час</span>
+					<strong>Performance:</strong>
+					<span>up to 500 m<sup>3</sup>/h</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Концентрация:</strong>
-					<span>до 95.5%</span>
+					<strong>Concentration:</strong>
+					<span>up to 95.5%</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Энергоэффективность:</strong>
-					<span>0,25 — 0,4 кВт/м<sup>3</sup></span>
+					<strong>Energy efficiency:</strong>
+					<span>0,25 — 0,4  kW/m<sup>3</sup></span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Давление:</strong>
-					<span>до 12 бар</span>
+					<strong>Pressure:</strong>
+					<span>up to 12 bar</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Точка россы:</strong>
+					<strong>Dew point:</strong>
 					<span>– 60 C ̊</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Гарантия:</strong>
-					<span>24 месяца</span>
+					<strong>Guarantee:</strong>
+					<span>24 months</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Срок службы станции:</strong>
-					<span>20 лет</span>
+					<strong>Station service life:</strong>
+					<span>20 years</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Производство:</strong>
-					<span>от 2 недель</span>
+					<strong>Production:</strong>
+					<span>from 2 weeks</span>
 				</div>
 			</div>
 
 			<a class="doc-block">
 				<div class="doc-block__content">
-					<div class="text-small">Буклет серийных генераторов кислорода</div>
-					<div class="text-micro">(9.1 МБ, pdf)</div>
+					<div class="text-small">Oxygen Generator Series Booklet</div>
+					<div class="text-micro">(9.1 МB, pdf)</div>
 				</div>
 				<div class="doc-block__icon">
 					<i class="i-download"></i>
@@ -163,7 +163,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 
 <section class="s-def-bottom">
 	<div class="container">
-		<div class="h1 sec-title anim anim--bottom">Преимущества генератора АГС</div>
+		<div class="h1 sec-title anim anim--bottom">AGS generator benefits</div>
 
 		<div class="icon-blocks-grid">
 			<div class="icon-block-h anim anim--bottom">
@@ -171,7 +171,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-1.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Полная автоматизация генератора и&nbsp;всей станции</span>
+					<span>Complete automation of the generator and the entire station</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -179,7 +179,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-2-k.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Качественные компоненты от&nbsp;мировых лидеров</span>
+					<span>Quality components from world leaders</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -187,7 +187,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-3-k.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Высокая надежность генератора</span>
+					<span>High generator reliability</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -195,7 +195,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-4.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Длительный срок службы адсорбента</span>
+					<span>Long service life of the adsorbent</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -203,7 +203,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-5.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Высокая энергоэффективность</span>
+					<span>High energy efficiency</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -211,7 +211,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-6-k.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Контроль от&nbsp;попадания некандиционного газа потребителю</span>
+					<span>Control from the unconditional gas ingress to the consumer</span>
 				</div>
 			</div>
 		</div>
@@ -711,15 +711,15 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 <section class="s-order s-order--generator-price">
 	<div class="container order">
 		<div class="order__content">
-			<div class="lead">Оставьте заявку и</div>
-			<div class="h1">Получите полный<br>прайс-лист модельного<br>ряда генераторов<br>кислорода</div>
+			<div class="lead">Submit a request and</div>
+			<div class="h1">get a full price list <br>of the oxygen generators <br>model range</div>
 		</div>
 		<div class="order__right">
 			<form class="ajax-form vertical-form">
 				<input type="hidden" value="Запрос прайса (генераторы кислорода)" name="form_subject">
 				<label class="input-group">
 					<input type="text" name="user_name" data-label="Имя пользователя" class="input-text">
-					<span class="input-group__label">Ваше имя</span>
+					<span class="input-group__label">Name</span>
 				</label>
 				<label class="input-group">
 					<input type="email" name="user_email" data-label="Email" class="input-text" data-req="true">
@@ -727,10 +727,10 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 				</label>
 				<label class="input-group">
 					<input type="tel" name="user_tel" data-label="Телефон"  class="input-text" data-req="true">
-					<span class="input-group__label">Телефон*</span>
+					<span class="input-group__label">Telephone*</span>
 				</label>
-				<button type="submit" class="btn">Получить прайс-лист</button>
-				<div class="form-privacy text-micro">Нажимая кнопку, принимаю<br><a href="/AGS_policy.docx" target="_blank" download>условия пользовательского соглашения</a></div>
+				<button type="submit" class="btn">Get a price list</button>
+				<div class="form-privacy text-micro">By clicking the button, I accept<br><a href="/AGS_policy.docx" target="_blank" download>the user agreement terms</a></div>
 			</form>
 		</div>
 	</div>
@@ -740,7 +740,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 
 <section class="s-def">
 	<div class="container">
-		<div class="h2-promo sec-title">Последние реализованные проекты</div>
+		<div class="h2-promo sec-title">Latest completed projects</div>
 	</div>
 
 	<?$APPLICATION->IncludeComponent(
@@ -820,35 +820,35 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 			<div class="row">
 
 				<div class="grid-6 grid-12_s">
-					<div class="h2-promo">Устройство генератора кислорода</div>
+					<div class="h2-promo">Oxygen generator device</div>
 					<div class="gen-sostav__nav">
 						<div class="gen-sostav__nav__item">
-							<div class="lead">Адсорберы</div>
-							<div class="gen-sostav__nav__item__hidden">Изготовленные специально для&nbsp;работы под&nbsp;высокими циклическими нагрузками. Внутреннее устройство адсорберов специально разработано для&nbsp;наибольшей энергоэффективности.</div>
+							<div class="lead">Adsorbers</div>
+							<div class="gen-sostav__nav__item__hidden">Designed specifically for high cyclic loads. The interior of the adsorbers is specially designed for the highest energy efficiency.</div>
 						</div>
 						<div class="gen-sostav__nav__item">
-							<div class="lead">Адсорбент</div>
-							<div class="gen-sostav__nav__item__hidden">В&nbsp;наших генераторах мы используем только качественные и&nbsp;проверенный адсорбент.<br>
+							<div class="lead">Adsorbent</div>
+							<div class="gen-sostav__nav__item__hidden">In our generators, we use only high-quality and proven adsorbent.<br>
 								<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/sostav-logos-1.png" alt="1">
 							</div>
 						</div>
 						<div class="gen-sostav__nav__item">
-							<div class="lead">Система управления и&nbsp;автоматизации</div>
-							<div class="gen-sostav__nav__item__hidden">Построена на&nbsp;базе контроллеров Siemens с&nbsp;локальной панелью оператора Touch-screen.<br>
+							<div class="lead">Control and automation system</div>
+							<div class="gen-sostav__nav__item__hidden">Built on the basis of Siemens controllers with a local Touch-screen operator panel.<br>
 								<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/sostav-logos-2.png" alt="1">
 							</div>
 						</div>
 						<div class="gen-sostav__nav__item">
-							<div class="lead">Клапанный блок с&nbsp;пневмоуправлением</div>
-							<div class="gen-sostav__nav__item__hidden">С&nbsp;использованием пневмоуправляемых клапанов, рассчитанных на&nbsp;высокую циклическую нагрузку, более 2&nbsp;млн. циклов срабатывания.</div>
+							<div class="lead">Valve block with pneumatic control</div>
+							<div class="gen-sostav__nav__item__hidden">Using pneumatically operated valves designed for high cyclic loading, more than 2 million operating cycles.</div>
 						</div>
 						<div class="gen-sostav__nav__item">
-							<div class="lead">Система динамического поджима</div>
-							<div class="gen-sostav__nav__item__hidden">Для предотвращения стирания адсорбента и&nbsp;появления адсрбционной пыли.</div>
+							<div class="lead">Dynamic preload system</div>
+							<div class="gen-sostav__nav__item__hidden">To prevent the adsorbent abrasion and the adsorption dust appearance.</div>
 						</div>
 						<div class="gen-sostav__nav__item">
-							<div class="lead">Модуль набора концентрации</div>
-							<div class="gen-sostav__nav__item__hidden">Для предотвращения попадания некондиционного кислорода потребителю.</div>
+							<div class="lead">Concentration set module</div>
+							<div class="gen-sostav__nav__item__hidden">To prevent unconditional oxygen from entering the consumer’s plant.</div>
 						</div>
 					</div>
 				</div>
@@ -876,8 +876,8 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 
 <section class="s-def">
 	<div class="container">
-		<div class="h2-promo sec-title">Принцип работы генератора кислорода</div>
-		<div class="sec-descr">Генераторы кислорода нашей компании основаны на принципе короткоцикловой адсорбции. В качестве адсорбента используется синтетические цеолиты. Схему работы можно отразить в 6 этапах.</div>
+		<div class="h2-promo sec-title">The oxygen generator operation principle</div>
+		<div class="sec-descr">Our oxygen generators are based on the pressure swing adsorption principle. Synthetic zeolites are used as an adsorbent. The scheme of work can be reflected in 6 stages.</div>
 
 		<div class="gen-princip">
 			<div class="row">
@@ -890,37 +890,37 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 						</div>
 						<div class="gen-princip__info">
 							<div class="gen-princip__info__step active">
-								<div class="lead gray">Этап 01/06</div>
-								<div class="h2">Набор давления в&nbsp;адсорбере&nbsp;А</div>
-								<p>Открывается клапан для наполнения адсорбера&nbsp;А. Начинается подача сжатого воздуха в&nbsp;адсорбер&nbsp;А, в&nbsp;результате чего давление в&nbsp;нем поднимается до&nbsp;рабочего.</p>
+								<div class="lead gray">Stage 01/06</div>
+								<div class="h2">Pressure build-up in adsorber A</div>
+								<p>The valve for filling the adsorber A is opened. Compressed air is supplied to the adsorber A, as a result of which the pressure in it increases to the working one.</p>
 							</div>
 							<div class="gen-princip__info__step">
-								<div class="lead gray">Этап 02/06</div>
-								<div class="h2">Работа</div>
-								<p>По достижении рабочего давления в&nbsp;адсорбере&nbsp;А открывается клапан выдачи кислорода потребителю и&nbsp;клапан сброса из&nbsp;адсорбера&nbsp;Б. Часть кислорода направляется в&nbsp;адсорбер&nbsp;Б для его регенерации.</p>
+								<div class="lead gray">Stage 02/06</div>
+								<div class="h2">Work</div>
+								<p>When the operating pressure in adsorber A is reached, the oxygen delivery valve to the consumer and the relief valve from adsorber B are opened. A part of the oxygen is sent to adsorber B for its regeneration.</p>
 							</div>
 							<div class="gen-princip__info__step">
-								<div class="lead gray">Этап 03/06</div>
-								<div class="h2">Переключение адсорберов</div>
-								<p>После насыщения адсорбента в&nbsp;адсорбере&nbsp;А примесями закрываются все клапаны. В&nbsp;этот момент адсорбер&nbsp;А находится под&nbsp;рабочим давлением, а&nbsp;адсорбер&nbsp;Б под&nbsp;небольшим избыточным давлением по&nbsp;отношению к&nbsp;атмосферному.</p>
-								<p>Затем происходит открытие клапанов в&nbsp;верхней и&nbsp;нижней магистрали выравнивания, в&nbsp;результате чего давление в&nbsp;обоих адсорберах становится одинаковым. Далее клапаны в&nbsp;магистралях выравнивания закрываются и&nbsp;открывается клапан наполнения адсорбера&nbsp;Б.</p>
+								<div class="lead gray">Stage 03/06</div>
+								<div class="h2">Adsorbers switching</div>
+								<p>After the adsorbent saturation with impurities in adsorber A, all valves are closed. At this moment, adsorber A is under operating pressure, and adsorber B is under a slight excess pressure relating to atmospheric pressure.</p>
+								<p>Then the valves in the upper and lower equalization lines are opened, as a result of which the pressure becomes the same  in both adsorbers.  Further, the valves in the equalization lines close and the filling valve of the adsorber B opens.</p>
 							</div>
 							<div class="gen-princip__info__step">
-								<div class="lead gray">Этап 04/06</div>
-								<div class="h2">Набор давления в адсорбере Б</div>
-								<p>Открывается клапан для&nbsp;наполнения адсорбера&nbsp;Б. Начинается подача сжатого воздуха в&nbsp;адсорбер&nbsp;Б, в&nbsp;результате чего давление в&nbsp;нем поднимается до&nbsp;рабочего.</p>
+								<div class="lead gray">Stage 04/06</div>
+								<div class="h2">Pressure build-up in adsorber B</div>
+								<p>The valve for filling the adsorber B is opened. Compressed air is supplied to the adsorber B, as a result of which the pressure in it increases to the working one.</p>
 							</div>
 							<div class="gen-princip__info__step">
-								<div class="lead gray">Этап 05/06</div>
-								<div class="h2">Работа</div>
-								<p>По&nbsp;достижении рабочего давления в&nbsp;адсорбере&nbsp;Б открывается клапан выдачи кислорода потребителю и&nbsp;клапан сброса из&nbsp;адсорбера&nbsp;А. Часть кислорода направляется в&nbsp;адсорбер&nbsp;А для&nbsp;его регенерации.</p>
+								<div class="lead gray">Stage 05/06</div>
+								<div class="h2">Operation</div>
+								<p>When the operating pressure in adsorber B is reached, the oxygen delivery valve to the consumer and the discharge valve from adsorber A are opened. Part of the oxygen is sent to adsorber A for its regeneration.</p>
 							</div>
 							<div class="gen-princip__info__step">
-								<div class="lead gray">Этап 06/06</div>
-								<div class="h2">Переключение адсорберов</div>
-								<p>После насыщения адсорбента в&nbsp;адсорбере&nbsp;Б примесями закрываются все клапаны. В&nbsp;этот момент адсорбер Б&nbsp;находится под рабочим давлением, а&nbsp;адсорбер&nbsp;А под&nbsp;небольшим избыточным давлением по&nbsp;отношению к&nbsp;атмосферному.</p>
-								<p>Затем происходит открытие клапанов в&nbsp;верхней и&nbsp;нижней магистрали выравнивания, в&nbsp;результате чего давление в&nbsp;обоих адсорберах становится одинаковым. Далее клапаны в&nbsp;магистралях выравнивания закрываются и&nbsp;открывается клапан наполнения адсорбера&nbsp;А.</p>
-								<p>На&nbsp;этом завершается полный цикл работы установки. В&nbsp;дальнейшем происходит многократное повторение этого цикла.</p>
+								<div class="lead gray">Stage 06/06</div>
+								<div class="h2">Switching adsorbers</div>
+								<p>After saturation of the adsorbent in adsorber B with impurities, all valves are closed. At this moment, adsorber B is under operating pressure, and adsorber A is under a slight excess pressure in relation to atmospheric pressure.</p>
+								<p>Then the valves in the upper and lower equalization lines are opened, as a result of which the pressure in both adsorbers becomes the same. Further, the valves in the equalization lines are closed and the valve for filling the adsorber A is opened.</p>
+								<p>This is the full cycle of the installation. In the future, this cycle is repeated many times.</p>
 							</div>
 						</div>
 					</div>
@@ -958,26 +958,26 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 <section>
 	<div class="container">
 		<div class="useful">
-			<div class="h2 useful__title">Полезная информация</div>
+			<div class="h2 useful__title">Helpful information</div>
 			<div class="side-tabs">
 				<div class="side-tabs__nav">
-					<div class="side-tabs__nav__item lead active">Короткоцикловая адсорбция (КЦА)</div>
-					<div class="side-tabs__nav__item lead">Синтетические цеолиты</div>
+					<div class="side-tabs__nav__item lead active">Pressure swing adsorption (PSA)</div>
+					<div class="side-tabs__nav__item lead">Synthetic zeolites</div>
 				</div>
 				<div class="side-tabs__content">
 					<div class="side-tabs__content__item text-long active">
-						<p>Технология короткоцикловой безнагревной адсорбции (КЦА) широко применяется для&nbsp;получения различных технических газов, таких как: азот, кислород, водород и&nbsp;других. Кроме того, с&nbsp;ее помощью возможно осушение сжатого воздуха.</p>
-						<p>Принцип действия установок КЦА основан на&nbsp;избирательной адсорбции некоторых компонентов газовых смесей. При&nbsp;этом существенную роль в&nbsp;работе таких установок играет скорость адсорбции. Поскольку длительность цикла невелика, адсорбирумые примеси насыщают лишь поверхностные слои гранул адсорбента, не&nbsp;успевая проникнуть в&nbsp;глубинные слои. В&nbsp;этом случае достаточно легко произвести последующую десорбцию накопленных примесей за&nbsp;счет снижения давления в&nbsp;адсорбере и&nbsp;непродолжительной продувки потоком продуктового газа.</p>
+						<p>The pressure swing adsorption (PSA) technology is widely used to obtain various industrial gases, such as nitrogen, oxygen, hydrogen and others. In addition, it can be used for dehumidified compressed air.</p>
+						<p>The PSA unit operation principle is based on the selective adsorption of some components of gas mixtures. In this case, the adsorption rate plays a significant role in the operation of such installations.  Since the cycle time is short, the adsorbed impurities saturate only the surface layers of the adsorbent granules, without any time for penetrating into the deep layers.  In this case, it is quite easy to conduct the subsequent desorption of the accumulated impurities by reducing the pressure in the adsorber and short-term blowdown with the product gas flow.</p>
 					</div>
 					<div class="side-tabs__content__item text-long">
-						<p>Синтетические цеолиты – высокопористые вещества с&nbsp;развитой структурой и&nbsp;большой удельной площадью поверхности. Обладая избирательной адсорбционной способностью к&nbsp;различным газам позволяют выделять из&nbsp;газовых смесей отдельные компоненты.</p>
-						<p>Так, наиболее часто, цеолиты используются для&nbsp;получения кислорода из&nbsp;атмосферного воздуха. В&nbsp;основе этого процесса лежит большая адсорбционная активность цеолитов к&nbsp;поглощению азота, чем&nbsp;к&nbsp;поглощению кислорода. Современные КЦА установки при&nbsp;использовании высокоэффективных синтетических цеолитов позволяют получать газообразный кислород с&nbsp;концентрацией до&nbsp;99%.</p>
+						<p>Synthetic zeolites are highly porous substances with a developed structure and a large specific surface area. Having selective adsorption capacity for various gases, they allow individual components to be separated from gas mixtures.</p>
+						<p>So, most often, zeolites are used to obtain oxygen from atmospheric air. This process is based on a larger adsorption activity of zeolites for absorbing nitrogen than oxygen. Modern PSA plants using highly efficient synthetic zeolites that allow to  produce the gaseous oxygen with a concentration of up to 99%.</p>
 					</div>
 				</div>
 			</div>
 			<div class="useful__bottom">
-				<div class="gray">Остались вопросы или вы хотите  получить больше информации? </div>
-				<a href="#modal-consult" class="btn btn--medium btn--grey fancy-modal">Получить консультацию</a>
+				<div class="gray">Do you still have questions or would you like to get more information?</div>
+				<a href="#modal-consult" class="btn btn--medium btn--grey fancy-modal">Get the consultation</a>
 			</div>
 		</div>
 	</div>
@@ -986,8 +986,8 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 
 <section class="s-def">
 	<div class="container">
-		<div class="h2-promo sec-title anim anim--bottom">Сервис</div>
-		<div class="sec-descr lead anim anim--bottom">Осуществляем полный комплекс сервисного обслуживания для всего производимого оборудования</div>
+		<div class="h2-promo sec-title anim anim--bottom">Service</div>
+		<div class="sec-descr lead anim anim--bottom">We provide a full range of services for all manufactured equipment</div>
 
 		<div class="icon-blocks-grid">
 			<div class="icon-block-h anim anim--bottom">
@@ -995,7 +995,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-1.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Гарантия на&nbsp;генераторы кислорода 2&nbsp;года</span>
+					<span>Nitrogen generators 2-year warranty</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -1003,7 +1003,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-2.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Сервисная поддержка в&nbsp;течении 24&nbsp;часов</span>
+					<span>Service support within 24 hours</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -1011,7 +1011,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-3.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Обучение и&nbsp;консультация персонала заказчика</span>
+					<span>Training and consultation of the customer's personnel</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -1019,7 +1019,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-4.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Круглосуточная техническая поддержка</span>
+					<span>24/7 technical support</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -1027,7 +1027,7 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-5.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Сервисная поддержка в&nbsp;любой точке мира</span>
+					<span>Worldwide service support</span>
 				</div>
 			</div>
 		</div>
@@ -1039,9 +1039,9 @@ $APPLICATION->SetTitle("Генераторы кислорода");
 	<div class="container">
 		<div class="station-intro">
 			<div class="station-intro__content">
-				<div class="h2-promo">Кислородные станции</div>
-				<div class="gray station-intro__text">Мы можем произвести кислородную станцию со&nbsp;всем необходимым сопутствующим оборудованием по&nbsp;индивидуальному техническому заданию заказчика от&nbsp;3&nbsp;недель</div>
-				<a href="/products/kislorodnye-stantsii/" class="btn btn--medium btn--grey">Читать подробнее</a>
+				<div class="h2-promo">Oxygen plants</div>
+				<div class="gray station-intro__text">We can produce an oxygen plant with all the necessary related equipment in accordance with the individual technical specifications of the customer from 3 weeks</div>
+				<a href="/products/kislorodnye-stantsii/" class="btn btn--medium btn--grey">Read more</a>
 			</div>
 			<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/intro-station-kislorod.png" alt="1" class="station-intro__img">
 		</div>

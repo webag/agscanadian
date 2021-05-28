@@ -1,42 +1,42 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Кислородные станции");
+$APPLICATION->SetTitle("Oxygen Adsorption Plants");
 ?>
 
 
 <section class="s-lp-header anim" >
 	<div class="container lp-header">
 		<div class="lp-header__content">
-			<div class="lp-header__label anim anim--bottom">Адсорбционные</div>
-			<h1 class="h1-promo anim anim--bottom">Кислородные станции</h1>
-			<div class="lead anim anim--bottom">Спроектируем и&nbsp;произведем станцию по&nbsp;индивидуальному техническому заданию заказчика от&nbsp;3-х недель “под&nbsp;ключ”</div>
+			<div class="lp-header__label anim anim--bottom">Adsorption</div>
+			<h1 class="h1-promo anim anim--bottom">Oxygen Adsorption Plants</h1>
+			<div class="lead anim anim--bottom">We will design and produce the plant on a turnkey basis, according to the individual customer’s technical assignment, the terms starting from 3 weeks</div>
 			<div class="lp-header__triggers">
 				<div class="lp-header__trigger anim anim--bottom">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-1.svg" alt="1">
 					<div class="lp-header__trigger__content">
-						<p class="text-small">Производительность:</p>
-						<div class="lead">до 5 000 м<sup>3</sup></div>
+						<p class="text-small">Capacity:</p>
+						<div class="lead">up to 5 000 m<sup>3</sup></div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-2.svg" alt="1">
 					<div class="lp-header__trigger__content">
-						<p class="text-small">Гарантия:</p>
-						<div class="lead">24 месяца</div>
+						<p class="text-small">Warranty:</p>
+						<div class="lead">24 months</div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-o.svg" alt="1">
 					<div class="lp-header__trigger__content">
-						<p class="text-small">Концентрация газа:</p>
-						<div class="lead">до 95.5%</div>
+						<p class="text-small">Gas concentration:</p>
+						<div class="lead">up to 95.5%</div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-4.svg" alt="1">
 					<div class="lp-header__trigger__content">
-						<p class="text-small">Срок службы:</p>
-						<div class="lead">20 лет</div>
+						<p class="text-small">Service life:</p>
+						<div class="lead">20 years old</div>
 					</div>
 				</div>
 			</div>
@@ -46,9 +46,9 @@ $APPLICATION->SetTitle("Кислородные станции");
 						<i class="i-play"></i>
 					</div>
 					<div class="media-block__content">
-						<div class="text-small">Обзор кислородной станции АГС</div>
+						<div class="text-small">AGS oxygen plant oveview</div>
 						<div class="media-block__actions">
-							<div class="text-small media-block__action">Смотреть</div>
+							<div class="text-small media-block__action">View</div>
 						</div>
 					</div>
 				</a>
@@ -62,12 +62,12 @@ $APPLICATION->SetTitle("Кислородные станции");
 <section class="s-order s-order--generatorkp">
 	<div class="container order">
 		<div class="order__content">
-			<div class="lead">Оставьте заявку на коммерческое предложение</div>
-			<div class="h1">Получите схему размещения станции на&nbsp;вашем предприятии бесплатно</div>
+			<div class="lead">Submit a request for a commercial offer</div>
+			<div class="h1">Get the plant layout for your company for free</div>
 			<a href="/products/kislorodnye-stantsii/briefing.docx" class="doc-block" target="_blank" download="Опросный лист (кислородная станция)">
 				<div class="doc-block__content">
-					<div class="text-small">Опросный лист</div>
-					<div class="text-micro">(74 КБ, docx)</div>
+					<div class="text-small">Questionnaire</div>
+					<div class="text-micro">(74 КB, docx)</div>
 				</div>
 				<div class="doc-block__icon">
 					<i class="i-download"></i>
@@ -79,7 +79,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 				<input type="hidden" value="Запрос КП (кислородная станция)" name="form_subject">
 				<label class="input-group">
 					<input type="text" name="user_name" data-label="Имя пользователя" class="input-text">
-					<span class="input-group__label">Ваше имя</span>
+					<span class="input-group__label">Name</span>
 				</label>
 				<label class="input-group">
 					<input type="email" name="user_email" data-label="Email" class="input-text" data-req="true">
@@ -87,16 +87,16 @@ $APPLICATION->SetTitle("Кислородные станции");
 				</label>
 				<label class="input-group">
 					<input type="tel" name="user_tel" data-label="Телефон"  class="input-text" data-req="true">
-					<span class="input-group__label">Телефон*</span>
+					<span class="input-group__label">Telephone*</span>
 				</label>
 				<label class="style-file">
-					<input type="file" name="user_file" data-multiple-caption="{count} файла(ов)" multiple>
+					<input type="file" name="user_file" data-multiple-caption="{count} file(s)" multiple>
 					<i></i>
-					<span class="style-file__text">Прикрепить файл</span>
-					<span class="style-file__delete" title="Очистить">&#10006;</span>
+					<span class="style-file__text">Attach a file</span>
+					<span class="style-file__delete" title="Clear">&#10006;</span>
 				</label>
-				<button type="submit" class="btn">Запросить КП</button>
-				<div class="form-privacy text-micro">Нажимая кнопку, принимаю<br><a href="/AGS_policy.docx" target="_blank" download>условия пользовательского соглашения</a></div>
+				<button type="submit" class="btn">Request a quotation</button>
+				<div class="form-privacy text-micro">By clicking the button, I accept<br><a href="/AGS_policy.docx" target="_blank" download>the user agreement terms</a></div>
 			</form>
 		</div>
 	</div>
@@ -106,8 +106,8 @@ $APPLICATION->SetTitle("Кислородные станции");
 
 <section class="s-def-top">
 	<div class="container">
-		<div class="h2-promo sec-title anim anim--bottom">Наши клиенты</div>
-		<div class="sec-descr lead anim anim--bottom">Работаем с&nbsp;крупнейшими компаниями промышленной отрасли России</div>
+		<div class="h2-promo sec-title anim anim--bottom">Our customers</div>
+		<div class="sec-descr lead anim anim--bottom">We work with the largest Russian industrial companies</div>
 		<div class="logos-grid">
 			<div class="logo anim anim--bottom"><img src="<?=SITE_TEMPLATE_PATH?>/img/logos/1.svg" alt="1"></div>
 			<div class="logo anim anim--bottom"><img src="<?=SITE_TEMPLATE_PATH?>/img/logos/2.svg" alt="1"></div>
@@ -124,7 +124,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 
 <section class="s-def">
 	<div class="container">
-		<div class="h2-promo sec-title">Реализованные проекты</div>
+		<div class="h2-promo sec-title">Latest completed projects</div>
 	</div>
 
 	<?$APPLICATION->IncludeComponent(
@@ -202,51 +202,51 @@ $APPLICATION->SetTitle("Кислородные станции");
 	<div class="container">
 
 		<div class="station-params">
-			<div class="h2-promo">Технические характеристики кислородной станции АГС</div>
+			<div class="h2-promo">Technical characteristics of the AGS oxygen plant</div>
 
 			<div class="gen-params__list text-long">
 				<div class="gen-params__item">
-					<strong>Производительность:</strong>
-					<span>до 5 000 м<sup>3</sup>/час</span>
+					<strong>Capacity:</strong>
+					<span>up to 5 000 m<sup>3</sup>/h</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Концентрация:</strong>
-					<span>до 95.5%</span>
+					<strong>Concentration:</strong>
+					<span>up to 95.5%</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Энергоэффективность:</strong>
-					<span>0,25 — 0,4 кВт/м<sup>3</sup></span>
+					<strong>Energy efficiency:</strong>
+					<span>0,25 — 0,4 kW/m<sup>3</sup></span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Давление:</strong>
-					<span>до 450 бар</span>
+					<strong>Pressure:</strong>
+					<span>up to 450 bar</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Точка россы:</strong>
-					<span>от +3 &deg;C до –70 &deg;C</span>
+					<strong>Dew Point:</strong>
+					<span>from +3 &deg;C to –70 &deg;C</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Система осушения сжатого воздуха:</strong>
-					<span>рефрежираторная,<br>адсорбционная</span>
+					<strong>Compressed air dehumidification system:</strong>
+					<span>refrigeration, adsorption</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Гарантия:</strong>
-					<span>24 месяца</span>
+					<strong>Warranty:</strong>
+					<span>24 months</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Срок службы станции:</strong>
-					<span>20 лет</span>
+					<strong>Plant Service life:</strong>
+					<span>20 years</span>
 				</div>
 				<div class="gen-params__item">
-					<strong>Производство:</strong>
-					<span>от 3 недель</span>
+					<strong>Production:</strong>
+					<span>from 3 weeks</span>
 				</div>
 			</div>
 
 			<a class="doc-block">
 				<div class="doc-block__content">
-					<div class="text-small">Буклет серийных генераторов кислорода</div>
-					<div class="text-micro">(9.1 МБ, pdf)</div>
+					<div class="text-small">Serial oxygen generators booklet</div>
+					<div class="text-micro">(9.1 МB, pdf)</div>
 				</div>
 				<div class="doc-block__icon">
 					<i class="i-download"></i>
@@ -262,7 +262,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 
 <section class="s-def">
 	<div class="container">
-		<div class="h2-promo sec-title anim anim--bottom">Преимущества генератора АГС</div>
+		<div class="h2-promo sec-title anim anim--bottom">AGS generator benefits</div>
 
 		<div class="icon-blocks-grid">
 			<div class="icon-block-h anim anim--bottom">
@@ -270,7 +270,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-1.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Полная автоматизация генератора и&nbsp;всей станции</span>
+					<span>The generator and the entire plant are fully automated</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -278,7 +278,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-2-s.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Быстрое введение в&nbsp;эксплуатацию</span>
+					<span>Quick commissioning</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -286,7 +286,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-3-s.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Полная заводская готовность</span>
+					<span>Full operational compatibility</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -294,7 +294,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-4-s.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Высокая степень надежности и&nbsp;качество сборки</span>
+					<span>High degree of reliability and build quality</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -302,7 +302,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-5.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Низкое энергопотребление при&nbsp;большой производительности</span>
+					<span>Low power consumption with high performance</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -310,7 +310,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-6-s.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Качественные компоненты от&nbsp;мировых лидеров</span>
+					<span>High-quality components from world industry leaders</span>
 				</div>
 			</div>
 		</div>
@@ -320,18 +320,18 @@ $APPLICATION->SetTitle("Кислородные станции");
 
 <section class="s-station-komplect">
 	<div class="container">
-		<div class="h2-promo sec-title">Комплектация кислородной станции</div>
-		<div class="sec-descr lead">Поставляем генератор со&nbsp;всем необходимым сопутствующим оборудованием “под&nbsp;ключ”</div>
+		<div class="h2-promo sec-title">Complete oxygen plant set</div>
+		<div class="sec-descr lead">We supply the generator with all the necessary related equipment on a turnkey basis</div>
 
 		<div class="tabs tabs--station">
 			<div class="tabs__nav__wrapper">
 				<div class="tabs__nav">
-					<a href="#" class="tabs__link text-small active">Винтовой<br>компрессор</a>
-					<a href="#" class="tabs__link text-small">Осушитель<br>сжатого воздуха</a>
-					<a href="#" class="tabs__link text-small">Буферный<br>воздушный ресивер</a>
-					<a href="#" class="tabs__link text-small">Система<br>фильтрации</a>
-					<a href="#" class="tabs__link text-small">Адсорбционный<br>генератор кислорода</a>
-					<a href="#" class="tabs__link text-small">Накопительный<br>ресивер для&nbsp;кислорода</a>
+					<a href="#" class="tabs__link text-small active">Screw Compressor</a>
+					<a href="#" class="tabs__link text-small">Compressed Air dehumidifier</a>
+					<a href="#" class="tabs__link text-small">Buffer air receiver</a>
+					<a href="#" class="tabs__link text-small">Filtration system</a>
+					<a href="#" class="tabs__link text-small">Oxygen Adsorption Generator</a>
+					<a href="#" class="tabs__link text-small">Storing receiver for oxygen</a>
 				</div>
 			</div>
 			<div class="tabs__content">
@@ -340,8 +340,8 @@ $APPLICATION->SetTitle("Кислородные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/kislorod-komp-1.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info">
 							<div class="station-komplect__content">
-								<div class="h2">Винтовой компрессор</div>
-								<p class="text-long">Сжимает атмосферный воздух и&nbsp;подает в&nbsp;генератор кислорода. Чаще всего для&nbsp;кислородных станций используют компрессор с&nbsp;максимальным давлением 10&nbsp;бар.</p>
+								<div class="h2">Screw Compressor</div>
+								<p class="text-long">Compresses atmospheric air and supplies oxygen to the generator. A compressor with a maximum pressure of 10 bar is mostly used for oxygen stations.</p>
 							</div>
 						</div>
 					</div>
@@ -351,8 +351,8 @@ $APPLICATION->SetTitle("Кислородные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/kislorod-komp-2.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info">
 							<div class="station-komplect__content">
-								<div class="h2">Осушитель сжатого воздуха</div>
-								<p class="text-long">Необходим для&nbsp;удаления влаги из&nbsp;сжатого воздуха. В&nbsp;кислоордной станции в&nbsp;зависимости от&nbsp;требований к&nbsp;качеству продукционного кислорода может применяться либо рефрижераторный осушитель с&nbsp;точкой росы до +3 &deg;С, либо адсорбционный с&nbsp;точкой росы до -70 &deg;С.</p>
+								<div class="h2">Compressed Air Dehumidifier</div>
+								<p class="text-long">It is necessary to remove moisture from the compressed air. Depending on the production oxygen quality requirements, either a refrigerated dehumidifier with a dew point of up to 3 °C or an adsorption dehumidifier with a dew point of up to -70 °C can be used in a sour-water station.</p>
 							</div>
 						</div>
 					</div>
@@ -362,8 +362,8 @@ $APPLICATION->SetTitle("Кислородные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/kislorod-komp-3.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info">
 							<div class="station-komplect__content">
-								<div class="h2">Буферный воздушный ресивер</div>
-								<p class="text-long">Необходим для&nbsp;выравнивания колебаний давления перед подачей воздуха в&nbsp;генератор кислорода.</p>
+								<div class="h2">Buffer air receiver</div>
+								<p class="text-long">Necessary for equalizing pressure fluctuations before supplying air to the oxygen generator.</p>
 							</div>
 						</div>
 					</div>
@@ -373,8 +373,8 @@ $APPLICATION->SetTitle("Кислородные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/kislorod-komp-4.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info">
 							<div class="station-komplect__content">
-								<div class="h2">Система фильтрации</div>
-								<p class="text-long">Необходима для&nbsp;удаления остатков влаги, масла и&nbsp;твердых частиц после компрессора.</p>
+								<div class="h2">Filtration system</div>
+								<p class="text-long">Necessary for removing the remaining moisture, oil and solid particles after the compressor.</p>
 							</div>
 						</div>
 					</div>
@@ -384,8 +384,8 @@ $APPLICATION->SetTitle("Кислородные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/kislorod-komp-5.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info station-komplect__info--left">
 							<div class="station-komplect__content">
-								<div class="h2">Адсорбционный генератор кислорода</div>
-								<p class="text-long">Воздухоразделительная установка, работающая по&nbsp;технологии короткоцикловой адсорбции. Генератор может производить кислород с&nbsp;концентрацие до&nbsp;95.5%</p>
+								<div class="h2">Oxygen adsorption generator</div>
+								<p class="text-long">Air separation plant, operating in accordance with the short-cycle adsorption technology. The generator can produce oxygen with a concentration of up to 95.5%</p>
 							</div>
 						</div>
 					</div>
@@ -395,8 +395,8 @@ $APPLICATION->SetTitle("Кислородные станции");
 						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/kislorod-komp-6.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info station-komplect__info--left">
 							<div class="station-komplect__content">
-								<div class="h2">Накопительный ресивер для&nbsp;кислорода</div>
-								<p class="text-long">Необходим для&nbsp;выравнивания скачков давления после генератора, а&nbsp;также для&nbsp;создания запаса кислорода перед подачей газа потребителю.</p>
+								<div class="h2">Storing receiver for oxygen</div>
+								<p class="text-long">Necessary for equalizing pressure fluctuations after the generator, as well as creating a reserve of oxygen before supplying gas to the consumer.</p>
 							</div>
 						</div>
 					</div>
@@ -410,35 +410,35 @@ $APPLICATION->SetTitle("Кислородные станции");
 
 <section class="s-def">
 	<div class="container">
-		<div class="h1 sec-title">Дополнительные опции</div>
+		<div class="h1 sec-title">Additional options</div>
 
 		<div class="row station-dop-grid">
 			<div class="grid-3 grid-6_m grid-12_xs">
 				<div class="station-dop">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/dop-1.svg" alt="1">
-					<div class="h3">Взрывозащищенное исполнение</div>
-					<div class="text-long gray">Вариант исполнения, который позволяет использовать оборудование во взрывоопасных зонах</div>
+					<div class="h3">Explosion-proof design</div>
+					<div class="text-long gray">Version that allows the equipment to be used in hazardous areas</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xs">
 				<div class="station-dop">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/dop-2.svg" alt="1">
-					<div class="h3">Заправочная станция</div>
-					<div class="text-long gray">Комплекс оборудования, позволяющий заполнять стандартные баллоны сжатым газом под давлением до 200 Бар</div>
+					<div class="h3">Filling station</div>
+					<div class="text-long gray">A set of equipment that allows to fill standard cylinders with compressed gas at a pressure of up to 200 Bar</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xs">
 				<div class="station-dop">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/dop-3.svg" alt="1">
-					<div class="h3">Дожимной компрессор</div>
-					<div class="text-long gray">Служит для поднятия давления продукционного газа до 450 Бар</div>
+					<div class="h3">Booster compressor</div>
+					<div class="text-long gray">It is used to boost the pressure of the production gas to 450 Bar</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xs">
 				<div class="station-dop">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/dop-4.svg" alt="1">
-					<div class="h3">Система доочистки</div>
-					<div class="text-long gray">Позволяет получить продукционный кислород более высокой концентрации</div>
+					<div class="h3">Advanced treatment system</div>
+					<div class="text-long gray">Allows you to get production oxygen of a higher concentration</div>
 				</div>
 			</div>
 		</div>
@@ -449,14 +449,14 @@ $APPLICATION->SetTitle("Кислородные станции");
 
 <section>
 	<div class="container">
-		<div class="h2-promo sec-title">Блочно-модульное исполнение</div>
+		<div class="h2-promo sec-title">Block modular design</div>
 	</div>
 
 	<div class="side-slider side-slider--photos">
 		<div class="side-slider__wrapper container">
 			<div class="side-slider__info">
-				<div class="side-slider__info__text">Станции АГС производятся в&nbsp;блочно-модульном исполнении под&nbsp;индивидуальные требования заказчика, а&nbsp;также на&nbsp;базе 20-и или 40-а футовых морских контейнеров.</div>
-				<a href="/products/kislorod-module/" class="link">Подробнее</a>
+				<div class="side-slider__info__text">AGS plants are produced in a block modular design in accordance with the individual customer requirements, as well as on the basis of 20-or 40-foot sea containers.</div>
+				<a href="/products/kislorod-module/" class="link">More details</a>
 			</div>
 			<div class="side-slider__slides">
 				<div class="side-slider__slide">
@@ -483,16 +483,16 @@ $APPLICATION->SetTitle("Кислородные станции");
 
 <section class="s-def-top">
 	<div class="container">
-		<div class="lead sec-title">Дополнительные материалы:</div>
+		<div class="lead sec-title">Additional materials:</div>
 		<div class="row media-blocks-grid">
 			<div class="grid-4 grid-6_l grid-12_s">
 				<a href="/info/razmeshchenie-oborudovaniya-v-blok-module-ili-pomeshchenii/" class="media-block">
 					<div class="media-block__frame" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/lp-station/article-block-link.jpg)">
 					</div>
 					<div class="media-block__content">
-						<div class="text-small">О блочно-модульном размещении</div>
+						<div class="text-small">About block modular placement</div>
 						<div class="media-block__actions">
-							<div class="text-small media-block__action">Читать</div>
+							<div class="text-small media-block__action">Read</div>
 						</div>
 					</div>
 				</a>
@@ -503,9 +503,9 @@ $APPLICATION->SetTitle("Кислородные станции");
 						<i class="i-play"></i>
 					</div>
 					<div class="media-block__content">
-						<div class="text-small">Обзор модульной станции АГС</div>
+						<div class="text-small">Modular AGS station overview</div>
 						<div class="media-block__actions">
-							<div class="text-small media-block__action">Смотреть</div>
+							<div class="text-small media-block__action">View</div>
 						</div>
 					</div>
 				</a>
@@ -517,8 +517,8 @@ $APPLICATION->SetTitle("Кислородные станции");
 
 <section class="s-def">
 	<div class="container">
-		<div class="h2-promo sec-title anim anim--bottom">Сервис</div>
-		<div class="sec-descr lead anim anim--bottom">Осуществляем полный комплекс сервисного обслуживания для всего производимого оборудования</div>
+		<div class="h2-promo sec-title anim anim--bottom">Service</div>
+		<div class="sec-descr lead anim anim--bottom">We provide a full range of services for all produced equipment</div>
 
 		<div class="icon-blocks-grid">
 			<div class="icon-block-h anim anim--bottom">
@@ -526,7 +526,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-1.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Гарантия на&nbsp;генераторы азота 2&nbsp;года</span>
+					<span>Nitrogen generators have a warranty for 2 years</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -534,7 +534,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-2.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Сервисная поддержка в&nbsp;течении 24&nbsp;часов</span>
+					<span>Service support within 24 hours</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -542,7 +542,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-3.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Обучение и&nbsp;консультация персонала заказчика</span>
+					<span>Training and consultation of the customer's personnel</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -550,7 +550,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-4.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Круглосуточная техническая поддержка</span>
+					<span>24/7 technical support</span>
 				</div>
 			</div>
 			<div class="icon-block-h anim anim--bottom">
@@ -558,7 +558,7 @@ $APPLICATION->SetTitle("Кислородные станции");
 					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-5.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
-					<span>Сервисная поддержка в&nbsp;любой точке мира</span>
+					<span>Worldwide service support</span>
 				</div>
 			</div>
 		</div>

@@ -20,15 +20,15 @@ $APPLICATION->SetTitle("Products");
 			</a>
 			<a href="/products/generatory-kisloroda/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-kislorod-gen.jpg" alt="1">
-				<div class="h4">Генераторы кислорода</div>
+				<div class="h4">Oxygen Generators</div>
 			</a>
 			<a href="/products/azotnye-stantsii/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-azot-station.jpg?v=3" alt="1">
-				<div class="h4">Азотные станции</div>
+				<div class="h4">Nitrogen Adsorption Plants</div>
 			</a>
 			<a href="/products/kislorodnye-stantsii/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-kislorod-station.jpg?v=3" alt="1">
-				<div class="h4">Кислородные станции</div>
+				<div class="h4">Oxygen Adsorption Plants</div>
 			</a>
 			<a href="/products/azot-membrana/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-33.jpg?v=1" alt="1">
@@ -76,7 +76,7 @@ $APPLICATION->SetTitle("Products");
 			</a>
 			<a href="/products/arenda-azotnih-stancii/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-11.jpg?v=3" alt="1">
-				<div class="h4">Аренда азотных станций</div>
+				<div class="h4">Nitrogen station rental</div>
 			</a>
 		</div>
 

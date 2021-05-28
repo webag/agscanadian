@@ -1,4 +1,4 @@
 <?
-$sSectionName = "Аренда азотных станций";
+$sSectionName = "Nitrogen station rental";
 $arDirProperties = Array();
 ?>
