@@ -53,13 +53,13 @@ $this->setFrameMode(true);
 				<div class="h1 section-title-left">Task</div>
 				<div class="case-problem">
 					<div class="user-content">
-						<?=$arResult['PROPERTIES']['PROBLEM']['VALUE']['TEXT']?>
+						<?=$arResult['PROPERTIES']['PROBLEM']['~VALUE']['TEXT']?>
 					</div>
 				</div>
 				<div class="case-answer">
 					<div class="h1">Solution</div>
 					<div class="user-content">
-						<?=$arResult['PROPERTIES']['SOLUTION']['VALUE']['TEXT']?>
+						<?=$arResult['PROPERTIES']['SOLUTION']['~VALUE']['TEXT']?>
 					</div>
 				</div>
 			</div>
