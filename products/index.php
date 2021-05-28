@@ -16,7 +16,7 @@ $APPLICATION->SetTitle("Products");
 		<div class="product-grid">
 			<a href="/products/generatory-azota/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-azot-gen.jpg" alt="1">
-				<div class="h4">Генераторы азота</div>
+				<div class="h4">Nitrogen generators</div>
 			</a>
 			<a href="/products/generatory-kisloroda/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-kislorod-gen.jpg" alt="1">
