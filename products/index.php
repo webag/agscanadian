@@ -50,14 +50,14 @@ $APPLICATION->SetTitle("Products");
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-7.jpg?v=2" alt="1">
 				<div class="h4">Cryogen Air Separation Units</div>
 			</a>
-			<a href="/products/vodorod/" class="product-grid__item">
+			<!-- <a href="/products/vodorod/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-8.jpg?v=1" alt="1">
 				<div class="h4">Electrolysis Hydrogen Generators</div>
 			</a>
 			<a href="/news/lng-regasification-systems-rsrs/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-9.jpg?v=1" alt="1">
 				<div class="h4">LNG Regasification Systems (RSRS)</div>
-			</a>
+			</a> -->
 			<a href="/products/blocks/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-10.jpg?v=2" alt="1">
 				<div class="h4">Block-modular Constructions</div>
@@ -74,10 +74,10 @@ $APPLICATION->SetTitle("Products");
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-2.jpg?v=1" alt="1">
 				<div class="h4">Adsorption Oxygen Station</div>
 			</a>
-			<a href="/products/arenda-azotnih-stancii/" class="product-grid__item">
+			<!-- <a href="/products/arenda-azotnih-stancii/" class="product-grid__item">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-11.jpg?v=3" alt="1">
 				<div class="h4">Nitrogen station rental</div>
-			</a>
+			</a> -->
 		</div>
 
 	</div>

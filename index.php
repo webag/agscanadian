@@ -123,14 +123,14 @@ $APPLICATION->SetTitle("AGS Engineering");
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-7.jpg?v=2" alt="1">
 				<div class="h4">Cryogen Air Separation Units</div>
 			</a>
-			<a href="/products/vodorod/" class="product-grid__item product-grid__item--hidden">
+			<!-- <a href="/products/vodorod/" class="product-grid__item product-grid__item--hidden">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-8.jpg?v=1" alt="1">
 				<div class="h4">Electrolysis Hydrogen Generators</div>
-			</a>
-			<a href="/news/lng-regasification-systems-rsrs/" class="product-grid__item product-grid__item--hidden">
+			</a> -->
+			<!-- <a href="/news/lng-regasification-systems-rsrs/" class="product-grid__item product-grid__item--hidden">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-9.jpg?v=1" alt="1">
 				<div class="h4">LNG Regasification Systems (RSRS)</div>
-			</a>
+			</a> -->
 			<a href="/products/blocks/" class="product-grid__item product-grid__item--hidden">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-10.jpg?v=2" alt="1">
 				<div class="h4">Block-modular Constructions</div>
@@ -143,10 +143,10 @@ $APPLICATION->SetTitle("AGS Engineering");
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-2.jpg?v=1" alt="1">
 				<div class="h4">Adsorption Oxygen Station</div>
 			</a>
-			<a href="/products/arenda-azotnih-stancii/" class="product-grid__item product-grid__item--hidden">
+			<!-- <a href="/products/arenda-azotnih-stancii/" class="product-grid__item product-grid__item--hidden">
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-11.jpg?v=3" alt="1">
 				<div class="h4">Nitrogen station rental</div>
-			</a>
+			</a> -->
 		</div>
 
 		<div class="product-grid__more">
@@ -169,9 +169,9 @@ $APPLICATION->SetTitle("AGS Engineering");
 				<div class="about-list__item"><span>03.</span>Adsorption oxygen generators</div>
 				<div class="about-list__item"><span>04.</span>Block-modular stations</div>
 				<div class="about-list__item"><span>05.</span>Adsorption dessicants</div>
-				<div class="about-list__item"><span>06.</span>Electrolysis hydrogen generators</div>
-				<div class="about-list__item"><span>07.</span>Systems for the preparation and maintenance of a modified atmosphere</div>
-				<div class="about-list__item"><span>08.</span>Filtration and drainage systems for compressed air</div>
+				<!-- <div class="about-list__item"><span>06.</span>Electrolysis hydrogen generators</div>
+				<div class="about-list__item"><span>07.</span>Systems for the preparation and maintenance of a modified atmosphere</div> -->
+				<div class="about-list__item"><span>06.</span>Filtration and drainage systems for compressed air</div>
 				<div class="about-list__hidden">
 					<p>The equipment manufactured by us was developed by the engineers of our company taking into account the specifics of Russian and European standards, as well as the latest technological innovations, and can be performed in various designs depending on customer’s requirements.</p>
 					<p>At the moment, AGS Engineering equipment is operated at many enterprises in the oil and gas and defense sectors of Russia.</p>
