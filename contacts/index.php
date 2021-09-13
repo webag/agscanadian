@@ -38,10 +38,10 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 
 			<div class="contact-item">
 				<div class="contact-item__city">Moscow</div>
-				<address class="contact-item__address">Novajs Perevedenovskaja 8, building 1, Floor 2,<br>office 2-10</address>
+				<address class="contact-item__address">Novaja Perevedenovskaja 8, building 1, Floor 2,<br>office 2-10</address>
 				<a href="tel:+74955328640" class="contact-item__phone">+7 (495) 532-86-40</a>
 				<div class="contacts-item__info">
-					Send vacancies and inquiries via email:<br>
+					Send inquiries via email:<br>
 					<a href="mailto:info@agse.ru">info@agse.ru</a>
 				</div>
 				<a href="#" class="link-icon"><i class="i-mappin"></i>How to get to</a>
@@ -63,7 +63,7 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 				<address class="contact-item__address">Industrial park</address>
 				<a href="tel:+74955328640" class="contact-item__phone">+7 (495) 532-86-40</a>
 				<div class="contacts-item__info">
-					Send vacancies and inquiries via email:<br>
+					Send inquiries via email:<br>
 					<a href="mailto:info@agse.ru">info@agse.ru</a>
 				</div>
 				<a href="#" class="link-icon"><i class="i-mappin"></i>How to get to</a>
