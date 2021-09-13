@@ -16,7 +16,7 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 		<div class="link-icon-list">
 			<!--<a href="/AGS_requisites.pdf" class="link-icon" target="_blank" download><i class="i-pdf"></i>Company Details</a>-->
 			<a href="#order_form" class="link-icon scrollto"><i class="i-bubbles"></i>Write to us</a>
-			<a href="https://kazan.hh.ru/employer/4190110" class="link-icon" target="_blank"><i class="i-badge"></i>Openings</a>
+			<!-- <a href="https://kazan.hh.ru/employer/4190110" class="link-icon" target="_blank"><i class="i-badge"></i>Openings</a> -->
 		</div>
 	</div>
 </section>
@@ -26,7 +26,7 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 <section class="s-geo-contacts">
 	<div class="contacts-map-btns">
 		<button class="contacts-map-btn">Moscow</button>
-		<button class="contacts-map-btn">Saint Petersburg</button>
+		<!-- <button class="contacts-map-btn">Saint Petersburg</button> -->
 		<button class="contacts-map-btn">Rostov-on-Don</button>
 	</div>
 
@@ -47,7 +47,7 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 				<a href="#" class="link-icon"><i class="i-mappin"></i>How to get to</a>
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/contacts/img-1.jpg" alt="1" class="contact-item__photo">
 			</div>
-			<div class="contact-item">
+			<!-- <div class="contact-item">
 				<div class="contact-item__city">Saint Petersburg</div>
 				<address class="contact-item__address">194044, B. Sampsonievsky Ave., 4-6, BC "Mont Blanc", of. 507</address>
 				<a href="tel:+74955328640" class="contact-item__phone">+7 (495) 532-86-40</a>
@@ -57,7 +57,7 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 				</div>
 				<a href="#" class="link-icon"><i class="i-mappin"></i>How to get to</a>
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/contacts/img-2.jpg" alt="1" class="contact-item__photo">
-			</div>
+			</div> -->
 			<div class="contact-item">
 				<div class="contact-item__city">Rostov-on-Don</div>
 				<address class="contact-item__address">НИП УК (Industrial park)</address>

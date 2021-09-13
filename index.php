@@ -1,5 +1,5 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("AGS Engineering");
 ?>
 
@@ -7,10 +7,10 @@ $APPLICATION->SetTitle("AGS Engineering");
 
 	<div class="intro-slider">
 		<div class="intro-slide">
-			<div class="intro-slide__bg" style="background-image: url('<?=SITE_TEMPLATE_PATH?>/img/home/intro-bg.jpg?v=2')"></div>
+			<div class="intro-slide__bg" style="background-image: url('<?= SITE_TEMPLATE_PATH ?>/img/home/intro-bg.jpg?v=2')"></div>
 			<div class="intro-slide__video">
 				<video autoplay loop muted class="head_video">
-					<source src="" type="video/mp4" class="source_mp4" data-videosrc="<?=SITE_TEMPLATE_PATH?>/img/home/bg_1.mp4">
+					<source src="" type="video/mp4" class="source_mp4" data-videosrc="<?= SITE_TEMPLATE_PATH ?>/img/home/bg_1.mp4">
 				</video>
 			</div>
 			<div class="intro-slide__content">
@@ -21,10 +21,10 @@ $APPLICATION->SetTitle("AGS Engineering");
 			</div>
 		</div>
 		<!--<div class="intro-slide">
-			<div class="intro-slide__bg" style="background-image: url('<?/*=SITE_TEMPLATE_PATH*/?>/img/home/intro-bg-2.jpg')"></div>
+			<div class="intro-slide__bg" style="background-image: url('<?/*=SITE_TEMPLATE_PATH*/ ?>/img/home/intro-bg-2.jpg')"></div>
 			<div class="intro-slide__video">
 				<video autoplay loop muted class="head_video">
-					<source src="" type="video/mp4" class="source_mp4" data-videosrc="<?/*=SITE_TEMPLATE_PATH*/?>/img/home/bg_2.mp4">
+					<source src="" type="video/mp4" class="source_mp4" data-videosrc="<?/*=SITE_TEMPLATE_PATH*/ ?>/img/home/bg_2.mp4">
 				</video>
 			</div>
 			<div class="intro-slide__content">
@@ -67,8 +67,8 @@ $APPLICATION->SetTitle("AGS Engineering");
 					videos[i].parentNode.removeChild(videos[i]);
 				}
 			} else {
-				if (document.body.contains(videos[i]) && thisVideoSource.getAttribute('src') === ""){
-					thisVideoSource.setAttribute('src',mp4Src);
+				if (document.body.contains(videos[i]) && thisVideoSource.getAttribute('src') === "") {
+					thisVideoSource.setAttribute('src', mp4Src);
 					videos[i].load();
 					videos[i].play();
 				}
@@ -76,7 +76,7 @@ $APPLICATION->SetTitle("AGS Engineering");
 		}
 	};
 	aboutHeaderCheck();
-	window.addEventListener('resize',aboutHeaderCheck);
+	window.addEventListener('resize', aboutHeaderCheck);
 </script>
 
 
@@ -88,63 +88,63 @@ $APPLICATION->SetTitle("AGS Engineering");
 
 		<div class="product-grid">
 			<a href="/products/generatory-azota/" class="product-grid__item">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-azot-gen.jpg" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-azot-gen.jpg" alt="1">
 				<div class="h4">Nitrogen generators</div>
 			</a>
 			<a href="/products/generatory-kisloroda/" class="product-grid__item">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-kislorod-gen.jpg" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-kislorod-gen.jpg" alt="1">
 				<div class="h4">Oxygen Generators</div>
 			</a>
 			<a href="/products/azotnye-stantsii/" class="product-grid__item">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-azot-station.jpg?v=3" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-azot-station.jpg?v=3" alt="1">
 				<div class="h4">Nitrogen Adsorption Plants</div>
 			</a>
 			<a href="/products/kislorodnye-stantsii/" class="product-grid__item">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-kislorod-station.jpg?v=3" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-kislorod-station.jpg?v=3" alt="1">
 				<div class="h4">Oxygen Adsorption Plants</div>
 			</a>
 			<a href="/products/azot-membrana/" class="product-grid__item">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-33.jpg?v=1" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-33.jpg?v=1" alt="1">
 				<div class="h4">Membrane Units</div>
 			</a>
 			<a href="/products/osushiteli/" class="product-grid__item">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-4.jpg?v=1" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-4.jpg?v=1" alt="1">
 				<div class="h4">Adsorption Compressed Air Desiccants</div>
 			</a>
 			<a href="/products/azot-module/" class="product-grid__item">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-5.jpg?v=1" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-5.jpg?v=1" alt="1">
 				<div class="h4">Block-Modular Nitrogen Stations</div>
 			</a>
 			<a href="/products/kislorod-module/" class="product-grid__item">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-6.jpg?v=1" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-6.jpg?v=1" alt="1">
 				<div class="h4">Block-Modular Oxygen Stations</div>
 			</a>
 			<a href="/products/cryogen/" class="product-grid__item product-grid__item--hidden">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-7.jpg?v=2" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-7.jpg?v=2" alt="1">
 				<div class="h4">Cryogen Air Separation Units</div>
 			</a>
 			<!-- <a href="/products/vodorod/" class="product-grid__item product-grid__item--hidden">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-8.jpg?v=1" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-8.jpg?v=1" alt="1">
 				<div class="h4">Electrolysis Hydrogen Generators</div>
 			</a> -->
 			<!-- <a href="/news/lng-regasification-systems-rsrs/" class="product-grid__item product-grid__item--hidden">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-9.jpg?v=1" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-9.jpg?v=1" alt="1">
 				<div class="h4">LNG Regasification Systems (RSRS)</div>
 			</a> -->
 			<a href="/products/blocks/" class="product-grid__item product-grid__item--hidden">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-10.jpg?v=2" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-10.jpg?v=2" alt="1">
 				<div class="h4">Block-modular Constructions</div>
 			</a>
 			<a href="/products/azot-station/" class="product-grid__item product-grid__item--hidden">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-1.jpg?v=1" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-1.jpg?v=1" alt="1">
 				<div class="h4">Adsorption Nitrogen Station</div>
 			</a>
 			<a href="/products/kislorod-station/" class="product-grid__item product-grid__item--hidden">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-2.jpg?v=1" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-2.jpg?v=1" alt="1">
 				<div class="h4">Adsorption Oxygen Station</div>
 			</a>
 			<!-- <a href="/products/arenda-azotnih-stancii/" class="product-grid__item product-grid__item--hidden">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/home/product-thumb.png" data-lazy="<?=SITE_TEMPLATE_PATH?>/img/home/product-11.jpg?v=3" alt="1">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/img/home/product-thumb.png" data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/home/product-11.jpg?v=3" alt="1">
 				<div class="h4">Nitrogen station rental</div>
 			</a> -->
 		</div>
@@ -183,13 +183,13 @@ $APPLICATION->SetTitle("AGS Engineering");
 
 	<aside class="about-aside">
 		<div class="about-aside__stage aside-anim">
-			<div class="about-aside__img" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/home/about-aside.jpg?v=2"></div>
+			<div class="about-aside__img" data-lazybg="<?= SITE_TEMPLATE_PATH ?>/img/home/about-aside.jpg?v=2"></div>
 		</div>
 		<div class="about-aside__header">
-			<span class="video-link">
+			<a href="https://youtu.be/SY4IVHunvrM" class="video-link fancy-video">
 				<i class="i-play"></i>
 				<span>Video about<br>our company</span>
-			</span>
+			</a>
 			<span class="youtube-link">
 				<i class="i-youtube"></i>
 				<span>Our channel</span>
@@ -214,7 +214,7 @@ $APPLICATION->SetTitle("AGS Engineering");
 </section>
 
 
-<section class="s-home-services" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/home/dotted-map.png">
+<section class="s-home-services" data-lazybg="<?= SITE_TEMPLATE_PATH ?>/img/home/dotted-map.png">
 	<div class="container">
 		<div class="home-services">
 			<div class="h2">We implement EPC air separation contracts, including the following services:</div>
@@ -231,7 +231,7 @@ $APPLICATION->SetTitle("AGS Engineering");
 
 	<aside class="services-aside">
 		<div class="services-aside__stage aside-anim">
-			<div class="services-aside__img" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/home/services-aside.jpg"></div>
+			<div class="services-aside__img" data-lazybg="<?= SITE_TEMPLATE_PATH ?>/img/home/services-aside.jpg"></div>
 		</div>
 	</aside>
 </section>
@@ -248,8 +248,8 @@ $APPLICATION->SetTitle("AGS Engineering");
 			</div>
 			<div class="grid-3 grid-6_l counter-trigger__wrap">
 				<div class="counter-trigger">
-					<strong>2</strong>
-					<span>Production sites in St. Petersburg and Novocherkassk</span>
+					<strong>2 500 м<sup>2</sup></strong>
+					<span>Production sites in Novocherkassk</span>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_l counter-trigger__wrap">
@@ -269,10 +269,10 @@ $APPLICATION->SetTitle("AGS Engineering");
 </section>
 
 
-<?$APPLICATION->IncludeFile("/includes/sections/geo.php", Array(), Array("MODE" => "php"));?>
+<? $APPLICATION->IncludeFile("/includes/sections/geo.php", array(), array("MODE" => "php")); ?>
 
 
-<?$APPLICATION->IncludeFile("/includes/sections/logo_slider.php", Array(), Array("MODE" => "php"));?>
+<? $APPLICATION->IncludeFile("/includes/sections/logo_slider.php", array(), array("MODE" => "php")); ?>
 
 
 <section class="s-home-news">
@@ -281,10 +281,10 @@ $APPLICATION->SetTitle("AGS Engineering");
 			<h2 class="h2">News</h2>
 		</div>
 
-		<?$APPLICATION->IncludeComponent(
+		<? $APPLICATION->IncludeComponent(
 			"bitrix:news.list",
 			"home_news",
-			Array(
+			array(
 				"ACTIVE_DATE_FORMAT" => "d.m.Y",
 				"ADD_SECTIONS_CHAIN" => "N",
 				"AJAX_MODE" => "N",
@@ -325,7 +325,7 @@ $APPLICATION->SetTitle("AGS Engineering");
 				"PARENT_SECTION" => "",
 				"PARENT_SECTION_CODE" => "",
 				"PREVIEW_TRUNCATE_LEN" => "",
-				"PROPERTY_CODE" => array("TYPE","VIDEO_LINK"),
+				"PROPERTY_CODE" => array("TYPE", "VIDEO_LINK"),
 				"SET_BROWSER_TITLE" => "N",
 				"SET_LAST_MODIFIED" => "N",
 				"SET_META_DESCRIPTION" => "N",
@@ -339,7 +339,7 @@ $APPLICATION->SetTitle("AGS Engineering");
 				"SORT_ORDER2" => "DESC",
 				"STRICT_SECTION_CHECK" => "N"
 			)
-		);?>
+		); ?>
 
 		<div class="center-btn">
 			<a href="/news/" class="action-link">All news <i class="i-next"></i></a>
@@ -349,7 +349,7 @@ $APPLICATION->SetTitle("AGS Engineering");
 </section>
 
 
-<?$APPLICATION->IncludeFile("/includes/sections/order.php", Array(), Array("MODE" => "php"));?>
+<? $APPLICATION->IncludeFile("/includes/sections/order.php", array(), array("MODE" => "php")); ?>
 
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

@@ -5,7 +5,7 @@ $APPLICATION->SetTitle("About company");
 
 <script>
 	document.body.classList.add('transparent-header');
-	document.querySelector('.s-header').classList.add('s-header--transparent','s-header--white-logo');
+	document.querySelector('.s-header').classList.add('s-header--transparent', 's-header--white-logo');
 </script>
 
 
@@ -18,8 +18,8 @@ $APPLICATION->SetTitle("About company");
 				<p>The equipment manufactured by us was developed by the engineers of our company taking into account the specifics of Russian and European standards, as well as the latest technological innovations and can be performed in various designs depending on customer requirements. At the moment, AGS Engineering equipment is operated at many enterprises in the oil and gas and defense sectors of Russia.</p>
 			</div>
 			<div class="grid-6 grid-12_m">
-				<a href="#" class="about-video fancy-video">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/about/video-flag.png" alt="" class="about-video__flag">
+				<a href="https://youtu.be/SY4IVHunvrM" class="about-video fancy-video">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/about/video-flag.png" alt="" class="about-video__flag">
 					<div class="video-link">
 						<i class="i-play"></i>
 					</div>
@@ -30,13 +30,13 @@ $APPLICATION->SetTitle("About company");
 </section>
 
 
-<section class="s-about-triggers" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/about/triggers-bg.jpg">
+<section class="s-about-triggers" data-lazybg="<?= SITE_TEMPLATE_PATH ?>/img/about/triggers-bg.jpg">
 	<div class="container">
 		<div class="h1">AGS means</div>
 		<div class="icon-left-blocks">
 			<div class="icon-left-block">
 				<div class="icon-left-block__img">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/about/trigger-1.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/about/trigger-1.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
 					57 highly qualified specialists and engineers
@@ -44,15 +44,15 @@ $APPLICATION->SetTitle("About company");
 			</div>
 			<div class="icon-left-block">
 				<div class="icon-left-block__img">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/about/trigger-2.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/about/trigger-2.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
-					2 production sites in St. Petersburg and Novocherkassk with a total area of 2500 m<sup>2</sup>
+					Production site in Novocherkassk with an area of 2500 m<sup>2</sup>
 				</div>
 			</div>
 			<div class="icon-left-block">
 				<div class="icon-left-block__img">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/about/trigger-3.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/about/trigger-3.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
 					Own customer service and installation team
@@ -60,7 +60,7 @@ $APPLICATION->SetTitle("About company");
 			</div>
 			<div class="icon-left-block">
 				<div class="icon-left-block__img">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/about/trigger-4.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/about/trigger-4.svg" alt="1">
 				</div>
 				<div class="icon-left-block__content">
 					Over 160 completed projects
@@ -84,9 +84,9 @@ $APPLICATION->SetTitle("About company");
 				<div class="about-list__item"><span>05.</span>Block-modular oxygen stations</div>
 				<div class="about-list__item"><span>06.</span>Cryogenic air separation units</div>
 				<div class="about-list__item"><span>07.</span>Adsorption compressed air dessicants</div>
-				<div class="about-list__item"><span>08.</span>Electrolysis hydrogen generators</div>
-				<div class="about-list__item"><span>09.</span>System for the preparation and maintenance of a modified atmosphere</div>
-				<div class="about-list__item"><span>10.</span>The system of filtration and drainage of compressed air</div>
+				<!-- <div class="about-list__item"><span>08.</span>Electrolysis hydrogen generators</div>
+				<div class="about-list__item"><span>09.</span>System for the preparation and maintenance of a modified atmosphere</div> -->
+				<div class="about-list__item"><span>08.</span>The system of filtration and drainage of compressed air</div>
 			</div>
 		</div>
 	</div>
@@ -102,16 +102,16 @@ $APPLICATION->SetTitle("About company");
 			<a href="tel:+74955328640" class="fabric__phone">+7 (495) 532-86-40</a>
 			<div class="fabric__photos row-sg">
 				<div class="grid-8">
-					<img src="" data-lazy="<?/*=SITE_TEMPLATE_PATH*/?>/img/about/photo-1.jpg" alt="">
+					<img src="" data-lazy="<?/*=SITE_TEMPLATE_PATH*/ ?>/img/about/photo-1.jpg" alt="">
 				</div>
 				<div class="grid-4">
-					<img src="" data-lazy="<?/*=SITE_TEMPLATE_PATH*/?>/img/about/photo-2.jpg" alt="">
+					<img src="" data-lazy="<?/*=SITE_TEMPLATE_PATH*/ ?>/img/about/photo-2.jpg" alt="">
 				</div>
 				<div class="grid-4">
-					<img src="" data-lazy="<?/*=SITE_TEMPLATE_PATH*/?>/img/about/photo-3.jpg" alt="">
+					<img src="" data-lazy="<?/*=SITE_TEMPLATE_PATH*/ ?>/img/about/photo-3.jpg" alt="">
 				</div>
 				<div class="grid-8">
-					<img src="" data-lazy="<?/*=SITE_TEMPLATE_PATH*/?>/img/about/photo-4.jpg" alt="">
+					<img src="" data-lazy="<?/*=SITE_TEMPLATE_PATH*/ ?>/img/about/photo-4.jpg" alt="">
 				</div>
 			</div>
 		</div>
@@ -119,7 +119,7 @@ $APPLICATION->SetTitle("About company");
 </section>-->
 
 
-<?$APPLICATION->IncludeFile("/includes/sections/order.php", Array(), Array("MODE" => "php"));?>
+<? $APPLICATION->IncludeFile("/includes/sections/order.php", array(), array("MODE" => "php")); ?>
 
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
