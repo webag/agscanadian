@@ -3,3 +3,6 @@
 /bitrix/*
 /upload/*
 orders.csv
+/.vscode/*
+/.vscode/
+.vscode
