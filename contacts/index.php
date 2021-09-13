@@ -60,7 +60,7 @@ $APPLICATION->SetTitle('Contacts  of LLC "AGS"');
 			</div> -->
 			<div class="contact-item">
 				<div class="contact-item__city">Rostov-on-Don</div>
-				<address class="contact-item__address">НИП УК (Industrial park)</address>
+				<address class="contact-item__address">Industrial park</address>
 				<a href="tel:+74955328640" class="contact-item__phone">+7 (495) 532-86-40</a>
 				<div class="contacts-item__info">
 					Send vacancies and inquiries via email:<br>

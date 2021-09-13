@@ -14,7 +14,7 @@ $APPLICATION->SetTitle("About company");
 		<div class="row">
 			<div class="grid-6 grid-12_m about-header__content">
 				<h1 class="bold-title">About company</h1>
-				<p>AGS Engineering is a Russian manufacturer of reliable gas separation systems, as well as an EPC contractor. The company's production facilities and office are located in St. Petersburg and Novocherkassk (Rostov Region). The AGS Engineering team is composed of highly qualified specialists and engineers with more than 10 years of experience in the production and construction of air separation and compressor stations at industrial facilities both in Russia and abroad.</p>
+				<p>AGS Engineering is a Russian manufacturer of reliable gas separation systems, as well as an EPC contractor. The company's production facilities and office are located in Novocherkassk (Rostov Region). The AGS Engineering team is composed of highly qualified specialists and engineers with more than 10 years of experience in the production and construction of air separation and compressor stations at industrial facilities both in Russia and abroad.</p>
 				<p>The equipment manufactured by us was developed by the engineers of our company taking into account the specifics of Russian and European standards, as well as the latest technological innovations and can be performed in various designs depending on customer requirements. At the moment, AGS Engineering equipment is operated at many enterprises in the oil and gas and defense sectors of Russia.</p>
 			</div>
 			<div class="grid-6 grid-12_m">

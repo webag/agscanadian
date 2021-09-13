@@ -190,10 +190,10 @@ $APPLICATION->SetTitle("AGS Engineering");
 				<i class="i-play"></i>
 				<span>Video about<br>our company</span>
 			</a>
-			<span class="youtube-link">
+			<a href="https://www.youtube.com/channel/UC8R-uqqQxtyrqxMw7oohjWA" class="youtube-link" target="_blank">
 				<i class="i-youtube"></i>
 				<span>Our channel</span>
-			</span>
+			</a>
 		</div>
 		<div class="about-aside__links">
 			<!--<a href="/presentation.pdf" target="_blank" download="Презентация о компании AGS" class="about-aside__doc">
