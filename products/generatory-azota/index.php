@@ -64,7 +64,7 @@ $APPLICATION->SetTitle("Nitrogen generators");
 		<div class="order__content">
 			<div class="lead">Submit a request and</div>
 			<div class="h1">get a commercial offer and a the generator cost calculation</div>
-			<a href="/products/generatory-azota/briefing.docx" class="doc-block" target="_blank" download="Опросный лист (азотная станция)">
+			<a href="/briefing.docx" class="doc-block" target="_blank">
 				<div class="doc-block__content">
 					<div class="text-small">Questionnaire</div>
 					<div class="text-micro">(74 КБ, docx)</div>
@@ -146,7 +146,7 @@ $APPLICATION->SetTitle("Nitrogen generators");
 				</div>
 			</div>
 
-			<a class="doc-block">
+			<a href="/AGS_catalog.pdf" class="doc-block" target="_blank">
 				<div class="doc-block__content">
 					<div class="text-small">Serial nitrogen generators booklet</div>
 					<div class="text-micro">(9.1 МB, pdf)</div>

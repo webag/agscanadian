@@ -64,7 +64,7 @@ $APPLICATION->SetTitle("Oxygen Adsorption Plants");
 		<div class="order__content">
 			<div class="lead">Submit a request for a commercial offer</div>
 			<div class="h1">Get the plant layout for your company for free</div>
-			<a href="/products/kislorodnye-stantsii/briefing.docx" class="doc-block" target="_blank" download="Опросный лист (кислородная станция)">
+			<a href="/briefing.docx" class="doc-block" target="_blank">
 				<div class="doc-block__content">
 					<div class="text-small">Questionnaire</div>
 					<div class="text-micro">(74 КB, docx)</div>

@@ -12,28 +12,28 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			<div class="h1 anim anim--bottom">from a reliable Russian manufacturer</div>
 			<div class="lp-header__triggers">
 				<div class="lp-header__trigger anim anim--bottom">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-1.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp/header-trigger-1.svg" alt="1">
 					<div class="lp-header__trigger__content">
 						<p class="text-small">Productivity:</p>
 						<div class="lead">up to 500 m<sup>3</sup></div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-2.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp/header-trigger-2.svg" alt="1">
 					<div class="lp-header__trigger__content">
 						<p class="text-small">Warranty:</p>
 						<div class="lead">24 months</div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-o.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp/header-trigger-o.svg" alt="1">
 					<div class="lp-header__trigger__content">
 						<p class="text-small">Gas concentration:</p>
 						<div class="lead">up to 95.5%</div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-4.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp/header-trigger-4.svg" alt="1">
 					<div class="lp-header__trigger__content">
 						<p class="text-small">Service life:</p>
 						<div class="lead">20 years</div>
@@ -42,7 +42,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 			<div class="anim anim--bottom">
 				<a href="https://youtu.be/Ap1B0wGoDL0" class="media-block fancy-video">
-					<div class="media-block__frame" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/lp/header-video-kislorod.jpg)">
+					<div class="media-block__frame" style="background-image: url(<?= SITE_TEMPLATE_PATH ?>/img/lp/header-video-kislorod.jpg)">
 						<i class="i-play"></i>
 					</div>
 					<div class="media-block__content">
@@ -55,7 +55,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 		</div>
 	</div>
-	<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/head-img-kislorodgen.png" alt="1" class="lp-header__img lp-header__img--azotgen anim anim--bottom">
+	<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp/head-img-kislorodgen.png" alt="1" class="lp-header__img lp-header__img--azotgen anim anim--bottom">
 </section>
 
 
@@ -64,7 +64,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 		<div class="order__content">
 			<div class="lead">Submit a request and</div>
 			<div class="h1">receive a commercial offer and a calculation of the cost of the generator</div>
-			<a href="/products/generatory-azota/briefing.docx" class="doc-block" target="_blank" download="Опросный лист (азотная станция)">
+			<a href="/briefing.docx" class="doc-block" target="_blank">
 				<div class="doc-block__content">
 					<div class="text-small">Questionnaire</div>
 					<div class="text-micro">(74 КB, docx)</div>
@@ -86,7 +86,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 					<span class="input-group__label">E-mail*</span>
 				</label>
 				<label class="input-group">
-					<input type="tel" name="user_tel" data-label="Телефон"  class="input-text" data-req="true">
+					<input type="tel" name="user_tel" data-label="Телефон" class="input-text" data-req="true">
 					<span class="input-group__label">Telephone*</span>
 				</label>
 				<label class="style-file">
@@ -100,7 +100,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</form>
 		</div>
 	</div>
-	<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/orders/order-kp-kislorod.jpg" alt="1" class="s-order__img">
+	<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/orders/order-kp-kislorod.jpg" alt="1" class="s-order__img">
 </section>
 
 
@@ -108,7 +108,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 	<div class="container">
 		<div class="h2-promo sec-title">About our serial oxygen generator</div>
 
-		<div class="gen-params" data-lazybg="<?=SITE_TEMPLATE_PATH?>/img/lp/gen-params-kislorod.jpg">
+		<div class="gen-params" data-lazybg="<?= SITE_TEMPLATE_PATH ?>/img/lp/gen-params-kislorod.jpg">
 			<div class="h1">Specifications</div>
 
 			<div class="gen-params__list text-long">
@@ -122,7 +122,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 				</div>
 				<div class="gen-params__item">
 					<strong>Energy efficiency:</strong>
-					<span>0,25 — 0,4  kW/m<sup>3</sup></span>
+					<span>0,25 — 0,4 kW/m<sup>3</sup></span>
 				</div>
 				<div class="gen-params__item">
 					<strong>Pressure:</strong>
@@ -146,7 +146,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 				</div>
 			</div>
 
-			<a class="doc-block">
+			<a href="/AGS_catalog.pdf" class="doc-block" target="_blank">
 				<div class="doc-block__content">
 					<div class="text-small">Oxygen Generator Series Booklet</div>
 					<div class="text-micro">(9.1 МB, pdf)</div>
@@ -168,7 +168,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 		<div class="icon-blocks-grid">
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-1.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-1.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Complete automation of the generator and the entire station</span>
@@ -176,7 +176,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-2-k.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-2-k.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Quality components from world leaders</span>
@@ -184,7 +184,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-3-k.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-3-k.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>High generator reliability</span>
@@ -192,7 +192,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-4.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-4.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Long service life of the adsorbent</span>
@@ -200,7 +200,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-5.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-5.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>High energy efficiency</span>
@@ -208,7 +208,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-6-k.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-6-k.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Control from the unconditional gas ingress to the consumer</span>
@@ -726,7 +726,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 					<span class="input-group__label">E-mail*</span>
 				</label>
 				<label class="input-group">
-					<input type="tel" name="user_tel" data-label="Телефон"  class="input-text" data-req="true">
+					<input type="tel" name="user_tel" data-label="Телефон" class="input-text" data-req="true">
 					<span class="input-group__label">Telephone*</span>
 				</label>
 				<button type="submit" class="btn">Get a price list</button>
@@ -734,7 +734,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</form>
 		</div>
 	</div>
-	<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/orders/order-price-kislorod.png" alt="1" class="s-order__img">
+	<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/orders/order-price-kislorod.png" alt="1" class="s-order__img">
 </section>
 
 
@@ -743,7 +743,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 		<div class="h2-promo sec-title">Latest completed projects</div>
 	</div>
 
-	<?$APPLICATION->IncludeComponent(
+	<? $APPLICATION->IncludeComponent(
 		"bitrix:news.list",
 		"cases_slider",
 		array(
@@ -809,7 +809,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			"COMPONENT_TEMPLATE" => "cases_slider"
 		),
 		false
-	);?>
+	); ?>
 
 </section>
 
@@ -829,13 +829,13 @@ $APPLICATION->SetTitle("Oxygen Generators");
 						<div class="gen-sostav__nav__item">
 							<div class="lead">Adsorbent</div>
 							<div class="gen-sostav__nav__item__hidden">In our generators, we use only high-quality and proven adsorbent.<br>
-								<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/sostav-logos-1.png" alt="1">
+								<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/sostav-logos-1.png" alt="1">
 							</div>
 						</div>
 						<div class="gen-sostav__nav__item">
 							<div class="lead">Control and automation system</div>
 							<div class="gen-sostav__nav__item__hidden">Built on the basis of Siemens controllers with a local Touch-screen operator panel.<br>
-								<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/sostav-logos-2.png" alt="1">
+								<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/sostav-logos-2.png" alt="1">
 							</div>
 						</div>
 						<div class="gen-sostav__nav__item">
@@ -855,8 +855,8 @@ $APPLICATION->SetTitle("Oxygen Generators");
 
 				<div class="grid-6 grid-5_xl grid-6_l grid-12_s">
 					<div class="gen-sostav__stage">
-						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/gen-sostav-main-kislorod.png" alt="1" class="gen-sostav__main-img">
-						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/gen-sostav-second-kislorod.png" alt="1" class="gen-sostav__second-img">
+						<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/gen-sostav-main-kislorod.png" alt="1" class="gen-sostav__main-img">
+						<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/gen-sostav-second-kislorod.png" alt="1" class="gen-sostav__second-img">
 						<div class="gen-sostav__dots">
 							<div class="plus-dot gen-sostav__dot gen-sostav__dot--1"></div>
 							<div class="plus-dot gen-sostav__dot gen-sostav__dot--2"></div>
@@ -903,7 +903,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 								<div class="lead gray">Stage 03/06</div>
 								<div class="h2">Adsorbers switching</div>
 								<p>After the adsorbent saturation with impurities in adsorber A, all valves are closed. At this moment, adsorber A is under operating pressure, and adsorber B is under a slight excess pressure relating to atmospheric pressure.</p>
-								<p>Then the valves in the upper and lower equalization lines are opened, as a result of which the pressure becomes the same  in both adsorbers.  Further, the valves in the equalization lines close and the filling valve of the adsorber B opens.</p>
+								<p>Then the valves in the upper and lower equalization lines are opened, as a result of which the pressure becomes the same in both adsorbers. Further, the valves in the equalization lines close and the filling valve of the adsorber B opens.</p>
 							</div>
 							<div class="gen-princip__info__step">
 								<div class="lead gray">Stage 04/06</div>
@@ -925,26 +925,26 @@ $APPLICATION->SetTitle("Oxygen Generators");
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="grid-6 grid-12_s">
 					<div class="gen-princip__sheme">
 						<div class="gen-princip__sheme__step active">
-							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/scheme-kislorod-1.png" alt="1">
+							<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/scheme-kislorod-1.png" alt="1">
 						</div>
 						<div class="gen-princip__sheme__step">
-							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/scheme-kislorod-2.png" alt="1">
+							<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/scheme-kislorod-2.png" alt="1">
 						</div>
 						<div class="gen-princip__sheme__step">
-							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/scheme-kislorod-3.png" alt="1">
+							<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/scheme-kislorod-3.png" alt="1">
 						</div>
 						<div class="gen-princip__sheme__step">
-							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/scheme-kislorod-4.png" alt="1">
+							<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/scheme-kislorod-4.png" alt="1">
 						</div>
 						<div class="gen-princip__sheme__step">
-							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/scheme-kislorod-5.png" alt="1">
+							<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/scheme-kislorod-5.png" alt="1">
 						</div>
 						<div class="gen-princip__sheme__step">
-							<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/scheme-kislorod-6.png" alt="1">
+							<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/scheme-kislorod-6.png" alt="1">
 						</div>
 					</div>
 				</div>
@@ -967,11 +967,11 @@ $APPLICATION->SetTitle("Oxygen Generators");
 				<div class="side-tabs__content">
 					<div class="side-tabs__content__item text-long active">
 						<p>The pressure swing adsorption (PSA) technology is widely used to obtain various industrial gases, such as nitrogen, oxygen, hydrogen and others. In addition, it can be used for dehumidified compressed air.</p>
-						<p>The PSA unit operation principle is based on the selective adsorption of some components of gas mixtures. In this case, the adsorption rate plays a significant role in the operation of such installations.  Since the cycle time is short, the adsorbed impurities saturate only the surface layers of the adsorbent granules, without any time for penetrating into the deep layers.  In this case, it is quite easy to conduct the subsequent desorption of the accumulated impurities by reducing the pressure in the adsorber and short-term blowdown with the product gas flow.</p>
+						<p>The PSA unit operation principle is based on the selective adsorption of some components of gas mixtures. In this case, the adsorption rate plays a significant role in the operation of such installations. Since the cycle time is short, the adsorbed impurities saturate only the surface layers of the adsorbent granules, without any time for penetrating into the deep layers. In this case, it is quite easy to conduct the subsequent desorption of the accumulated impurities by reducing the pressure in the adsorber and short-term blowdown with the product gas flow.</p>
 					</div>
 					<div class="side-tabs__content__item text-long">
 						<p>Synthetic zeolites are highly porous substances with a developed structure and a large specific surface area. Having selective adsorption capacity for various gases, they allow individual components to be separated from gas mixtures.</p>
-						<p>So, most often, zeolites are used to obtain oxygen from atmospheric air. This process is based on a larger adsorption activity of zeolites for absorbing nitrogen than oxygen. Modern PSA plants using highly efficient synthetic zeolites that allow to  produce the gaseous oxygen with a concentration of up to 99%.</p>
+						<p>So, most often, zeolites are used to obtain oxygen from atmospheric air. This process is based on a larger adsorption activity of zeolites for absorbing nitrogen than oxygen. Modern PSA plants using highly efficient synthetic zeolites that allow to produce the gaseous oxygen with a concentration of up to 99%.</p>
 					</div>
 				</div>
 			</div>
@@ -992,7 +992,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 		<div class="icon-blocks-grid">
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-1.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/service-1.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Nitrogen generators 2-year warranty</span>
@@ -1000,7 +1000,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-2.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/service-2.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Service support within 24 hours</span>
@@ -1008,7 +1008,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-3.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/service-3.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Training and consultation of the customer's personnel</span>
@@ -1016,7 +1016,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-4.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/service-4.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>24/7 technical support</span>
@@ -1024,7 +1024,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-5.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/service-5.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Worldwide service support</span>
@@ -1043,7 +1043,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 				<div class="gray station-intro__text">We can produce an oxygen plant with all the necessary related equipment in accordance with the individual technical specifications of the customer from 3 weeks</div>
 				<a href="/products/kislorodnye-stantsii/" class="btn btn--medium btn--grey">Read more</a>
 			</div>
-			<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/intro-station-kislorod.png" alt="1" class="station-intro__img">
+			<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/intro-station-kislorod.png" alt="1" class="station-intro__img">
 		</div>
 	</div>
 </section>
@@ -1054,7 +1054,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 	<div class="container">
 		<div class="h2-promo sec-title">Полезные статьи</div>
 
-		<?$APPLICATION->IncludeComponent(
+		<? $APPLICATION->IncludeComponent(
 			"bitrix:news.list",
 			"articles_list",
 			array(
@@ -1120,7 +1120,7 @@ $APPLICATION->SetTitle("Oxygen Generators");
 				"COMPONENT_TEMPLATE" => "articles_list"
 			),
 			false
-		);?>
+		); ?>
 
 	</div>
 </section>

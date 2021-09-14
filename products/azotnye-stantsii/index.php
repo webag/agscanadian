@@ -4,7 +4,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 ?>
 
 
-<section class="s-lp-header anim" >
+<section class="s-lp-header anim">
 	<div class="container lp-header">
 		<div class="lp-header__content">
 			<div class="lp-header__label anim anim--bottom">Adsorption</div>
@@ -12,28 +12,28 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			<div class="lead anim anim--bottom">We will create and produce a station according to an individual customer's specifications from 3 weeks on a turnkey basis</div>
 			<div class="lp-header__triggers">
 				<div class="lp-header__trigger anim anim--bottom">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-1.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp/header-trigger-1.svg" alt="1">
 					<div class="lp-header__trigger__content">
 						<p class="text-small">Performance:</p>
 						<div class="lead">up to 15 000 m<sup>3</sup></div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-2.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp/header-trigger-2.svg" alt="1">
 					<div class="lp-header__trigger__content">
 						<p class="text-small">Warranty:</p>
 						<div class="lead">24 months</div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-3.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp/header-trigger-3.svg" alt="1">
 					<div class="lp-header__trigger__content">
 						<p class="text-small">Gas concentration:</p>
 						<div class="lead">up to 99.9999%</div>
 					</div>
 				</div>
 				<div class="lp-header__trigger anim anim--bottom">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp/header-trigger-4.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp/header-trigger-4.svg" alt="1">
 					<div class="lp-header__trigger__content">
 						<p class="text-small">Life time:</p>
 						<div class="lead">20 years</div>
@@ -42,7 +42,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="anim anim--bottom">
 				<a href="https://youtu.be/ccKE1Ti8PS8" class="media-block fancy-video ">
-					<div class="media-block__frame" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/lp/header-video-azot.jpg)">
+					<div class="media-block__frame" style="background-image: url(<?= SITE_TEMPLATE_PATH ?>/img/lp/header-video-azot.jpg)">
 						<i class="i-play"></i>
 					</div>
 					<div class="media-block__content">
@@ -55,7 +55,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 		</div>
 	</div>
-	<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/head-img-station-azot.png" alt="1" class="lp-header__img lp-header__img--azotstation anim anim--bottom">
+	<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/head-img-station-azot.png" alt="1" class="lp-header__img lp-header__img--azotstation anim anim--bottom">
 </section>
 
 
@@ -64,7 +64,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 		<div class="order__content">
 			<div class="lead">Submit a a commercial offer request</div>
 			<div class="h1">Get the station layout at your enterprise for free</div>
-			<a href="/products/azotnye-stantsii/briefing.docx" class="doc-block" target="_blank" download="Опросный лист (азотная станция)">
+			<a href="/briefing.docx" class="doc-block" target="_blank">
 				<div class="doc-block__content">
 					<div class="text-small">Questionnaire</div>
 					<div class="text-micro">(74 КB, docx)</div>
@@ -86,7 +86,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 					<span class="input-group__label">E-mail*</span>
 				</label>
 				<label class="input-group">
-					<input type="tel" name="user_tel" data-label="Телефон"  class="input-text" data-req="true">
+					<input type="tel" name="user_tel" data-label="Телефон" class="input-text" data-req="true">
 					<span class="input-group__label">Telephone*</span>
 				</label>
 				<label class="style-file">
@@ -100,7 +100,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</form>
 		</div>
 	</div>
-	<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/orders/kp-station-azot.jpg" alt="1" class="s-order__img">
+	<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/orders/kp-station-azot.jpg" alt="1" class="s-order__img">
 </section>
 
 
@@ -113,7 +113,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			<div class="anim anim--bottom">
 				<a href="/products/generatory-azota/" class="product">
 					<div class="lead product__num">01</div>
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/products/generator-azot.png" alt="2" class="product__img">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/products/generator-azot.png" alt="2" class="product__img">
 					<div class="product__content">
 						<div class="h2 product__title">Adsorption nitrogen generators</div>
 						<ul class="product__params">
@@ -127,7 +127,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			<div class="anim anim--bottom">
 				<a href="/products/azot-membrana/" class="product">
 					<div class="lead product__num">02</div>
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/products/generator-azot-membrana.png" alt="2" class="product__img">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/products/generator-azot-membrana.png" alt="2" class="product__img">
 					<div class="product__content">
 						<div class="h2 product__title">Membrane nitrogen generators</div>
 						<ul class="product__params">
@@ -141,7 +141,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			<div class="anim anim--bottom">
 				<a href="/products/cryogen/" class="product">
 					<div class="lead product__num">03</div>
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/products/cryo.png" alt="2" class="product__img">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/products/cryo.png" alt="2" class="product__img">
 					<div class="product__content">
 						<div class="h2 product__title">Cryogenic ASP</div>
 						<ul class="product__params">
@@ -163,14 +163,14 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 		<div class="h2-promo sec-title anim anim--bottom">Our clients</div>
 		<div class="sec-descr lead anim anim--bottom">We cooperate with the largest companies in the industrial sector of Russia</div>
 		<div class="logos-grid">
-			<div class="logo anim anim--bottom"><img src="<?=SITE_TEMPLATE_PATH?>/img/logos/1.svg" alt="1"></div>
-			<div class="logo anim anim--bottom"><img src="<?=SITE_TEMPLATE_PATH?>/img/logos/2.svg" alt="1"></div>
-			<div class="logo anim anim--bottom"><img src="<?=SITE_TEMPLATE_PATH?>/img/logos/3.svg" alt="1"></div>
-			<div class="logo anim anim--bottom"><img src="<?=SITE_TEMPLATE_PATH?>/img/logos/4.svg" alt="1"></div>
-			<div class="logo anim anim--bottom"><img src="<?=SITE_TEMPLATE_PATH?>/img/logos/5.png" alt="1"></div>
-			<div class="logo anim anim--bottom"><img src="<?=SITE_TEMPLATE_PATH?>/img/logos/6.png" alt="1"></div>
-			<div class="logo anim anim--bottom"><img src="<?=SITE_TEMPLATE_PATH?>/img/logos/7.png" alt="1"></div>
-			<div class="logo anim anim--bottom"><img src="<?=SITE_TEMPLATE_PATH?>/img/logos/8.png" alt="1"></div>
+			<div class="logo anim anim--bottom"><img src="<?= SITE_TEMPLATE_PATH ?>/img/logos/1.svg" alt="1"></div>
+			<div class="logo anim anim--bottom"><img src="<?= SITE_TEMPLATE_PATH ?>/img/logos/2.svg" alt="1"></div>
+			<div class="logo anim anim--bottom"><img src="<?= SITE_TEMPLATE_PATH ?>/img/logos/3.svg" alt="1"></div>
+			<div class="logo anim anim--bottom"><img src="<?= SITE_TEMPLATE_PATH ?>/img/logos/4.svg" alt="1"></div>
+			<div class="logo anim anim--bottom"><img src="<?= SITE_TEMPLATE_PATH ?>/img/logos/5.png" alt="1"></div>
+			<div class="logo anim anim--bottom"><img src="<?= SITE_TEMPLATE_PATH ?>/img/logos/6.png" alt="1"></div>
+			<div class="logo anim anim--bottom"><img src="<?= SITE_TEMPLATE_PATH ?>/img/logos/7.png" alt="1"></div>
+			<div class="logo anim anim--bottom"><img src="<?= SITE_TEMPLATE_PATH ?>/img/logos/8.png" alt="1"></div>
 		</div>
 	</div>
 </section>
@@ -181,7 +181,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 		<div class="h2-promo sec-title">Latest completed projects</div>
 	</div>
 
-	<?$APPLICATION->IncludeComponent(
+	<? $APPLICATION->IncludeComponent(
 		"bitrix:news.list",
 		"cases_slider",
 		array(
@@ -247,7 +247,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			"COMPONENT_TEMPLATE" => "cases_slider"
 		),
 		false
-	);?>
+	); ?>
 
 </section>
 
@@ -297,7 +297,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 				</div>
 			</div>
 
-			<a class="doc-block">
+			<a href="/AGS_catalog.pdf" class="doc-block" target="_blank">
 				<div class="doc-block__content">
 					<div class="text-small">Serial nitrogen generators booklet</div>
 					<div class="text-micro">(9.1 МB, pdf)</div>
@@ -310,7 +310,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 
 	</div>
 
-	<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/params-azot.png" alt="1" class="station-params__img">
+	<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/params-azot.png" alt="1" class="station-params__img">
 </section>
 
 
@@ -321,7 +321,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 		<div class="icon-blocks-grid">
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-1.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-1.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Complete automation of the generator and the entire station</span>
@@ -329,7 +329,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-2-s.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-2-s.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Quick commissioning</span>
@@ -337,7 +337,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-3-s.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-3-s.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Full factory readiness</span>
@@ -345,7 +345,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-4-s.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-4-s.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>High degree of reliability and build quality</span>
@@ -353,7 +353,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-5.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-5.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Low power consumption with great performance</span>
@@ -361,7 +361,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/preim-6-s.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/preim-6-s.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Quality components from world leaders</span>
@@ -391,7 +391,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			<div class="tabs__content">
 				<div class="tabs__item active">
 					<div class="station-komplect">
-						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/azot-komp-1.jpg" alt="" class="station-komplect__img">
+						<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/azot-komp-1.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info">
 							<div class="station-komplect__content">
 								<div class="h2">Screw compressor</div>
@@ -402,7 +402,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 				</div>
 				<div class="tabs__item">
 					<div class="station-komplect">
-						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/azot-komp-2.jpg" alt="" class="station-komplect__img">
+						<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/azot-komp-2.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info">
 							<div class="station-komplect__content">
 								<div class="h2">Compressed air dryer</div>
@@ -413,7 +413,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 				</div>
 				<div class="tabs__item">
 					<div class="station-komplect">
-						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/azot-komp-3.jpg" alt="" class="station-komplect__img">
+						<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/azot-komp-3.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info">
 							<div class="station-komplect__content">
 								<div class="h2">Buffer air receiver</div>
@@ -424,7 +424,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 				</div>
 				<div class="tabs__item">
 					<div class="station-komplect">
-						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/azot-komp-4.jpg" alt="" class="station-komplect__img">
+						<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/azot-komp-4.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info">
 							<div class="station-komplect__content">
 								<div class="h2">Filtration system</div>
@@ -435,18 +435,18 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 				</div>
 				<div class="tabs__item">
 					<div class="station-komplect">
-						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/azot-komp-5.jpg" alt="" class="station-komplect__img">
+						<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/azot-komp-5.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info station-komplect__info--left">
 							<div class="station-komplect__content">
 								<div class="h2">Adsorption nitrogen generator</div>
-								<p class="text-long">Air separation unit, working on the technology of pressure swing adsorption.  The generator can produce nitrogen from 95% to 99.9999% concentration</p>
+								<p class="text-long">Air separation unit, working on the technology of pressure swing adsorption. The generator can produce nitrogen from 95% to 99.9999% concentration</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="tabs__item">
 					<div class="station-komplect">
-						<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp-station/azot-komp-6.jpg" alt="" class="station-komplect__img">
+						<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/azot-komp-6.jpg" alt="" class="station-komplect__img">
 						<div class="station-komplect__info station-komplect__info--left">
 							<div class="station-komplect__content">
 								<div class="h2">Storing receiver for nitrogen</div>
@@ -469,28 +469,28 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 		<div class="row station-dop-grid">
 			<div class="grid-3 grid-6_m grid-12_xs">
 				<div class="station-dop">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/dop-1.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/dop-1.svg" alt="1">
 					<div class="h3">Explosion-proof design</div>
 					<div class="text-long gray">A design option that allows the equipment to be used in hazardous areas</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xs">
 				<div class="station-dop">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/dop-2.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/dop-2.svg" alt="1">
 					<div class="h3">Gas station</div>
 					<div class="text-long gray">A set of equipment that allows you to fill standard cylinders with compressed gas at a pressure of up to 200 bar</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xs">
 				<div class="station-dop">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/dop-3.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/dop-3.svg" alt="1">
 					<div class="h3">Booster compressor</div>
 					<div class="text-long gray">Intended for increasing the product gas pressure up to 450 bar</div>
 				</div>
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xs">
 				<div class="station-dop">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/dop-4.svg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/dop-4.svg" alt="1">
 					<div class="h3">Post-treatment system</div>
 					<div class="text-long gray">Allows to obtain product nitrogen of a higher concentration</div>
 				</div>
@@ -514,19 +514,19 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="side-slider__slides">
 				<div class="side-slider__slide">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/slider-thumb.png" data-flickity-lazyload="<?=SITE_TEMPLATE_PATH?>/img/lp-station/slider-img-1.jpg?v=2" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/slider-thumb.png" data-flickity-lazyload="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/slider-img-1.jpg?v=2" alt="1">
 				</div>
 				<div class="side-slider__slide">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/slider-thumb.png" data-flickity-lazyload="<?=SITE_TEMPLATE_PATH?>/img/lp-station/slider-img-2.jpg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/slider-thumb.png" data-flickity-lazyload="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/slider-img-2.jpg" alt="1">
 				</div>
 				<div class="side-slider__slide">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/slider-thumb.png" data-flickity-lazyload="<?=SITE_TEMPLATE_PATH?>/img/lp-station/slider-img-3.jpg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/slider-thumb.png" data-flickity-lazyload="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/slider-img-3.jpg" alt="1">
 				</div>
 				<div class="side-slider__slide">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/slider-thumb.png" data-flickity-lazyload="<?=SITE_TEMPLATE_PATH?>/img/lp-station/slider-img-4.jpg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/slider-thumb.png" data-flickity-lazyload="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/slider-img-4.jpg" alt="1">
 				</div>
 				<div class="side-slider__slide">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/lp-station/slider-thumb.png" data-flickity-lazyload="<?=SITE_TEMPLATE_PATH?>/img/lp-station/slider-img-5.jpg" alt="1">
+					<img src="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/slider-thumb.png" data-flickity-lazyload="<?= SITE_TEMPLATE_PATH ?>/img/lp-station/slider-img-5.jpg" alt="1">
 				</div>
 			</div>
 		</div>
@@ -541,7 +541,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 		<div class="row media-blocks-grid">
 			<div class="grid-4 grid-6_l grid-12_s">
 				<a href="/info/razmeshchenie-oborudovaniya-v-blok-module-ili-pomeshchenii/" class="media-block">
-					<div class="media-block__frame" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/lp-station/article-block-link.jpg)">
+					<div class="media-block__frame" style="background-image: url(<?= SITE_TEMPLATE_PATH ?>/img/lp-station/article-block-link.jpg)">
 					</div>
 					<div class="media-block__content">
 						<div class="text-small">About block modular placement</div>
@@ -553,7 +553,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<a href="https://www.youtube.com/watch?v=hJD6HoB5P4I" class="media-block fancy-video ">
-					<div class="media-block__frame" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/img/lp-station/obzor-station.jpg)">
+					<div class="media-block__frame" style="background-image: url(<?= SITE_TEMPLATE_PATH ?>/img/lp-station/obzor-station.jpg)">
 						<i class="i-play"></i>
 					</div>
 					<div class="media-block__content">
@@ -577,7 +577,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 		<div class="icon-blocks-grid">
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-1.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/service-1.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>2-year nitrogen generators warranty</span>
@@ -585,7 +585,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-2.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/service-2.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Service support within 24 hours</span>
@@ -593,7 +593,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-3.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/service-3.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Training and consultation of the customer's personnel</span>
@@ -601,7 +601,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-4.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/service-4.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>24/7 technical support</span>
@@ -609,7 +609,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 			</div>
 			<div class="icon-block-h anim anim--bottom">
 				<div class="icon-block-h__icon">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/service-5.svg" alt="1">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/service-5.svg" alt="1">
 				</div>
 				<div class="icon-block-h__text">
 					<span>Worldwide service support</span>
@@ -625,7 +625,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 	<div class="container">
 		<div class="h2-promo sec-title">Полезные статьи</div>
 
-		<?$APPLICATION->IncludeComponent(
+		<? $APPLICATION->IncludeComponent(
 			"bitrix:news.list",
 			"articles_list",
 			array(
@@ -691,7 +691,7 @@ $APPLICATION->SetTitle("Nitrogen Adsorption Plants");
 				"COMPONENT_TEMPLATE" => "articles_list"
 			),
 			false
-		);?>
+		); ?>
 
 	</div>
 </section>
