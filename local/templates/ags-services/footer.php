@@ -16,10 +16,10 @@
 		<div class="footer">
 
 			<div class="footer__left">
-				<a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/img/logo-footer.svg" alt="logo" class="footer__logo"></a>
+				<a href="/"><img src="<?= SITE_TEMPLATE_PATH ?>/img/logo-footer.svg" alt="logo" class="footer__logo"></a>
 				<!--<div class="lead footer__logo-descr">Adsorption Gas System</div>-->
 				<div class="text-small">Full-cycle engineering company</div>
-				<div class="footer__copy text-small">&copy; <?=date('Y')?> All rights reserved</div>
+				<div class="footer__copy text-small">&copy; <?= date('Y') ?> All rights reserved</div>
 			</div>
 
 			<div class="footer__nav">
@@ -33,10 +33,10 @@
 			</div>
 
 			<div class="footer__nav">
-				<a href="/AGS_requisites.pdf" target="_blank" download>Company Details</a>
-				<a href="/presentation.pdf" download="Презентация о компании AGS" target="_blank">Company Presentation</a>
-				<a href="https://kazan.hh.ru/employer/4190110" target="_blank">Openings</a>
-				<a href="/AGS_policy.docx" target="_blank" download>Terms of Use</a>
+				<!-- <a href="/AGS_requisites.pdf" target="_blank" download>Company Details</a> -->
+				<a href="/presentation.pdf" download="presentation AGS" target="_blank">Company Presentation</a>
+				<!-- <a href="https://kazan.hh.ru/employer/4190110" target="_blank">Openings</a> -->
+				<!-- <a href="/AGS_policy.docx" target="_blank" download>Terms of Use</a> -->
 			</div>
 
 			<div class="footer__right">
@@ -70,7 +70,7 @@
 				<span class="input-group__label">Name</span>
 			</label>
 			<label class="input-group">
-				<input type="tel" name="user_tel" data-label="Телефон"  class="input-text" data-req="true">
+				<input type="tel" name="user_tel" data-label="Телефон" class="input-text" data-req="true">
 				<span class="input-group__label">Telephone*</span>
 			</label>
 			<button type="submit" class="btn">Order a call</button>
@@ -92,7 +92,7 @@
 				<span class="input-group__label">E-mail*</span>
 			</label>
 			<label class="input-group">
-				<input type="tel" name="user_tel" data-label="Телефон"  class="input-text" data-req="true">
+				<input type="tel" name="user_tel" data-label="Телефон" class="input-text" data-req="true">
 				<span class="input-group__label">Telephone*</span>
 			</label>
 			<label class="style-file">
@@ -144,7 +144,7 @@
 						<span class="input-group__label">E-mail*</span>
 					</label>
 					<label class="input-group">
-						<input type="tel" name="user_tel" data-label="Телефон"  class="input-text" data-req="true">
+						<input type="tel" name="user_tel" data-label="Телефон" class="input-text" data-req="true">
 						<span class="input-group__label">Telephone*</span>
 					</label>
 					<button type="submit" class="btn">Send</button>
@@ -159,7 +159,7 @@
 		<div class="modal-consult__wrapper">
 			<div class="modal-consult__left">
 				<a href="https://youtu.be/kMrdQCFi-xI" class="modal-consult__video fancy-video">
-					<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/lp/consult-video.jpg" alt="">
+					<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/lp/consult-video.jpg" alt="">
 					<i class="i-play"></i>
 				</a>
 			</div>
@@ -169,7 +169,7 @@
 				<form class="ajax-form vertical-form">
 					<input type="hidden" value="Заявка на консультацию" name="form_subject">
 					<label class="input-group">
-						<input type="tel" name="user_tel" data-label="Телефон"  class="input-text" data-req="true">
+						<input type="tel" name="user_tel" data-label="Телефон" class="input-text" data-req="true">
 						<span class="input-group__label">Telephone*</span>
 					</label>
 					<button type="submit" class="btn">Send</button>
@@ -180,7 +180,7 @@
 	</div>
 
 	<div id="modal-thanks" class="modal modal--thanks">
-		<img data-lazy="<?=SITE_TEMPLATE_PATH?>/img/thanks-img.svg" alt="1">
+		<img data-lazy="<?= SITE_TEMPLATE_PATH ?>/img/thanks-img.svg" alt="1">
 		<p class="h1 modal__title">Thank you for contacting our company</p>
 		<p class="modal__descr">Our manager will contact you at the nearest possible time.</p>
 	</div>
@@ -195,13 +195,45 @@
 
 <script>
 	(function(w, d, s, h, id) {
-		w.roistatProjectId = id; w.roistatHost = h;
+		w.roistatProjectId = id;
+		w.roistatHost = h;
 		var p = d.location.protocol == "https:" ? "https://" : "http://";
-		var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
-		var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+		var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/" + id + "/init";
+		var js = d.createElement(s);
+		js.charset = "UTF-8";
+		js.async = 1;
+		js.src = p + h + u;
+		var js2 = d.getElementsByTagName(s)[0];
+		js2.parentNode.insertBefore(js, js2);
 	})(window, document, 'script', 'cloud.roistat.com', 'cb0ec38b87db844bcaa7b73229b3e129');
 </script>
 
-<div id="clickfrog_counter_container" style="width:0px;height:0px;overflow:hidden;"></div><script type="text/javascript">(function(d, w) {var clickfrog = function() {if(!d.getElementById('clickfrog_js_container')) {var sc = document.createElement('script');sc.type = 'text/javascript';sc.async = true;sc.src = "//stat.clickfrog.ru/c.js?r="+Math.random();sc.id = 'clickfrog_js_container';var c = document.getElementById('clickfrog_counter_container');c.parentNode.insertBefore(sc, c);}};if(w.opera == "[object Opera]"){d.addEventListener("DOMContentLoaded",clickfrog,false);}else {clickfrog();}})(document, window);</script><noscript><div style="width:0px;height:0px;overflow:hidden;"><img src="//stat.clickfrog.ru/no_script.php?img" style="width:0px; height:0px;" alt=""/></div></noscript><script type="text/javascript">var clickfrogru_uidh='b463ce099914e6b48cc4ae2e6836ae71';</script>
+<div id="clickfrog_counter_container" style="width:0px;height:0px;overflow:hidden;"></div>
+<script type="text/javascript">
+	(function(d, w) {
+		var clickfrog = function() {
+			if (!d.getElementById('clickfrog_js_container')) {
+				var sc = document.createElement('script');
+				sc.type = 'text/javascript';
+				sc.async = true;
+				sc.src = "//stat.clickfrog.ru/c.js?r=" + Math.random();
+				sc.id = 'clickfrog_js_container';
+				var c = document.getElementById('clickfrog_counter_container');
+				c.parentNode.insertBefore(sc, c);
+			}
+		};
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", clickfrog, false);
+		} else {
+			clickfrog();
+		}
+	})(document, window);
+</script><noscript>
+	<div style="width:0px;height:0px;overflow:hidden;"><img src="//stat.clickfrog.ru/no_script.php?img" style="width:0px; height:0px;" alt="" /></div>
+</noscript>
+<script type="text/javascript">
+	var clickfrogru_uidh = 'b463ce099914e6b48cc4ae2e6836ae71';
+</script>
 </body>
+
 </html>

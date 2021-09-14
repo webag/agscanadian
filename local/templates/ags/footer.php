@@ -20,10 +20,10 @@
 			</div>
 
 			<div class="footer__nav">
-				<a href="/AGS_requisites.pdf" target="_blank" download>Company Details</a>
-				<a href="/presentation.pdf" download="Презентация о компании AGS" target="_blank">Company Presentation</a>
-				<a href="https://kazan.hh.ru/employer/4190110" target="_blank">Openings</a>
-				<a href="/AGS_policy.docx" target="_blank" download>Terms of Use</a>
+				<!-- <a href="/AGS_requisites.pdf" target="_blank" download>Company Details</a> -->
+				<a href="/presentation.pdf" download="presentation AGS" target="_blank">Company Presentation</a>
+				<!-- <a href="https://kazan.hh.ru/employer/4190110" target="_blank">Openings</a> -->
+				<!-- <a href="/AGS_policy.docx" target="_blank" download>Terms of Use</a> -->
 			</div>
 
 			<div class="footer__right">
